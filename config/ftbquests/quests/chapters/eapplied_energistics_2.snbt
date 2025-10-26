@@ -1,0 +1,3334 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "eapplied_energistics_2"
+	group: "3EBF424A99DA33B7"
+	icon: "ae2:singularity"
+	id: "24965CC4F763480E"
+	images: [
+		{
+			height: 8.0d
+			image: "ae2:block/drive/drive_front_flat"
+			order: 1
+			rotation: 0.0d
+			width: 8.0d
+			x: 13.0d
+			y: -11.0d
+		}
+		{
+			dependency: "67F89819C94F591A"
+			height: 1.2d
+			image: "ae2:block/controller_column_lights"
+			rotation: -90.0d
+			width: 1.0d
+			x: 16.0d
+			y: -11.0d
+		}
+		{
+			dependency: "67F89819C94F591A"
+			height: 1.2d
+			image: "ae2:block/controller_column_lights"
+			rotation: -90.0d
+			width: 1.0d
+			x: 17.0d
+			y: -11.0d
+		}
+		{
+			dependency: "67F89819C94F591A"
+			height: 1.2d
+			image: "ae2:block/controller_column_lights"
+			rotation: -90.0d
+			width: 1.0d
+			x: 18.0d
+			y: -11.0d
+		}
+		{
+			dependency: "67F89819C94F591A"
+			height: 1.2d
+			image: "ae2:block/controller_column_lights"
+			rotation: -90.0d
+			width: 1.0d
+			x: 19.0d
+			y: -11.0d
+		}
+		{
+			height: 5.0d
+			image: "ae2:block/crafting/monitor"
+			order: 1
+			rotation: 0.0d
+			width: 5.0d
+			x: 21.0d
+			y: -11.0d
+		}
+		{
+			height: 9.0d
+			image: "ae2:block/controller"
+			order: 1
+			rotation: 0.0d
+			width: 9.0d
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependency: "5F39514D991EB2B8"
+			height: 9.0d
+			image: "ae2:block/controller_lights"
+			order: 2
+			rotation: 0.0d
+			width: 9.0d
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: -90.0d
+			width: 1.0d
+			x: 18.0d
+			y: -11.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: -90.0d
+			width: 1.0d
+			x: 17.0d
+			y: -11.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: -90.0d
+			width: 1.0d
+			x: 16.0d
+			y: -11.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: -90.0d
+			width: 1.0d
+			x: 19.0d
+			y: -11.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: 180.0d
+			width: 1.0d
+			x: 13.0d
+			y: -8.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: 180.0d
+			width: 1.0d
+			x: 13.0d
+			y: -7.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: 180.0d
+			width: 1.0d
+			x: 13.0d
+			y: -6.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: 180.0d
+			width: 1.0d
+			x: 13.0d
+			y: -5.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: 180.0d
+			width: 1.0d
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			dependency: "5F39514D991EB2B8"
+			height: 1.2d
+			image: "ae2:block/controller_column_lights"
+			rotation: 180.0d
+			width: 1.0d
+			x: 13.0d
+			y: -8.0d
+		}
+		{
+			dependency: "5F39514D991EB2B8"
+			height: 1.2d
+			image: "ae2:block/controller_column_lights"
+			rotation: 180.0d
+			width: 1.0d
+			x: 13.0d
+			y: -7.0d
+		}
+		{
+			dependency: "5F39514D991EB2B8"
+			height: 1.2d
+			image: "ae2:block/controller_column_lights"
+			rotation: 180.0d
+			width: 1.0d
+			x: 13.0d
+			y: -6.0d
+		}
+		{
+			dependency: "5F39514D991EB2B8"
+			height: 1.2d
+			image: "ae2:block/controller_column_lights"
+			rotation: 180.0d
+			width: 1.0d
+			x: 13.0d
+			y: -5.0d
+		}
+		{
+			dependency: "5F39514D991EB2B8"
+			height: 1.2d
+			image: "ae2:block/controller_column_lights"
+			order: -1
+			rotation: 180.0d
+			width: 1.0d
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			color: 657930
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			color: 2763306
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			color: 2763306
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			color: 2763306
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			color: 2763306
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_small_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_small_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			height: 4.0d
+			image: "modpack:textures/ae2_quantum_ring.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: -90.0d
+			width: 1.0d
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: -90.0d
+			width: 1.0d
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: -90.0d
+			width: 1.0d
+			x: 19.0d
+			y: 0.0d
+		}
+		{
+			dependency: "67F89819C94F591A"
+			height: 1.2d
+			image: "ae2:block/controller_column_lights"
+			rotation: -90.0d
+			width: 1.0d
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependency: "67F89819C94F591A"
+			height: 1.2d
+			image: "ae2:block/controller_column_lights"
+			rotation: -90.0d
+			width: 1.0d
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependency: "67F89819C94F591A"
+			height: 1.2d
+			image: "ae2:block/controller_column_lights"
+			rotation: -90.0d
+			width: 1.0d
+			x: 19.0d
+			y: 0.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"В этих метеоритах сокрыты технологии, которые нам и не снились. Нужно изучить их и понять, как их можно использовать!"
+				""
+				"<rainb>Забавно... Кажется, мои слова переливаются всеми цветами радуги."
+				""
+				"&8Автор главы: lGarlicbreadl"
+			]
+			id: "0C59541433431FDD"
+			rewards: [
+				{
+					id: "0C621DFE70ED44F3"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nТекст\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в закромах Мастера квестов и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eНаграда за квест\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "618C2DB45D46767D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Найдите место крушения &eметеорита"
+			tasks: [{
+				icon: "ae2:sky_stone_chest"
+				id: "35BE2CE0FF4E2929"
+				structure: "ae2:meteorite"
+				title: "Найти &eупавший метеорит"
+				type: "structure"
+			}]
+			title: "Странная находка"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C59541433431FDD"]
+			description: [
+				"&eПыль истинного кварца&r и её кристаллическая форма, &eкристалл истинного кварца&r, — ваши главные ресурсы в мире &dApplied Energistics&r."
+				""
+				"Они растут на &eцветущем истинном кварце&r, подобно аметистам."
+				""
+				"Если собрать их слишком рано, вы получите лишь пыль, а вот созревшие &eбутоны истинного кварца&r дадут вам полноценные кристаллы."
+				""
+				"&6Совет:&r &bСозревшие бутоны кварца&r гораздо эффективнее незрелых, и на них &eдействует зачарование «Удача»&r."
+			]
+			id: "35BF66CD4FAE83DE"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "23F66DC87C0CCDDD"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "И вот всё началось"
+			tasks: [
+				{
+					id: "749EBE81EDA0F15E"
+					item: "ae2:certus_quartz_dust"
+					type: "item"
+				}
+				{
+					id: "66A88EEA1440046A"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+			]
+			title: "Истинный кварц"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C59541433431FDD"]
+			description: [
+				"Цветущий истинный кварц — источник истинного кварца, и именно он должен стать вашим постоянным поставщиком этого ресурса."
+				""
+				"Он бывает 4 стадий: &bбезупречный&r, дважды &eпотресканный&r и &eповреждённый&r."
+				""
+				"При добыче &4*варварскими*&r методами и при росте бутонов истинного кварца &eцветущий истинный кварц портится&r в следующем порядке: &bбезупречный&r -> &eпотресканный&r -> &eпотресканный(2)&r -> &eповреждённый&r -> блок истинного кварца."
+				""
+				"&6Совет:&r &bБезупречный цветущий истинный кварц&r не портится после роста бутонов, что делает его &eпростым и самодостаточным источником кварца&r. Однако его нельзя получить прямыми методами, например, добычей, &eдаже с «Шёлковым касанием»&r. Придётся найти другой способ сохранить его качество."
+				""
+				"{@pagebreak}"
+				"&6Подсказка:&r Картонные коробки из Mekanism отлично подходят для транспортировки хрупких грузов :)"
+			]
+			id: "33EE235B3C35EE49"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "1B8A8210D6C23691"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Откуда он берётся?"
+			tasks: [{
+				id: "2EAAA036A680E1E9"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "mce2:ae2/budding_quartz"
+					}
+				}
+				type: "item"
+			}]
+			title: "Цветущий истинный кварц"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0C59541433431FDD"]
+			description: [
+				"По мере освоения &dApplied Energistics&r вы обнаружите, что &eсхемы&r и &eпроцессоры&r пользуются большим спросом. Для их производства вам понадобятся соответствующие &eпечати для вырезателя&r."
+				""
+				"&eВычислительная печать&r => &9Печатная вычислительная схема&r"
+				"&eИнженерная печать&r => &bПечатная инженерная схема&r"
+				"&eЛогическая печать&r => &6Печатная логическая схема&r"
+				"&eКремниевая печать&r => &8Печатный кремний&r"
+				""
+				"&6Совет:&r &eПечати для вырезателя не расходуются в рецептах&r, но каждая может работать только с одним вырезателем за раз. Когда спрос превысит возможности вашего первого набора вырезателей, каждую печать можно &eиспользовать для создания её копии&r, отпечатав на железном блоке."
+			]
+			id: "0F049DA208BF4053"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "5FC436111F11696C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Немного грубой силы не повредит"
+			tasks: [
+				{
+					id: "42C73BF472053C22"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+				{
+					id: "593B78D52A0C0B34"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+				{
+					id: "610E210CB457CC8B"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "573DB1CF8A7E62C1"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+			]
+			title: "Печати для вырезателя"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0C59541433431FDD"]
+			description: [
+				"&eНебесный камень&r не так уж часто используется в рецептах, но он необходим для вашего &bМЭ-регулятора&r — устройства настолько полезного, что без него ваша &eсеть&r просто не сможет работать. Но не будем забегать вперёд."
+				""
+				"Немного камня нам не повредит, да и было бы несправедливо оставлять такой красивый камень гнить в одиночестве."
+			]
+			id: "2F7DE4928A6825D4"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "00F4145C1B9A1ABF"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Камень, который круче"
+			tasks: [{
+				count: 4L
+				id: "379B3EECC326C967"
+				item: { Count: 4, id: "ae2:sky_stone_block" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["607B99F14104C94C"]
+			description: [
+				"&eЗарядник&r используется для зарядки... *кто бы мог подумать*... &eкристаллов истинного кварца&r. Хоть их обычная форма и находит широкое применение, &eзаряженные кристаллы истинного кварца&r ничуть не менее полезны."
+				""
+				"&6Совет:&r Пока вы этим занимаетесь, можете зарядить ещё кое-что, если сочтёте полезным:"
+				"Компас => &eМетеоритный компас&r"
+				"Книга => &eРуководство&r"
+			]
+			id: "31977C760DC1FC77"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "5DBAC375E894FCE6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Низкий заряд"
+			tasks: [
+				{
+					id: "7E142D8CF1B7727E"
+					item: "ae2:charger"
+					type: "item"
+				}
+				{
+					id: "2E6647FDC063D447"
+					item: "ae2:charged_certus_quartz_crystal"
+					type: "item"
+				}
+			]
+			title: "Зарядник"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5CF065DD209B4B1C"]
+			description: ["Приведёт вас к ближайшему &n&l&o&m&5Таинственному кубу&r&r&r&r&r, который можно найти только в &eупавших метеоритах&r."]
+			id: "0DCF79D83ADEF1BF"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "10B7F18DB5DCBC0D"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Да где же он?!"
+			tasks: [{
+				id: "0DF7FEFAE651E17C"
+				item: "ae2:meteorite_compass"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5CF065DD209B4B1C"]
+			description: ["Вы также можете зажать 'G', наведя курсор на предметы из &dAE2&r, чтобы мгновенно открыть нужную страницу."]
+			id: "6DF2B5559A688FBF"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "263757C21B161E41"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Всё просто"
+			tasks: [{
+				id: "70A234699337CD57"
+				item: "ae2:guide"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"31977C760DC1FC77"
+				"7D247A72BC4EC1A3"
+			]
+			description: [
+				"Прежде чем двигаться дальше, нам нужно освоить новую механику: &bпреобразования в мире&r."
+				""
+				"Проще говоря, некоторые из следующих рецептов требуют &9погрузить&r определённые материалы вместе в воду, чтобы вызвать нужную реакцию."
+				""
+				"Я приведу вам два необязательных, но потенциально полезных примера в виде &eдополнительных квестов&r."
+			]
+			id: "353A578CDE6BFEE9"
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "050F000C1545E04B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Естественным путём"
+			tasks: [{
+				id: "6116B7AEE4AD7F90"
+				title: "Прочитать"
+				type: "checkmark"
+			}]
+			title: "Преобразования в мире"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["353A578CDE6BFEE9"]
+			description: ["Если вам понадобится больше &eпыли/кристаллов истинного кварца&r, вы можете восстановить &eпотресканный(2)/повреждённый цветущий истинный кварц&r или вдохнуть новую жизнь в &eблок истинного кварца&r, соединив их с &bзаряженным кристаллом истинного кварца&r в &9воде&r."]
+			hide_until_deps_complete: true
+			id: "637B7439FCF1D436"
+			optional: true
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "5CC7EAAA8E7CFC9D"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Почти как дефибриллятор"
+			tasks: [{
+				id: "71773CA653FCF07A"
+				title: "Прочитал"
+				type: "checkmark"
+			}]
+			title: "Восстановление"
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["353A578CDE6BFEE9"]
+			description: ["Если вам нужно превратить пыль в кристаллы, это можно сделать, смешав &bзаряженные кристаллы истинного кварца&r и &eпыль истинного кварца&r, чтобы получить 2 &eкристалла истинного кварца&r."]
+			hide_until_deps_complete: true
+			id: "47B8823D3CE98856"
+			optional: true
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "0C7F32D36029963A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Слишком много пыли?"
+			tasks: [{
+				id: "218F485DA8E0923C"
+				title: "Прочитал"
+				type: "checkmark"
+			}]
+			title: "Равноценный обмен"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["607B99F14104C94C"]
+			description: [
+				"&eВырезатель&r — это наш способ печати &eсхем и процессоров&r."
+				""
+				"Существует 3 вида схем: &9печатные вычислительные схемы&r, &bпечатные инженерные схемы&r, &6печатные логические схемы&r."
+				""
+				"Если помните, был ещё и &8печатный кремний&r."
+				""
+				"Соединив одну из 3 схем, &8печатный кремний&r и &4редстоун&r, мы можем получить соответствующие процессоры:"
+				""
+				"&bПечатная инженерная схема&r + &8Печатный кремний&r + &4Редстоун&r => &bИнженерный процессор&r"
+				"&9Печатная вычислительная схема&r + &8Печатный кремний&r + &4Редстоун&r => &9Вычислительный процессор&r"
+				"&6Печатная логическая схема&r + &8Печатный кремний&r + &4Редстоун&r => &6Логический процессор&r"
+			]
+			id: "7D247A72BC4EC1A3"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "0B1C56F13720C264"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Высокотехнологичная печать"
+			tasks: [{
+				id: "51B35295F6D1B026"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			title: "Вырезание"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["35BF66CD4FAE83DE"]
+			description: [
+				"Если у вас ещё нет способа производить энергию, придётся использовать &eдеревянную рукоять&r, чтобы преобразовывать нашу кинетическую энергию в электричество."
+				""
+				"&6Совет:&r Если у вас уже есть источник энергии, вы можете передать её в свои машины с помощью &eприёмщика энергии&r. Попробуйте разместить его рядом с источником энергии и машиной, которую вы хотите запитать."
+				""
+				"&6Примечание:&r Всё оборудование &dApplied Energistics&r автоматически связывается друг с другом, позволяя энергии течь между ними."
+			]
+			id: "607B99F14104C94C"
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "7CCFAF0252F25766"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Энергия!"
+			tasks: [{
+				id: "4CFEBC9D44E88DF6"
+				title: "Прочитал"
+				type: "checkmark"
+			}]
+			title: "Первичный источник питания! &e(Информационный квест)&r"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["353A578CDE6BFEE9"]
+			description: [
+				"Ваш &dМЭ-регулятор&r — это сердце всей вашей сети. Каждая машина, которую вы использовали до сих пор, занимает &eканал&r. Без регулятора ваша &eсеть&r ограничена &e8 каналами&r."
+				""
+				"Хотя &e8 каналов&r достаточно для начального этапа &dApplied Energistics&r, по мере роста ваших операций этого количества будет казаться ничтожно мало. И вот тут-то на сцену выходит &dМЭ-регулятор&r: каждая из его 6 граней обеспечивает &332 канала&r."
+				""
+				"&6Подсказка:&r Не все механизмы &dApplied Energistics&r используют &eканал&r, но каждый механизм с приставкой &b«МЭ»&r — да."
+				"{@pagebreak}"
+				"Если вы ещё не пробовали, щёлкните ПКМ по &dМЭ-регулятору&r. Он выдаст вам ошеломляющее количество информации, но как только вы поймёте, что всё это значит, она перестанет выглядеть такой пугающей."
+				""
+				"Детали вашей &eсети&r сообщают о многом: количество использованных &eканалов&r, &7сохранённая/максимальная энергия&r, &eпассивное потребление&r, к которому мы вернёмся через минуту, и ваше &7потребление/генерация энергии&r."
+				""
+				"Большинство этих параметров фундаментальны, но &eпассивное потребление&r — вещь уникальная. Большинство машин, подключённых к вашей системе, будут иметь небольшое &eпассивное потребление&r, но об этом не стоит беспокоиться, если у вас есть подходящий источник питания и достаточный &7запас энергии&r."
+				"{@pagebreak}"
+				"Собственного &7запаса энергии&r &dМЭ-регулятора&r недостаточно, так как он не может хранить значительный избыток. С хранилищем на &76k АЕ (энергии)&r, предоставляемым регулятором, у вас нет буфера на случай одновременной работы нескольких машин. Решение? &eЭнергохранилище&r. Его самая слабая версия обеспечивает хранилище на &7200k АЕ (энергии)&r, и одной такой ячейки будет достаточно на долгое время."
+				""
+				"Теперь, когда метафорическое сердце вашей операции построено, его нужно &7запитать&r."
+				""
+				"Если вы ещё не сделали этого, самое время воспользоваться вашим &aлюбимым модом на энергию&r и начать производить энергию для будущих устройств."
+				""
+				"&6Совет:&r Чтобы передать внешнюю &7генерацию энергии&r в &dAE2&r, вам понадобится &eприёмщик энергии&r. Просто подключите его к вашей сети, подайте питание и наблюдайте, как заряжается ваша батарея!"
+			]
+			hide_dependent_lines: true
+			icon: "ae2:controller"
+			id: "5F39514D991EB2B8"
+			rewards: [
+				{
+					count: 2
+					id: "475C78C193D87A74"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nТекст\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в закромах Мастера квестов и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eНаграда за квест\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "197C1B27983277A8"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Ваша первая/главная сеть"
+			tasks: [
+				{
+					id: "203281F83F34CA5A"
+					item: "ae2:controller"
+					type: "item"
+				}
+				{
+					id: "08D925C612C06A47"
+					item: {
+						Count: 1
+						id: "ae2:energy_cell"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F39514D991EB2B8"]
+			description: [
+				"Вся ваша &eсеть&r может быть (и будет) соединена через систему &5флюисовых кабелей&r. Они действуют как мост между вашими машинами, передавая энергию и подключая их к &eосновной сети&r."
+				""
+				"&eКварцевые волокна&r позволяют передавать энергию из одной &eсети&r в другую, не подключая их к &eосновной сети&r, размещая их между двумя &5флюисовыми кабелями&r."
+				""
+				"Пока это может показаться незначительным, но по мере того, как мы будем знакомиться с более сложными темами, такими как &bподсети&r, их эффективность станет очевидна."
+			]
+			icon: "ae2:fluix_glass_cable"
+			id: "563E2BEF024962AD"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "55FF51D69DEE7203"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Вены вашей сети"
+			tasks: [
+				{
+					id: "23645E15D1E2268C"
+					item: "ae2:quartz_fiber"
+					type: "item"
+				}
+				{
+					id: "75F78DB57931E30A"
+					item: "ae2:fluix_glass_cable"
+					type: "item"
+				}
+			]
+			title: "Флюисовые кабели"
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["563E2BEF024962AD"]
+			description: [
+				"&eПокрытые кабели&r функционально идентичны &5флюисовым кабелям&r, за исключением их внешнего вида."
+				""
+				"&3Непрозрачные кабели&r работают так же, как &5флюисовые кабели&r, с единственным отличием: они могут поддерживать 32 канала вместо 8. Это делает их идеальными для подключения к граням вашего &dМЭ-регулятора&r, позволяя вам правильно распределить &332 канала&r между вашими &5флюисовыми кабелями&r с ограничением в &e8 каналов&r."
+				""
+				"&6Совет:&r &3Непрозрачные кабели&r &eслишком большие для большинства панелей&r. Если у вас возникли проблемы с настройкой, попробуйте использовать кабель поменьше, отходящий от &3непрозрачного кабеля&r."
+				""
+				"&7(Для выполнения этого квеста достаточно завершить 1 из 2 задач)&r"
+			]
+			id: "5A4036C94C8C7485"
+			min_required_tasks: 1
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "0DD582D1DB99364E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Старший брат"
+			tasks: [
+				{
+					id: "6E43356A1B1C7BBB"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:covered_cable"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0197A11A818F57A5"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:covered_dense_cable"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Кабели потолще"
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5F39514D991EB2B8"]
+			description: [
+				"Одно из самых популярных применений &dApplied Energistics&r — это &bсеть хранения&r, способ переноса всех ваших предметов в цифровой мир. Её использование и расширение намного проще, чем вы могли бы ожидать."
+				""
+				"Все ваши &4*трофеи*&r будут храниться в &eМЭ предметных ячейках хранения&r, которые по сути являются сундуками с гораздо более вместительными ячейками."
+				""
+				"&eЯчейки хранения&r размещаются в &eМЭ-дисководах&r, которые служат отсеком для &510 ячеек хранения&r на каждый &eМЭ-дисковод&r, независимо от их размера или типа."
+				"{@pagebreak}"
+				"Для доступа к вашей &bсети хранения&r вам понадобится как минимум &eМЭ-терминал&r, но в большинстве случаев лучше пойти дальше и использовать &eтерминал изготовления&r."
+				""
+				"Он не только даёт доступ к вашей &bсети хранения&r, но и предоставляет удобный &eверстак&r прямо в терминале."
+				"{image:modpack:textures/ae2_simple_storage.png width:200 height:100 align:center}"
+				"{@pagebreak}"
+				"Хотя все &eпредметные ячейки хранения&r позволяют хранить только &563 типа&r предметов на ячейку, размер вашей &eячейки хранения&r (&c1k&r, &64k&r, &a16k&r и т. д.) позволяет увеличить &7вместимость&r этих ячеек."
+				""
+				"Проще говоря, вы &4не хотите&r хранить &eнестакуемые предметы&r, такие как мечи, броня и различные безделушки, в вашей &bсети хранения&r, иначе вы рискуете переполнить лимит &7типов&r предметов гораздо раньше, чем &7вместимость&r ваших ячеек."
+				""
+				"Прежде чем двигаться дальше, важно отметить, что &7вместимость&r ячеек измеряется не в предметах, а в &7байтах&r."
+				""
+				"Их сложно объяснить, и глубокое понимание не требуется, но по сути, &eчем больше&r &7байт&r &eу вас есть, тем больше предметов вы можете хранить.&r"
+				"{@pagebreak}"
+				"Есть ещё одна механика &eячеек хранения&r, связанная с &7типами&r: &7байты&r работают так, что &7вместимость&r ячейки используется эффективнее, чем меньше &7типов&r она использует."
+				""
+				"Это наиболее полезно при &eизменении ячеек&r и настройке &eприоритетов&r, о чём будет рассказано в скором времени."
+				""
+				"Опять же, детали не обязательны, но в &eруководстве&r есть таблица, которая может наглядно это объяснить. (Попробуйте зажать 'G' на &eячейках хранения&r)"
+			]
+			hide_dependent_lines: true
+			icon: "ae2:drive"
+			id: "67F89819C94F591A"
+			rewards: [
+				{
+					id: "4179056904422362"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nТекст\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в закромах Мастера квестов и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eНаграда за квест\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "044DE869995A92E2"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Цифровое хранилище"
+			tasks: [
+				{
+					id: "73E15D69577B1959"
+					item: "ae2:crafting_terminal"
+					type: "item"
+				}
+				{
+					id: "491A98290978C383"
+					item: "ae2:drive"
+					type: "item"
+				}
+				{
+					id: "537126DBBC8C8C19"
+					item: {
+						Count: 1
+						id: "ae2:item_storage_cell_1k"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Сеть хранения"
+			x: 13.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["5F39514D991EB2B8"]
+			description: [
+				"Полезные и применимые для всех ваших фермерских нужд, &eускорители роста&r потребляют &eэнергию&r, чтобы &aускорять рост соседних культур&r."
+				""
+				"Вы можете ставить их сколько угодно, но будьте осторожны: они любят пожирать ваш &7запас энергии&r, так что старайтесь использовать каждый из них с максимальной эффективностью."
+			]
+			id: "786990F250A68E7C"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "542F817E22153714"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Ускорение роста"
+			tasks: [{
+				id: "091783DE3A313230"
+				item: "ae2:growth_accelerator"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["67F89819C94F591A"]
+			description: [
+				"Каждую &eмашину&r из &dAE2&r можно как-то &eизменить или улучшить&r. Эти карты — способ это сделать. Некоторые из них можно стакать, другие в этом не нуждаются. У каждой машины рядом с названием карты будет указано &eчисло (x)&r — это &eмаксимальное количество&r карт данного типа, которое она может принять одновременно."
+				""
+				"Я мог бы подробно описать каждую, но внутриигровое руководство справляется с этим отлично."
+			]
+			id: "4EA9475456821DCD"
+			rewards: [
+				{
+					id: "4D589338D88656B3"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nТекст\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в закромах Мастера квестов и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eНаграда за квест\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "609C70B11ECF1FA9"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Апгрейды в виде SIM-карт"
+			tasks: [
+				{
+					id: "3F258A9B8226635A"
+					item: "ae2:redstone_card"
+					type: "item"
+				}
+				{
+					id: "721B3FC9AEB68B8B"
+					item: "ae2:capacity_card"
+					type: "item"
+				}
+				{
+					id: "3939A1E302AB3970"
+					item: "ae2:void_card"
+					type: "item"
+				}
+				{
+					id: "67A7164FADD39E54"
+					item: "ae2:crafting_card"
+					type: "item"
+				}
+				{
+					id: "60C62DC1588C70AF"
+					item: "ae2:fuzzy_card"
+					type: "item"
+				}
+				{
+					id: "50AC6AAE816C53FE"
+					item: "ae2:speed_card"
+					type: "item"
+				}
+				{
+					id: "28112162CC334FD2"
+					item: "ae2:inverter_card"
+					type: "item"
+				}
+				{
+					id: "6227280C74B8874A"
+					item: "ae2:equal_distribution_card"
+					type: "item"
+				}
+				{
+					id: "2B00E82A83C14A4A"
+					item: "ae2:energy_card"
+					type: "item"
+				}
+			]
+			title: "Коллекционирование карт"
+			x: 13.0d
+			y: -9.69d
+		}
+		{
+			dependencies: ["7889A5659E64B507"]
+			description: [
+				"&bСети изготовления&r — это мультиблочные структуры, состоящие из двух частей: &bЦП&r и &bОЗУ&r (метафорически)."
+				""
+				"&bЦП&r содержит &eблок совместной обработки&r и &eхранилище для изготовления&r. Они контролируют, сколько &eзапросов&r вы можете делать одновременно и сколько &eпредметов может циркулировать&r в &bсети изготовления&r в один момент времени соответственно."
+				""
+				"Их можно размещать рядом друг с другом в любом порядке и расширять, просто добавляя больше нужных блоков."
+				""
+				"{@pagebreak}"
+				"Изначально одного &eблока совместной обработки&r и одного &eхранилища для изготовления на 1К&r вполне достаточно, но по мере роста ваших потребностей важно и просто модернизировать соответствующее «узкое место»."
+				""
+				"Если вы запрашиваете много &e*уникальных шаблонов*&r одновременно, вам нужно больше &eблоков совместной обработки&r. Если же вы запрашиваете много &e*одного и того же шаблона*&r, то вам нужно больше &eхранилищ для изготовления&r."
+				""
+				"&6Например:&r Изготовление 30 разных видов дверей => &eуникальные шаблоны&r. Изготовление одного вида двери 30 раз => &eодин шаблон&r."
+			]
+			id: "2ADED090D8AB82FB"
+			rewards: [
+				{
+					id: "2C6DB126A8E259BA"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nТекст\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в закромах Мастера квестов и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eНаграда за квест\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "66D2058D2296DE13"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Половина сети изготовления"
+			tasks: [
+				{
+					id: "590947D31285C2F3"
+					item: "ae2:crafting_accelerator"
+					type: "item"
+				}
+				{
+					id: "403BC9C856BEE793"
+					item: "ae2:1k_crafting_storage"
+					type: "item"
+				}
+			]
+			title: "ЦП для изготовления"
+			x: 20.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["67F89819C94F591A"]
+			description: [
+				"Ваша &bсеть хранения&r не ограничивается предметами, но также может принимать &eжидкости&r, если в вашей сети есть соответствующая ячейка."
+				""
+				"&6Примечание:&r Хотя на одну ячейку поддерживается только &518 типов&r жидкостей, на самом деле этого достаточно для почти всех нужд, и поэтому более вместительные &eжидкостные ячейки хранения&r более распространены, чем их предметные аналоги."
+			]
+			id: "44FECE9717443836"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "66006B299DA1FD29"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Вёдра на вёдрах лавы"
+			tasks: [{
+				id: "059222AC3527D804"
+				item: {
+					Count: 1
+					id: "ae2:fluid_storage_cell_1k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Хранилище жидкостей"
+			x: 12.0d
+			y: -13.55d
+		}
+		{
+			dependencies: ["67F89819C94F591A"]
+			description: [
+				"Если вам нужна большая &7вместимость&r для нескольких &eтипов предметов&r, то более крупная &eячейка хранения&r — это то, что вам нужно."
+				""
+				"По умолчанию каждая следующая версия &eячейки хранения&r даёт вам дополнительные (x)К &7байт&r, где (x) — это вместимость предыдущей ячейки."
+				""
+				"Например, для &6ячейки хранения на 4k&r нужен &eкомпонент хранения на 4k&r, но вместо 4 &eкомпонентов на 1k&r для его создания вам понадобится всего 3. Таким образом, вы получаете дополнительные 1k &7байт&r бесплатно."
+			]
+			id: "6CB2052755C8ABC1"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "5E2505BDB478063D"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Тонны булыжника"
+			tasks: [{
+				id: "6932234167172E63"
+				item: {
+					Count: 1
+					id: "ae2:item_storage_cell_4k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Более глубокое хранилище"
+			x: 11.0d
+			y: -13.55d
+		}
+		{
+			dependencies: ["67F89819C94F591A"]
+			description: ["Ваша &bсеть хранения&r также может принимать &eхимикаты&r. Ячейки для них действуют идентично своим &eжидкостным&r аналогам, поэтому все советы для них применимы и здесь."]
+			id: "7A08C9D3CE872BE5"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "334A01B7D5641591"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Газообразное состояние"
+			tasks: [{
+				id: "6A84FF703976E87E"
+				item: {
+					Count: 1
+					id: "appmek:chemical_storage_cell_1k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "И химикаты тоже"
+			x: 14.0d
+			y: -13.55d
+		}
+		{
+			dependencies: [
+				"5A4036C94C8C7485"
+				"59A1722D0380D230"
+			]
+			description: [
+				"<rainb>Цветные кабели"
+				""
+				"У них два применения:"
+				""
+				"1) Выглядеть красиво"
+				""
+				"2) Быть &eнезависимыми&r"
+				""
+				"&6Подсказка:&r Если вы хотите проложить несколько кабелей рядом друг с другом, попробуйте добавить немного цвета."
+			]
+			id: "1EEF413E836981C9"
+			rewards: [
+				{
+					id: "3E5DAF14D817DFE5"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nТекст\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в закромах Мастера квестов и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eНаграда за квест\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "08465F1FBEB37CD6"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Красота"
+			tasks: [{
+				id: "5A92528F101937C1"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "mce2:ae2/colored_cables"
+					}
+				}
+				title: "Любой цветной кабель"
+				type: "item"
+			}]
+			title: "Разноцветные кабели"
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["67F89819C94F591A"]
+			description: [
+				"Если вам нужно перемещать или получать доступ к предметам в &eячейке хранения&r, то &eМЭ-сундук&r — для вас."
+				""
+				"Когда в него помещена &eячейка хранения&r, он отображает её содержимое, как если бы это был обычный сундук."
+			]
+			id: "63FEA2EF6977B017"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "70C9B79DC34B3D8A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Микроменеджмент"
+			tasks: [{
+				id: "6743953A66D48172"
+				item: "ae2:chest"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["67F89819C94F591A"]
+			description: ["Наиболее полезен при работе с &eизменёнными ячейками хранения&r или &eприоритетом&r в вашем &eМЭ-дисководе&r. &eМЭ порт ввода/вывода&r позволяет быстро переносить все предметы, хранящиеся в &eячейке хранения&r, в &bсеть хранения&r и наоборот."]
+			id: "58941F0B71BB33F9"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "2226277DC3814E6A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Макроменеджмент"
+			tasks: [{
+				id: "7BFD2D1CEFA8EE7B"
+				item: "ae2:io_port"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["67F89819C94F591A"]
+			description: [
+				"&eВерстак для камер&r позволяет &aдобавлять/удалять/настраивать&r &eкарты улучшений&r из ваших &eячеек хранения&r и/или &eразделять&r их."
+				""
+				"Вот пример: допустим, у вас есть генератор булыжника, и вы хотите направить его в свою &bсеть хранения&r."
+				""
+				"Но постойте, вы же не хотите забить все свои &eкарты хранения&r булыжником. Что делать?"
+				""
+				"&6Подсказка:&r Прежде чем перевернуть страницу и посмотреть ответ, подумайте о &eкартах улучшений&r, которые мы уже представили. Могла бы какая-нибудь из них справиться с этой задачей?"
+				"{@pagebreak}"
+				"Вы могли бы установить &aкарту уничтожения при переполнении&r в &eячейку хранения&r, но перед этим нужно убедиться, что &eячейка хранения&r будет принимать только булыжник, иначе ваша &bсеть хранения&r рискует съесть ваши предметы. Но как это сделать?"
+				""
+				"&aРазделение&r: поместив &eячейку хранения&r в &eверстак для ячеек&r, вы получаете возможность &eразделить&r её ячейки. Это означает, что, поместив образец предмета(ов), который вы хотите хранить в ячейке, вы можете заставить её принимать исключительно только эти предметы."
+				"{@pagebreak}"
+				"Итак, если вы &aразделили&r свою &eячейку хранения&r, чтобы она принимала только булыжник, &eизменили&r её с помощью &aпустотной карты при переполнении&r и установили &eприоритет&r &eМЭ-дисковода&r, содержащего её, на самый высокий в вашей &aцепочке приоритетов&r, то весь булыжник, &eимпортированный&r в &bсеть хранения&r, заполнит &eячейку хранения&r до её &7вместимости&r, а излишки будут выброшены в пустоту, а не переполнят вашу &bсеть хранения&r."
+				""
+				"&6Подсказка:&r Если у вас уже есть булыжник в &bсети хранения&r, попробуйте использовать &eМЭ порт ввода/вывода&r, чтобы переместить его весь в вашу новую &eячейку хранения&r."
+			]
+			id: "684C94BB0EE3C77D"
+			rewards: [
+				{
+					id: "532286EAE876B2A6"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nТекст\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в закромах Мастера квестов и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eНаграда за квест\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "0D11FA05EBD409BB"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Модификации"
+			tasks: [{
+				id: "724D1482E776BAED"
+				item: "ae2:cell_workbench"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -13.55d
+		}
+		{
+			dependencies: ["67F89819C94F591A"]
+			description: [
+				"Приоритет — это просто: устройство с более высоким &eзначением приоритета&r действует первым."
+				""
+				"Как это выглядит?"
+				""
+				"Представьте, что у вас есть два &eМЭ-дисковода&r, и по какой-то причине вы хотите, чтобы один был полностью заполнен, прежде чем другой начнёт принимать предметы."
+				""
+				"Установив &eзначение приоритета&r первого дисковода на 1 или любое значение больше, чем у второго, ваша &eсеть&r будет отправлять все подходящие предметы в первый &eМЭ-дисковод&r, пока в нём есть место."
+				""
+				"Как только он заполнится, ваша &eсеть&r начнёт заполнять следующий &eМЭ-дисковод&r в &aцепочке приоритетов&r."
+				""
+				"&6Подсказка:&r Это касается не только МЭ-дисководов. Почти у каждой машины, с которой вы будете работать, будет опция приоритета, и все они будут следовать &aцепочке приоритетов&r."
+			]
+			id: "7C914E8C3B3778D1"
+			rewards: [{
+				amount: 20L
+				currency: "eternalcurrencies:coins"
+				id: "5A81E712F1057280"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Инструмент для организации"
+			tasks: [{
+				id: "0B2BF4EF70DE9E60"
+				title: "Прочитать"
+				type: "checkmark"
+			}]
+			title: "Приоритет"
+			x: 13.0d
+			y: -12.26d
+		}
+		{
+			dependencies: ["67F89819C94F591A"]
+			description: [
+				"Если у вас уже есть система хранения или вы не готовы переносить всё в свою &bсеть хранения&r, &eшины хранения&r позволяют превратить инвентарь, к которому они подключены, в часть вашей &bсети хранения&r."
+				""
+				"&6Совет:&r Если у вас много &eнестакуемых предметов&r, таких как зачарованные книги, и вы всё ещё хотите иметь к ним доступ через &eтерминал&r, попробуйте создать отдельное хранилище, например, &eпростые сундуки&r или &eхранилище из Create&r, предназначенное для этих предметов, и подключить его к вашей сети с помощью шины хранения."
+				""
+				"&6Подсказка:&r &eШины хранения&r полезны во многих случаях, настолько многих, что я не смог бы уместить их все здесь. Но если вам когда-нибудь понадобится доступ к ресурсам между вашей &bсетью хранения&r и &eподсетью&r, &eшины хранения&r могут помочь."
+				"{@pagebreak}"
+				"&6Совет:&r По умолчанию &eшины хранения&r пропускают через себя всё, но их можно отфильтровать, чтобы принимать только определённые ресурсы."
+				""
+				"Это может быть полезно при сборе &eцветущего истинного кварца&r, отфильтровав шину так, чтобы она принимала только &eистинный кварц&r, который может быть произведён только &eсозревшим цветущим истинным кварцем&r."
+				""
+				"Таким образом, ваш сборщик, если у него нет собственного инвентаря, сможет собирать только &eсозревший истинный кварц&r, что обеспечит эффективный сбор."
+			]
+			id: "3E8E4F3540AE38AD"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "41E42B619AD11FF2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Для подключения внешних хранилищ"
+			tasks: [{
+				id: "2619FBCD58071BBE"
+				item: "ae2:storage_bus"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -12.26d
+		}
+		{
+			dependencies: ["67F89819C94F591A"]
+			description: [
+				"&eШины импорта/экспорта&r делают то, что следует из их названия: это ваш основной способ перемещения предметов/жидкостей (и т. д.) в и из вашей &bсети хранения&r."
+				""
+				"Их можно &eотфильтровать&r, чтобы &eимпортировать/экспортировать&r только определённые предметы в хранилище и из него."
+				""
+				"&6Совет:&r Все &eфильтры&r в &dApplied Energistics&r могут принимать предметы/жидкости, которых у вас &4нет&r, если перетащить их из &aJEI&r."
+			]
+			id: "5B9A6A9F0F1EDEA7"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "339143EBC547C3F7"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Колёсики у автобуса крутятся, крутятся"
+			tasks: [
+				{
+					id: "3742D6FB704A9722"
+					item: "ae2:import_bus"
+					type: "item"
+				}
+				{
+					id: "1CBCD381CBCCD9C1"
+					item: "ae2:export_bus"
+					type: "item"
+				}
+			]
+			title: "Шины импорта/экспорта"
+			x: 11.0d
+			y: -12.26d
+		}
+		{
+			dependencies: ["2ADED090D8AB82FB"]
+			description: [
+				"Теперь, когда ваш &bЦП&r в сети, вам понадобится &bОЗУ&r для работы."
+				""
+				"В то время как &eблоки совместной обработки&r и &eхранилища для изготовления&r определяют количество &eзапросов&r, которые вы можете выдать, и количество предметов, которые могут циркулировать в вашей &eсети изготовления&r; &eзапросы&r не могут быть выполнены без соответствующих &eпоставщиков шаблонов МЭ&r и &eмолекулярных сборщиков&r."
+				""
+				"&eМолекулярные сборщики&r — это &eавтоматизированные верстаки&r, они могут содержать &eшаблон&r и автоматически создавать предмет по нему, пока получают энергию и необходимые ресурсы."
+				""
+				"Для использования в вашей &bсети изготовления&r они делают по сути то же самое, но вместо того, чтобы держать &eшаблон&r и получать ресурсы вручную, соседние &eпоставщики шаблонов&r могут предоставить и то, и другое."
+				"{@pagebreak}"
+				"&eПоставщики шаблонов&r хранят все ваши &eшаблоны&r и отдают команды соседним блокам на основе &eзапросов&r, содержащихся в их &eшаблонах&r."
+				""
+				"Они могут принимать &eшаблоны&r вручную, если щёлкнуть по ним ПКМ и вставить шаблоны, или косвенно, через &eтерминал доступа к шаблонам МЭ&r, подключённый к вашей &bсети изготовления&r."
+				""
+				"Как только ваши &eшаблоны&r окажутся в вашей &eсети&r, и вы получите к ней доступ через &eтерминал&r, появится опция «изготовить» ваши предметы."
+				""
+				"Когда вы делаете &eзапрос&r на «изготовление» через &eтерминал&r, происходит несколько вещей:"
+				"{@pagebreak}"
+				"1) &bСеть изготовления&r проверяет, есть ли у вас доступный &eблок совместной обработки&r для выполнения «изготовления»."
+				""
+				"2) &bСеть изготовления&r проверяет, достаточно ли у вас &eхранилища для изготовления&r, чтобы вместить все необходимые материалы для выполнения заказа."
+				""
+				"3) &bСеть изготовления&r отправляет заказ доступному &eпоставщику шаблонов&r, содержащему &eшаблон запроса&r."
+				""
+				"4) &eПоставщик шаблонов&r информирует соседние &eмолекулярные сборщики&r о &eзапросе&r и предоставляет необходимые материалы из подключённой &bсети хранения&r и инструкции из &eшаблона&r."
+				""
+				"5) &eПоставщик шаблонов&r переходит в фазу «ожидания», где он ждёт ожидаемых результатов, в то время как &eмолекулярный сборщик&r работает над их созданием и возвратом."
+				""
+				"6) Как только все запрошенные «изготовления» завершены и получены &eпоставщиком шаблонов&r, операция считается выполненной, и продукты отправляются в вашу подключённую &bсеть хранения&r."
+				"{@pagebreak}"
+				"&6Совет:&r Для автоматического изготовления скорость выполнения &eзапроса&r можно увеличить, разместив больше &eмолекулярных сборщиков&r рядом с вашими &eпоставщиками шаблонов&r."
+				""
+				"&6Примечание:&r Только &eпоставщики шаблонов&r и &eблоки совместной обработки&r требуют &eканалов&r."
+				""
+				"&6Примечание:&r При использовании &eпоставщиков шаблонов&r для функций, отличных от изготовления, применяется тот же процесс с &aсоответствующими функциональными блоками&r."
+				""
+				"(&6Визуальный пример&r; &5флюисовые кабели&r скрыты, но соединяют &bсеть изготовления&r с &bсетью хранения&r)"
+				"{image:modpack:textures/ae2_simple_crafting_setup.png width:200 height:100 align:center}"
+			]
+			hide_dependent_lines: true
+			id: "19ABB31DC31B6DF3"
+			rewards: [
+				{
+					id: "02A2C31FB015E317"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nТекст\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в закромах Мастера квестов и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eНаграда за квест\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "40C48372D13BE3F4"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Другая половина"
+			tasks: [
+				{
+					id: "7D58D99090DA5BBC"
+					item: "ae2:pattern_provider"
+					type: "item"
+				}
+				{
+					id: "33C6C9D355A039CE"
+					item: "ae2:molecular_assembler"
+					type: "item"
+				}
+			]
+			title: "ОЗУ для изготовления"
+			x: 20.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["67F89819C94F591A"]
+			description: [
+				"Одна из причин, почему &bсеть хранения&r из &dApplied Energistics&r так популярна, — это её способность &eзапрашивать&r автоматическое изготовление &9*всего, чего угодно*&r."
+				""
+				"Это делается с помощью &eшаблонов&r — «инструкций» для ваших машин о том, как создавать, плавить, варить и так далее."
+				""
+				"Прежде чем мы начнём строить &bЦП&r для вашего изготовителя, важно изучить и понять, как работают &eшаблоны&r, их создание и применение."
+				"{@pagebreak}"
+				"Для начала необходим &eМЭ терминал для закодированных шаблонов&r. С его помощью вы можете взаимодействовать с &eпустыми шаблонами&r и настраивать их."
+				""
+				"Открыв терминал, вы заметите, что он отображает вашу &bсеть хранения&r и &eинтерфейс закодированных шаблонов&r. Хотя это может выглядеть так, он на самом деле не работает как верстак."
+				""
+				"Вместо этого это средство, с помощью которого вы можете вводить рецепты, которые хотите автоматизировать, и при необходимости корректировать их результаты."
+				""
+				"&6Совет:&r Чтобы ознакомиться с &eтерминалом для закодированных шаблонов&r, попробуйте создать соответствующие &eшаблоны&r для изготовления досок из брёвен, а затем палок из досок."
+				""
+				"&6Подсказка:&r Если вам нужно изменить количество вводимых/выводимых материалов, вы можете &eщёлкнуть средней кнопкой мыши&r по соответствующему предмету в шаблоне, чтобы настроить его."
+				"{@pagebreak}"
+				"Независимо от того, последовали ли вы совету, вы могли заметить, что в правой части &eинтерфейса кодирования шаблонов&r есть 4 варианта на выбор. Каждый из них предназначен для того, чтобы объяснить вашей &bсети изготовления&r, какой &eрезультат&r ожидается от ваших &eвходных данных&r."
+				""
+				"Для &eшаблонов&r, требующих &eверстак&r, используются &eшаблоны изготовления&r."
+				""
+				"Для &eшаблонов&r, требующих &eплавки/варки/обработки&r, используются &eшаблоны обработки&r."
+				""
+				"Для &eшаблонов&r, требующих &eкузнечный стол&r, используются &eшаблоны кузнечного стола&r."
+				""
+				"Для &eшаблонов&r, требующих &eкамнерез&r, используются &eшаблоны камнереза&r."
+				""
+				"&6Примечание:&r Есть опции для разрешения/запрета &eзамен&r. Они определяют, разрешены ли другие блоки, которые всё ещё могут выполнить рецепт (например, &eеловые доски&r вместо &eдубовых досок&r для изготовления сундука)."
+				"{@pagebreak}"
+				"Как и следовало ожидать, &eшаблоны изготовления&r, &eкузнечные&r и &eкамнерезные&r используются для своих соответствующих блоков, но &eшаблоны обработки&r более уникальны."
+				""
+				"Шаблоны обработки особенны тем, что ваш &eрезультат&r не ограничен вашим рабочим блоком."
+				""
+				"Это различие даёт возможность для &eварки зелий&r и других &aспециальных операций&r."
+				""
+				"Как это можно сделать, связано с природой нашей &bсети изготовления&r и &aтем, как она работает&r, о чём мы скоро поговорим."
+				""
+				"Но пока давайте сосредоточимся на &eавтоматическом изготовлении&r."
+			]
+			icon: "ae2:pattern_encoding_terminal"
+			id: "7889A5659E64B507"
+			rewards: [
+				{
+					id: "78D5251100E6646F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nТекст\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в закромах Мастера квестов и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eНаграда за квест\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "6EAEEE2E34C6D712"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Автоматизация уже близко"
+			tasks: [
+				{
+					id: "4B7ADE30A6BCA0D3"
+					item: "ae2:pattern_encoding_terminal"
+					type: "item"
+				}
+				{
+					id: "0E39D67005AD5B38"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+			]
+			title: "Автоматическое изготовление"
+			x: 20.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["35BF66CD4FAE83DE"]
+			description: [
+				"Вы, скорее всего, будете делать ошибки, и это нормально."
+				""
+				"Для их исправления полезно иметь под рукой &eгаечный ключ&r, чтобы аккуратно и эффективно снимать &eпанели&r и &eфлюисовые кабели&r. (&eShift + ПКМ&r)"
+				""
+				"Его также можно использовать для вращения предметов."
+				""
+				"&6Примечание:&r Это относится ко всем предметам, которые можно &eразместить в/на&r &5флюисовых кабелях&r."
+			]
+			id: "7602ADB464628384"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "35554DDD674A723D"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "На всякий случай"
+			tasks: [{
+				id: "41D746368E6ED8DE"
+				item: "ae2:certus_quartz_wrench"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["786990F250A68E7C"]
+			description: [
+				"Как следует из названия, при подаче питания &eплоскости уничтожения&r будут ломать блок прямо перед собой."
+				""
+				"Поскольку у них нет &eсобственного инвентаря&r, использование &eшины хранения&r, &eотфильтрованной&r для приёма только определённых предметов, например, &eкристаллов кварца&r, не позволит &eплоскости уничтожения&r собирать ресурсы до того, как они вырастут."
+				""
+				"{image:modpack:textures/ae2_quartz_farming_setup.png width:200 height:100 align:center}"
+				"{@pagebreak}"
+				"&6Совет:&r &eПлоскости уничтожения&r можно &bзачаровывать&r, но имейте в виду, что это может привести к увеличению &7потребления энергии&r, которое может опустошить ваше &7энергохранилище&r."
+				""
+				"&6Примечание:&r Если использовать их для сбора урожая, который даёт семена, семена нужно будет собирать альтернативными методами, так как &eплоскость уничтожения&r их просто выбросит."
+				""
+				"&6Подсказка:&r Семена можно подобрать с помощью &2вакуумного сундука&r из &eEnder IO&r и &aпересадить с помощью его будущего аналога&r."
+			]
+			id: "22B6724C52A81603"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "2AC8B5DB3EB0ABD1"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Агрессивный сбор"
+			tasks: [{
+				id: "7878EE857B69E474"
+				item: "ae2:annihilation_plane"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["22B6724C52A81603"]
+			description: [
+				"В противоположность своему аналогу, &eплоскости формирования&r можно использовать для размещения предметов, включая блоки и семена, в мире."
+				""
+				"У них по-прежнему нет &eсобственного инвентаря&r, но они содержат свой &eфильтр&r и, следовательно, могут брать предметы непосредственно из вашей &bсети хранения&r с помощью &eшины импорта&r."
+				""
+				"Они также могут работать в локальных &eподсетях&r при подключении к &eшине импорта&r."
+				"{@pagebreak}"
+				"&7Кварцевое волокно&r в &5флюисовом кабеле&r с правой стороны &dМЭ-регулятора&r подаёт питание на &eплоскость формирования&r и связывает её с &eшиной хранения&r, подключенной к сундуку с семенами (скрытые &5флюисовые кабели&r перемещают семена из вакуумного сундука в бочку с помощью &eотфильтрованной шины импорта&r)."
+				""
+				"&7Кварцевое волокно&r в &5флюисовом кабеле&r с верхней стороны &dМЭ-регулятора&r подаёт питание на &eускорители роста&r и &eплоскость уничтожения&r. &eШина экспорта&r, подключенная к &eотфильтрованному вакуумному сундуку&r для приёма &eпшеницы&r, позволяет собирать и хранить урожай."
+				"{image:modpack:textures/ae2_simple_farming_setup.png width:200 height:100 align:center}"
+			]
+			id: "034F0C238E6C785E"
+			rewards: [
+				{
+					id: "227758AB233586F3"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nТекст\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в закромах Мастера квестов и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eНаграда за квест\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "5210BF7275BB7B96"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Спокойное размещение"
+			tasks: [{
+				id: "4003D789DCAF395C"
+				item: "ae2:formation_plane"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["67F89819C94F591A"]
+			description: [
+				"После зарядки &eпереносные ячейки&r действуют как рюкзак в вашем инвентаре."
+				""
+				"Они обладают теми же свойствами, что и их аналоги, &eячейки хранения&r, за одним исключением."
+				""
+				"По мере увеличения их &7байтовой&r &eвместимости&r, они уменьшаются в &eвместимости&r по &5типам&r и имеют половину &eбазовой вместимости&r."
+			]
+			id: "168B3E4A224357E2"
+			rewards: [
+				{
+					id: "1DBCF7DE5403467E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nТекст\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в закромах Мастера квестов и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eНаграда за квест\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "1DF6A4F960490A30"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Хранилище на ходу"
+			tasks: [
+				{
+					id: "71060179A2EFF560"
+					item: {
+						Count: 1
+						id: "ae2:portable_item_cell_1k"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3DEB707D27DA98B5"
+					item: {
+						Count: 1
+						id: "ae2:portable_fluid_cell_1k"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "18E3E983532643DA"
+					item: {
+						Count: 1
+						id: "appmek:portable_chemical_storage_cell_1k"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Переносные ячейки"
+			x: 15.0d
+			y: -13.55d
+		}
+		{
+			dependencies: ["5F39514D991EB2B8"]
+			description: [
+				"Хотя существуют и другие источники &eзагрузки чанков&r, в первую очередь &dFTB Chunks&r, &eпространственный якорь&r всё ещё полезен для &eзагрузки всей вашей сети&r, включая каждый последний &5флюисовый кабель&r."
+				""
+				"Это означает, что если вы распределите свою &eсеть&r, вы не только сможете получить к ней доступ со всей вашей базы, но и она будет &eзагружать чанки&r для вас, позволяя использовать &dFTB Chunks&r где-то ещё."
+				""
+				"(&6Пример&r загрузки 4 смежных &eчанков&r с помощью одного &5флюисового кабеля&r для каждого)"
+				"{image:modpack:textures/ae2_spatial_anchor_setup.png width:200 height:100 align:center}"
+			]
+			id: "3F8668A1E774B8A6"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "52D9E8BA0CDBC2F2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Загрузка чанков"
+			tasks: [{
+				id: "0452DD4828A1B353"
+				item: "ae2:spatial_anchor"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5F39514D991EB2B8"]
+			description: [
+				"Вы оцифровали своё &eхранилище&r, &eжидкости&r и даже &eхимикаты&r, но зачем останавливаться на этом?"
+				""
+				"С помощью &eпространственного порта ввода/вывода&r вы можете &aоцифровать свой мир!&r"
+				""
+				"Ваш &eпространственный порт ввода/вывода&r может оцифровать что угодно, от &eодного блока&r до &eструктур&r размером до &b128x128x128 блоков&r."
+				"{@pagebreak}"
+				"Он функционирует просто: найдите место и постройте вокруг него &eпространственные пилоны&r, пока не покроете его &eдлину&r, &eширину&r и &eвысоту&r."
+				""
+				"Как только вы окружите свою будущую землю, единственное, что отделяет вас от превращения её в одну ячейку в вашем инвентаре, — это зарядка вашего &eпространственного порта ввода/вывода&r достаточным количеством энергии для завершения операции."
+				""
+				""
+				"{image:modpack:textures/ae2_spatial_storage_setup.png width:200 height:100 align:center}"
+			]
+			icon: "ae2:spatial_io_port"
+			id: "65EB1D8FE39B2EA8"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "1F56F8C02059B72B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Оцифровка структур"
+			tasks: [
+				{
+					id: "10B2FF4049020392"
+					item: "ae2:spatial_io_port"
+					type: "item"
+				}
+				{
+					id: "3AE07C924EF23837"
+					item: "ae2:spatial_pylon"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["65EB1D8FE39B2EA8"]
+			description: [
+				"Чтобы хранить наши будущие монументы, нам нужна &eпространственная ячейка хранения&r для их содержания. Хотя диапазон 2x2x2 не звучит слишком внушительно, большинству неподвижных объектов большего и не нужно."
+				""
+				"&6Примечание:&r Хотя вам не обязательно использовать максимальное пространство, которое позволяет каждая ячейка, старайтесь быть с ними экономными, потому что..."
+				""
+				"&4Осторожно:&r Вы &4*не можете*&r &eсбросить&r, &eпереформатировать&r или &eизменить размер&r &eпространственной ячейки&r после её использования."
+			]
+			id: "5E2984EF36314A88"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "16CC4049103D4871"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Маленький размер"
+			tasks: [{
+				id: "44BA2512DDF1B89A"
+				item: "ae2:spatial_storage_cell_2"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5E2984EF36314A88"]
+			description: ["&eМинимум для большинства структур&r, &4но не наш максимум...&r"]
+			id: "76D949C432FF4DAB"
+			rewards: [
+				{
+					id: "36B8F700EBC5560E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nТекст\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в закромах Мастера квестов и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eНаграда за квест\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "70E7782D998A10AD"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Внушительный размер"
+			tasks: [{
+				id: "4C6E0308B1A0E3C2"
+				item: "ae2:spatial_storage_cell_16"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["563E2BEF024962AD"]
+			description: [
+				"Если у вас &aвозникли проблемы с управлением каналами&r, попробуйте использовать &eумные кабели&r. Они предоставляют вам прямую информацию о том, сколько &eканалов&r используется, просто взглянув на них."
+				""
+				"&7(Для выполнения этого квеста достаточно завершить 1 из 2 задач)&r"
+			]
+			id: "59A1722D0380D230"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "4B3F0F255794FFAE"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Со знанием дела"
+			tasks: [
+				{
+					id: "48C4DAFFEEA4606E"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:smart_cable"
+						}
+					}
+					title: "Любой умный кабель"
+					type: "item"
+				}
+				{
+					id: "656EA64DAF7E32B8"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:smart_dense_cable"
+						}
+					}
+					title: "Любой плотный умный кабель"
+					type: "item"
+				}
+			]
+			title: "Кабели поумнее"
+			x: 11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["67F89819C94F591A"]
+			description: [
+				"В какой-то момент возвращаться к вашему &eосновному терминалу&r для каждой мелочи становится утомительно, и по мере расширения ваших операций это время простоя увеличивается."
+				""
+				"Но для этого и существуют &eбеспроводные терминалы&r!"
+				""
+				"Немного энергии, &eбеспроводная точка доступа&r — и вот он, &bбеспроводной доступ к сети хранения/изготовления&r."
+			]
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "ae2:wireless_crafting_terminal"
+				tag: { }
+			}
+			id: "67291F78A9989FF4"
+			rewards: [
+				{
+					id: "09966F04C7B39FE1"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nТекст\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в закромах Мастера квестов и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eНаграда за квест\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "7574130DCB3E6E0E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Избавляемся от кабелей"
+			tasks: [
+				{
+					id: "475469650B549760"
+					item: {
+						Count: 1
+						id: "ae2:wireless_crafting_terminal"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7D42F4D55CC588D8"
+					item: "ae2:wireless_access_point"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -9.69d
+		}
+		{
+			dependencies: ["67291F78A9989FF4"]
+			description: [
+				"Начального радиуса, скорее всего, будет недостаточно, но не волнуйтесь, вы можете &eрасширить свой диапазон&r, пока позволяет ваша &7энергия&r и ресурсы, с помощью &eбеспроводных усилителей&r."
+				""
+				"&e# усилителей&r => &eРадиус&r => &eПотребление энергии&r"
+				""
+				"@0  => 16м    => 8 АЕ/т"
+				"&e@16 => 80м    => 40 АЕ/т&r"
+				"&6@32 => 197м   => 189.01 АЕ/т&r"
+				"&b@48 => 348.5м => 883.33 АЕ/т&r"
+				"&d@64 => 528м   => 4.1 кАЕ/т&r"
+			]
+			id: "27EEB6AA40D3EB18"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "2F7C3398521BF11A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Расширяем радиус"
+			tasks: [{
+				id: "38EAAD949C0338A6"
+				item: "ae2:wireless_booster"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -9.69d
+		}
+		{
+			dependencies: ["5F39514D991EB2B8"]
+			description: [
+				"В 90% случаев, когда вам нужно что-то &eавтоматизировать&r, &eподсеть&r, как правило, может решить эту проблему."
+				""
+				"&6Вот несколько основ:&r"
+				""
+				"-При настройке &eподсети&r, &5флюисовые кабели&r, подключенные к вашей &bосновной сети&r, выполняют две функции: &7подачу энергии&r и &eимпорт/экспорт&r."
+				""
+				"--&7Подача энергии&r легко осуществляется с помощью кварцевых волокон. Разместив их в &5флюисовом кабеле&r, вы предотвратите подключение к вашей &bсети хранения/изготовления&r, но при этом позволите &7энергии&r течь."
+				""
+				"--Этот же &5флюисовый кабель&r можно использовать для &eимпорта/экспорта&r, введя &eпромежуточное хранилище&r, такое как бочка для &eпредметов&r или резервуар для &eжидкостей/газов&r, и подключившись к &eосновной сети&r с помощью &eотфильтрованной шины импорта&r с предметами, необходимыми для ваших операций, и &eотфильтрованной шины экспорта&r с произведенными вами продуктами."
+				""
+				"*Не забудьте использовать &eшину хранения&r/&eМЭ-интерфейс&r, так как вашей &eподсети&r нужен способ доступа к &eпромежуточному хранилищу&r*"
+				"{@pagebreak}"
+				"&eШина импорта&r слева от бочки для приёма продукции, &eшина экспорта&r сверху бочки для предоставления ресурсов, &eшина хранения&r спереди бочки, позволяющая &eподсети&r получить доступ к промежуточному хранилищу, &7кварцевое волокно&r на единственном соединяющем &5флюисовом кабеле&r между &eподсетью&r и &bосновной сетью&r для &7подачи энергии&r."
+				"{image:modpack:textures/ae2_simple_sub_network.png width:200 height:100 align:center}"
+				"{@pagebreak}"
+				"Это звучит ошеломляюще, но уверяю вас, это выполнимо. Немного поэкспериментируйте, чтобы понять, как взаимодействуют упомянутые технологии, и вы начнёте осваиваться."
+				""
+				"Конечно, &aникогда не стесняйтесь смотреть видео&r, чтобы понять, как всё должно выглядеть и работать."
+				""
+				"Как только вы &aпоймёте основы&r, вы в мгновение ока освоите остальную часть &dApplied Energistics&r."
+				""
+				"Имейте в виду, что большая часть предоставленной информации, как правило, &aне является единственным решением&r проблем, которые она решает."
+			]
+			id: "591F6FACE42A8C85"
+			rewards: [{
+				amount: 20L
+				currency: "eternalcurrencies:coins"
+				id: "389120462F938C90"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Секретный ингредиент"
+			tasks: [{
+				id: "1346D5F5164B2174"
+				title: "Прочитал"
+				type: "checkmark"
+			}]
+			title: "Подробнее о подсетях"
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["44B5442523858453"]
+			description: [
+				"&eАвтоматическое зельеварение&r функционально такое же, как и то, что было раньше: разместите ваши &eзельеварки&r рядом с вашим &eпоставщиком шаблонов&r, настройте ваш &eпустой шаблон&r на &eввод&r вашего &eосновного ингредиента&r + &e3 бутылочки&r и ожидайте &e3 бутылочки&r сваренного &eрезультата&r."
+				""
+				"&6Напоминание:&r Если у вас ещё нет &eрезультата&r, вы можете перетащить его на &eпустой шаблон&r из &aJEI&r."
+				""
+				"&6Напоминание:&r Если вам нужно изменить количество вводимых/выводимых материалов, вы можете &eщёлкнуть средней кнопкой мыши&r по соответствующему предмету, чтобы настроить его."
+				""
+				"&6Совет:&r В большинстве случаев достаточно вручную добавить избыток &eогненного порошка&r из-за его высокой эффективности, но при крупномасштабных операциях вы можете захотеть автоматизировать и это."
+			]
+			icon: "minecraft:brewing_stand"
+			id: "37ED052F5D0295A2"
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "6CD71AA61A5CE579"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Автоматическое зельеварение"
+			tasks: [{
+				id: "02B7642CB670F4ED"
+				title: "Прочитал"
+				type: "checkmark"
+			}]
+			title: "Шаблоны обработки 2"
+			x: 22.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["19ABB31DC31B6DF3"]
+			description: [
+				"&eАвтоматическая плавка&r тривиально проста, *если* у вас есть правильные инструменты."
+				""
+				"На самом базовом уровне любая &eэнергетическая печь&r, которая может &eавтоматически принимать вводимые материалы&r и &eавтоматически выводить продукты&r, является самым простым решением."
+				""
+				"С такой машиной вы можете взять &eпустой шаблон&r, закодировать его &eрецепт&r 1:1 (т. е. 1 булыжник => 1 камень) и поместить его в соседний &eпоставщик шаблонов&r."
+				""
+				"Как только будет сделан &eзапрос&r, &eпоставщик шаблонов&r &eвведёт&r булыжник, &eпечь&r &eвыведет&r камень, и процесс будет завершён."
+				""
+				"Так просто."
+				"{@pagebreak}"
+				"В качестве альтернативы вы можете настроить &eавтоматическую плавильню&r с любой печью и соответственно связать &eвводимые материалы&r от &eпоставщика шаблонов&r и выводимые из &eплавильни&r."
+				""
+				"Пока &eпоставщик шаблонов&r, содержащий &eшаблон обработки&r, получает свой &eрезультат&r, неважно, как это происходит."
+			]
+			icon: "thermal:machine_furnace"
+			id: "44B5442523858453"
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "24DC62B7AFC036D6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Автоматическая плавка"
+			tasks: [{
+				id: "4C677C65F4E705C2"
+				title: "Прочитал"
+				type: "checkmark"
+			}]
+			title: "Шаблоны обработки 1"
+			x: 22.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6206C71520FDFB49"]
+			description: [
+				"Значительно плотнее, чем должны быть, &5сингулярности&r требуют 256 тыс. предметов/вёдер и как минимум &eкомпонент хранения МЭ на 64k&r для производства в &eконденсаторе материи&r."
+				""
+				"&6Примечание:&r Прежде чем переходить в &5квантовую&r область, вам следует настроить &bсеть хранения&r."
+			]
+			id: "0A523F4F763108E3"
+			rewards: [
+				{
+					count: 2
+					id: "75394D8C017B18F9"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nТекст\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в закромах Мастера квестов и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eНаграда за квест\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "210F8DBE378F4A6C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Пересекая барьер"
+			tasks: [{
+				id: "782B9355DCBD6BA1"
+				item: "ae2:singularity"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F39514D991EB2B8"]
+			description: [
+				"&eКонденсатор материи&r принимает любые предметы/жидкости/газы, которые могут храниться в &eячейках хранения&r, и имеет 3 применения;"
+				""
+				"1) Действовать как внеземная &8пустота&r для мусора,"
+				""
+				"2) Производить слегка сжатые &eшарики материи&r,"
+				""
+				"3) Расширять границы пространства для производства чрезвычайно плотных &5сингулярностей&r."
+			]
+			id: "6206C71520FDFB49"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "373A018594B431AF"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Продвинутая космическая мусорка"
+			tasks: [{
+				id: "30B2E0697D438ECA"
+				item: "ae2:condenser"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67F89819C94F591A"]
+			description: [
+				"&eМЭ-интерфейс&r действует как &eпромежуточное хранилище&r шириной в 9 слотов. Он может заполняться и опустошаться из &bсети хранения&r в зависимости от настроенных вами &eпараметров запасов&r."
+				""
+				"Он очень полезен при работе с &eподсетями&r и может использоваться как &eавтоматически пополняемый сундук&r, если разместить его между фермой и вашей &bсетью хранения&r."
+				""
+				"Обратитесь к &eруководству&r для получения дополнительной информации о его многочисленных уникальных взаимодействиях, если это вас заинтересует."
+			]
+			id: "3C1FCDBD42DF0427"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "2AD1374BD29D95E5"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Плоское хранилище?"
+			tasks: [{
+				id: "24D48311A07F5FAD"
+				item: "ae2:cable_interface"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -12.26d
+		}
+		{
+			dependencies: ["6206C71520FDFB49"]
+			description: ["&eШарики материи&r создаются путём сжатия &e256 предметов/вёдер&r каждый, требуя только &eкомпонент хранения МЭ на 1K&r для их производства в &eконденсаторе материи&r."]
+			id: "4C2DEDE6A0636F90"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "49F14EFEDAAF107A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "В чём дело?"
+			tasks: [{
+				id: "46542681E4E9974E"
+				item: "ae2:matter_ball"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0A523F4F763108E3"]
+			description: [
+				"Через сжигание &5сингулярности&r и небольшого количества &eэндер-пыли&r, кажется, ваши эксперименты привели к созданию пары &5сингулярностей квантовой запутанности&r."
+				""
+				"Наверняка их &eзапутанность&r можно использовать для &eвеликой цели&r."
+				"{@pagebreak}"
+				"Обратитесь к &eруководству&r для получения дополнительной информации, оно хорошо документирует их использование."
+				""
+				"&6Напоминание:&r &eУдерживание 'G'&r на предмете, который вас интересует, вызовет его страницу в &eруководстве&r."
+			]
+			id: "3F512C07B5DB53AF"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "37829A7E51529A77"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Пара чего?"
+			tasks: [{
+				id: "1028B447DF5F6355"
+				item: "ae2:quantum_entangled_singularity"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4C2DEDE6A0636F90"]
+			description: [
+				"Само собой разумеется, не так ли? Переносной «рельсотрон», способный стрелять самыми &4свирепыми снарядами&r, такими как &eметаллические самородки&r и &eшарики материи&r."
+				""
+				"Легко заполняется в МЭ-сундуке."
+				""
+				"Наслаждайтесь."
+			]
+			id: "7C084B05C5DE6101"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "08C2D4949804E465"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Пейнтбол!"
+			tasks: [{
+				id: "72B3E293B4765C49"
+				item: {
+					Count: 1
+					id: "ae2:matter_cannon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4C2DEDE6A0636F90"]
+			description: [
+				"Если вы когда-нибудь хотели &eпокрасить уже установленные кабели&r и другие окрашиваемые объекты, &eаппликатор цвета&r — инструмент для вас."
+				""
+				"Он может потреблять красители или &eшарики с краской&r для распространения цвета и может убирать за собой при использовании снежков."
+				""
+				"Их можно &eлегко заполнить в МЭ-сундуке&r, вы можете прокручивать с зажатым Shift, чтобы переключаться между его содержимым, и щёлкать ПКМ, чтобы оставить свой след в мире."
+			]
+			id: "0799774F5E323334"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "0E63ECC19B0EF4A2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Успокаивает"
+			tasks: [{
+				id: "38DA6B526E5AC149"
+				item: {
+					Count: 1
+					id: "ae2:color_applicator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5F39514D991EB2B8"]
+			description: [
+				"&eКристальные резонирующие генераторы&r — это менее мощные &7генераторы энергии&r, чем &eрезонирующие камеры&r, но они могут &bсамостоятельно поддерживать&r вашу &eсеть&r."
+				""
+				"Каждая производит &e20 АЕ/т&r, выводит энергию на юг и &aне требует обслуживания&r, кроме первоначальных затрат."
+			]
+			id: "58E7B8912E34C67E"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "0609A3E88A405BFB"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Самодостаточная энергия"
+			tasks: [{
+				id: "11CA355E691895DE"
+				item: "ae2:crystal_resonance_generator"
+				type: "item"
+			}]
+			title: "Кристальный резонирующий генератор"
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5F39514D991EB2B8"]
+			description: [
+				"&eРезонирующие камеры&r — это &7генераторы энергии&r, предназначенные для более масштабных задач. Они производят &e40 АЕ/т&r, но очень быстро потребляют топливо."
+				""
+				"Они &cдороги в эксплуатации&r вне начальных этапов вашей &eсети&r, поэтому убедитесь, что вы перешли на другие источники энергии, прежде чем слишком сильно расширять свои операции."
+			]
+			id: "1E92535385E26C8D"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "1393ECB297F0A5D2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Вж-ж-ж-ж"
+			tasks: [{
+				id: "14DA67267F6B6BC0"
+				item: "ae2:vibration_chamber"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Если вы хотите погрузиться в &dApplied Energistics&r и ещё не нашли &eупавший метеорит&r, вот как начать:"
+				""
+				"1) Создайте &eдеревянную рукоять&r"
+				"2) Создайте и разместите &eзарядник&r"
+				"3) Поместите деревянную рукоять на зарядник"
+				"4) Поместите &eкомпас&r в зарядку"
+				"5) Вращайте деревянную рукоять &7(удерживайте ПКМ)&r, пока ваш компас не превратится в &eметеоритный компас&r"
+				"6) Следуйте за метеоритным компасом к ближайшему метеориту."
+			]
+			id: "5CF065DD209B4B1C"
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "4FF59D4104E4CC58"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: " Что это всё такое?!"
+			tasks: [{
+				id: "09C14766BCC711D9"
+				title: "Прочитал"
+				type: "checkmark"
+			}]
+			title: " Начинаем работу с &dApplied Energistics&r"
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F512C07B5DB53AF"]
+			description: [
+				"&5Квантовые сетевые мосты&r могут расширять &eсеть&r на бесконечные расстояния и даже между измерениями."
+				""
+				"У них много применений, включая, но не ограничиваясь: доступ и передачу ресурсов между подключенными &eсетями&r."
+				""
+				"&eМЭ камера квантовой связи&r — это ядро &5квантового сетевого моста&r, а &eМЭ квантовые кольца&r — это интерфейсы, через которые &eсети&r могут взаимодействовать."
+				""
+				"&6Примечание:&r Квантовые сетевые мосты поддерживают в общей сложности 32 канала, но только &eМЭ квантовые кольца&r, примыкающие к &eМЭ камере квантовой связи&r, могут принимать и передавать информацию."
+				""
+				"&8(Обе стороны квантового сетевого моста должны быть постоянно загружены в чанках для функционирования)&r"
+			]
+			id: "680E92937D4A03A5"
+			rewards: [
+				{
+					id: "4616369D42682DA6"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nТекст\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в закромах Мастера квестов и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eНаграда за квест\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "548DFB6801B17277"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "За гранью беспроводного"
+			tasks: [
+				{
+					id: "7982BFAB2ED75FD6"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "73B74D89EE4B1A3B"
+					item: { Count: 8, id: "ae2:quantum_ring" }
+					type: "item"
+				}
+			]
+			title: "Квантовый сетевой мост"
+			x: 23.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["680E92937D4A03A5"]
+			description: [
+				"Среди множества применений &5квантового сетевого моста&r, &aбеспроводной доступ к изготовлению и хранению&r является самым распространённым."
+				""
+				"&eКарта квантового моста&r — это улучшение для ваших &eбеспроводных терминалов&r, которое позволяет им принимать &5сингулярности квантовой запутанности&r."
+				""
+				"Вы можете получать доступ и взаимодействовать с вашей &bсетью хранения&r, связав её с &5квантовым сетевым мостом&r и соединив &eМЭ камеру квантовой связи&r моста с вашим &eбеспроводным терминалом&r с помощью &5сингулярностей квантовой запутанности&r."
+			]
+			id: "2E14EC6EBA56DA56"
+			rewards: [
+				{
+					count: 2
+					id: "4F77BEC0CC21C029"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nТекст\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в закромах Мастера квестов и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eНаграда за квест\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "6EE244C19208CA7E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Межпространственный доступ к хранилищу"
+			tasks: [{
+				id: "708FC5844FAB1FC8"
+				item: "ae2wtlib:quantum_bridge_card"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2E14EC6EBA56DA56"]
+			description: [
+				"Не останавливайтесь на &bмежпространственном доступе к сети&r."
+				""
+				"Применение &5квантовых сетевых мостов&r &aограничено только вашим воображением&r. &dApplied Energistics&r может решить или стать частью решения любой проблемы, с которой вы столкнётесь на своём пути в <rainb>MCE2."
+				"{@pagebreak}"
+				"&6Заботьтесь о своей сети, и она позаботится о вас&r"
+			]
+			id: "1A7B7ADC6B65A48F"
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "17C0AE16913B87AB"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "и дальше!"
+			tasks: [{
+				id: "2F11857AD709E9C9"
+				title: "Прочитал"
+				type: "checkmark"
+			}]
+			title: "К бесконечности"
+			x: 19.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["67F89819C94F591A"]
+			description: [
+				"&eP2P-туннели&r — это способ перемещать такие вещи, как предметы, жидкости, химикаты, редстоун-сигналы, энергию, свет и каналы по &eсети&r, не давая им напрямую взаимодействовать с ней; они действуют как порталы, которые напрямую соединяют две грани блоков на расстоянии."
+				""
+				"Существует много типов P2P-туннелей, но напрямую можно создать только &eМЭ P2P-туннель&r; остальные создаются путём &eщелчка ПКМ по P2P-туннелям&r определёнными предметами:"
+				""
+				"&5Каналы = любой кабель&r"
+				"&cРедстоун = различные редстоун-компоненты&r"
+				"&8Предмет = сундук или воронка&r"
+				"&3Жидкость = ведро или бутылка&r"
+				"&2Химикат = любой химический резервуар&r"
+				"&7Энергия = любой предмет, содержащий энергию&r"
+				"&eСвет = факел или светокамень&r"
+				"{@pagebreak}"
+				"Соединения &eP2P-туннелей&r можно &eсвязать&r с помощью &eкарты памяти&r, отображая их частоту в виде массива цветов 2x2 на их задней стороне. P2P-туннель, по которому вы &2щёлкнете с Shift-ПКМ&r, станет &2входом&r, а P2P-туннель, по которому вы &aщёлкнете ПКМ&r, станет &aвыходом&r."
+				""
+				"&6Совет:&r Каждый P2P-туннель может иметь &eнесколько выходов&r, даже если он связан."
+				""
+				"&6Подсказка:&r Если вам нужны дополнительные сведения или пример, &eудерживайте 'G'&r над P2P-туннелем или обратитесь к внутриигровому &eруководству&r."
+			]
+			id: "4F97D30383CAF71D"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "56971A033C33EEB7"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Прямиком из точки А в точку Б"
+			tasks: [{
+				id: "25312343B221339A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:me_p2p_tunnel"
+							}
+							{
+								Count: 1b
+								id: "ae2:redstone_p2p_tunnel"
+							}
+							{
+								Count: 1b
+								id: "ae2:item_p2p_tunnel"
+							}
+							{
+								Count: 1b
+								id: "ae2:fluid_p2p_tunnel"
+							}
+							{
+								Count: 1b
+								id: "ae2:fe_p2p_tunnel"
+							}
+							{
+								Count: 1b
+								id: "ae2:light_p2p_tunnel"
+							}
+							{
+								Count: 1b
+								id: "appmek:chemical_p2p_tunnel"
+							}
+						]
+					}
+				}
+				title: "Любой P2P-туннель"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -12.26d
+		}
+	]
+	title: "&6Applied Energistics 2"
+}

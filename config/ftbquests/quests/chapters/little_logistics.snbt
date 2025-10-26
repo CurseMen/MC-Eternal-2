@@ -1,0 +1,924 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "little_logistics"
+	group: "3EBF424A99DA33B7"
+	icon: "littlelogistics:tug"
+	id: "572AA25B3278DBD1"
+	images: [{
+		height: 6.0d
+		image: "modpack:textures/littlelogistics.png"
+		rotation: -25.0d
+		width: 6.0d
+		x: -7.5d
+		y: -6.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4A8875DB724D07B8"]
+			description: [
+				"Базовый буксир, работающий на любом печном топливе. Топливо можно загружать с помощью воронок, размещённых над доками для буксиров."
+				"{image:modpack:textures/steam_tug.png width:197 height:100 align:center}"
+			]
+			id: "0FB8879F827C6CDE"
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:coins"
+					id: "09042EB8E4E13777"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7BBE9C6AE89C0C83"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Создайте паровой буксир"
+			tasks: [{
+				id: "6EC2F4566302C346"
+				item: "littlelogistics:tug"
+				type: "item"
+			}]
+			title: "Полный вперёд"
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4A8875DB724D07B8"]
+			description: ["Простая баржа для хранения предметов, очень похожая на ванильную вагонетку. Для взаимодействия с воронками должна быть пришвартована и являться частью буксирного состава."]
+			id: "464AB12F23B69E29"
+			rewards: [{
+				amount: 80L
+				currency: "eternalcurrencies:coins"
+				id: "661AA412F553DD89"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Создайте баржу-сундук"
+			tasks: [{
+				id: "3447372AEA7D0719"
+				item: "littlelogistics:barge"
+				type: "item"
+			}]
+			title: "Плавучее хранилище"
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4A8875DB724D07B8"]
+			description: [
+				"Пассивно ловит рыбу, используя таблицу добычи ванильной удочки. Для развёртывания сетей должна находиться на открытой воде. Может разгружаться с помощью воронок и доков для барж. Для взаимодействия с воронками должна быть пришвартована и являться частью буксирного состава. "
+				""
+				"У баржи есть штрафы за мелководье и «перелов», поэтому лучше всего использовать её на длинных маршрутах в океанах. "
+				""
+				"Улов максимален, когда глубина воды составляет 20 или более блоков. Перелов отслеживается для каждой баржи и каждого блока; маршрутов длиной 200 или более блоков должно быть достаточно, чтобы избежать перелова."
+				""
+				"&6Подсказка:&r Автоматическая рыбалка не позволит вам получить особые сокровища, которые можно выловить вручную!"
+			]
+			id: "18F5E65F33931516"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "024619A485BC94D9"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Создайте баржу для авто-рыбалки"
+			tasks: [{
+				id: "5EBC264685752D69"
+				item: "littlelogistics:fishing_barge"
+				type: "item"
+			}]
+			title: "Автоматический улов дня"
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4A8875DB724D07B8"]
+			description: ["Простая баржа, вмещающая одного игрока."]
+			id: "43FD63D5A28178E8"
+			rewards: [{
+				amount: 80L
+				currency: "eternalcurrencies:coins"
+				id: "1E8206E21B22084F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Создайте пассажирскую баржу"
+			tasks: [{
+				id: "1AAD6349CA2E567A"
+				item: "littlelogistics:seater_barge"
+				type: "item"
+			}]
+			title: "Морской трон"
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4A8875DB724D07B8"]
+			description: ["Автоматически собирает предметы в радиусе! Подключите баржу-сундук позади баржи для сбора предметов, так как сама баржа для сбора не имеет собственного инвентаря!"]
+			id: "27470BBE37D58ACC"
+			rewards: [
+				{
+					amount: 80L
+					currency: "eternalcurrencies:coins"
+					id: "179DEA59ABE79AC7"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6645A4F7E7894831"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Создайте баржу для сбора предметов"
+			tasks: [{
+				id: "7FC22DFB8F242827"
+				item: "littlelogistics:vacuum_barge"
+				type: "item"
+			}]
+			title: "Баржа для сбора предметов"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4A8875DB724D07B8"]
+			description: ["Используйте эту баржу для транспортировки жидкостей, её можно загружать и разгружать с помощью жидкостных воронок."]
+			id: "126D15AC79129806"
+			rewards: [{
+				amount: 80L
+				currency: "eternalcurrencies:coins"
+				id: "36B3378821E1B8FC"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "068491DBA8D79502"
+				item: "littlelogistics:fluid_barge"
+				type: "item"
+			}]
+			title: "Водное хранилище"
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4A8875DB724D07B8"]
+			description: [
+				"Буксир, работающий на FE, может заряжаться в доке с помощью зарядного устройства для транспорта. У буксира есть дополнительный слот для конденсатора, что полезно, если буксир разрядился в пути и требует подзарядки."
+				"{image:modpack:textures/energy_tug.png width:197 height:100 align:center}"
+			]
+			id: "68247F4CB20E5475"
+			rewards: [
+				{
+					amount: 80L
+					currency: "eternalcurrencies:coins"
+					id: "77FFE382D6C3ADBC"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7EBC39FF3305551C"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Создайте энергетический буксир"
+			tasks: [{
+				id: "0D49134EB1598938"
+				item: "littlelogistics:energy_tug"
+				type: "item"
+			}]
+			title: "Водные энергетические экспедиции"
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"Транспортные средства можно соединять с помощью «транспортных цепей». Ориентация поезда и буксира/баржи будет обновляться автоматически!"
+				"{image:modpack:textures/linked.png width:197 height:100 align:center}"
+			]
+			id: "24F6E94A5BFCA6D3"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "0346746EF3B98D8E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Создайте несколько транспортных цепей"
+			tasks: [{
+				count: 6L
+				id: "02F72B02ED551A59"
+				item: "littlelogistics:spring"
+				type: "item"
+			}]
+			title: "Все связаны"
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			description: ["Держа в руке, ключ машиниста будет показывать местоположение зарегистрированных локомотивов и буксиров. Щелчок ПКМ по любым рельсам переключит их форму!"]
+			id: "3DC8A3C738D45819"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "4B6A3717ADCE9912"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Создайте ключ машиниста"
+			tasks: [{
+				id: "1CB5AEFE0B93C316"
+				item: "littlelogistics:conductors_wrench"
+				type: "item"
+			}]
+			title: "Ключом на старт"
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5CFD5B47B679D472"]
+			description: [
+				"Базовый паровоз, работающий на любом печном топливе. Топливо можно загружать с помощью воронок!"
+				"{image:modpack:textures/steam_locomotive.png width:197 height:100 align:center}"
+			]
+			id: "1A140FBB683F2F40"
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:coins"
+					id: "300CE69FB26364ED"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "127F8621B63BE919"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:conductor"
+					console: true
+					icon: "titles:title_scroll_common"
+					id: "1715BE9B228BEA5D"
+					title: "&eОткрыть титул:&r Машинист"
+					type: "command"
+				}
+			]
+			subtitle: "Создайте паровоз"
+			tasks: [{
+				id: "152A66C88B7A122D"
+				item: "littlelogistics:steam_locomotive"
+				type: "item"
+			}]
+			title: "Чух-чух!"
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5CFD5B47B679D472"]
+			description: ["То же, что и ванильная вагонетка с сундуком, может загружаться или разгружаться с помощью ванильных воронок или быстрых воронок из этого мода."]
+			id: "47C092292F4298EC"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "43399E56FAF02F82"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Создайте вагон-сундук"
+			tasks: [{
+				id: "148CF9526BB6A9D1"
+				item: "littlelogistics:chest_car"
+				type: "item"
+			}]
+			title: "Хранилище на колёсах"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5CFD5B47B679D472"]
+			description: ["Вагоны похожи на ванильные вагонетки, но могут быть соединены с локомотивом и пришвартованы."]
+			id: "24DFBDC284DB8D11"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "63EE5CB193AF1302"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Создайте вагон"
+			tasks: [{
+				id: "4ED9E5A4E2300E48"
+				item: "littlelogistics:seater_car"
+				type: "item"
+			}]
+			title: "Пассажирская принцесса"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5CFD5B47B679D472"]
+			description: [
+				"Локомотив, работающий на FE, может заряжаться в доке с помощью зарядного устройства для транспорта. У локомотива есть дополнительный слот для конденсатора, что полезно, если локомотив разрядился в пути и требует подзарядки."
+				"{image:modpack:textures/energy_locomotive.png width:200 height:100 align:center}"
+			]
+			id: "48E6D7903B1E1DC4"
+			rewards: [{
+				id: "218C94BB4A724300"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						Enchantments: [{
+							id: "ars_nouveau:reactive"
+							lvl: 1
+						}]
+						HideFlags: 33
+						display: {
+							Lore: [
+								"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+								"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+								"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+								"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+								"{\"text\":\"\"}"
+							]
+							Name: "{\"text\":\"§eТрофеи за задание\"}"
+						}
+						"quark:RuneAttached": 1b
+						"quark:RuneColor": {
+							Count: 1b
+							id: "quark:rainbow_rune"
+						}
+						rpgloot.randomize: 0b
+						type: "quest_loot"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Создайте энергетический локомотив"
+			tasks: [{
+				id: "7F40C6E3CFB25CB9"
+				item: "littlelogistics:energy_locomotive"
+				type: "item"
+			}]
+			title: "Энергетический локомотив"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Этот предмет хранит маршрут для транспортных средств. "
+				""
+				"Когда предмет помещён в слот маршрута транспортного средства, оно будет следовать маршруту, начиная с узла 0. Щёлкните ПКМ по любой координате, чтобы добавить узел в конец маршрута буксира (нельзя добавить в середину). Щёлкните ПКМ по местоположению существующего узла, чтобы удалить его. Shift+ПКМ вызовет меню, позволяющее изменять порядок узлов или переименовывать их. Маршрут можно скопировать, поместив его вместе с пустым в сетку крафта."
+			]
+			id: "03CAEB920979A70A"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "23686D9B5860AF6C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Создайте маршрут"
+			tasks: [
+				{
+					id: "0771ABF18C15E566"
+					item: "littlelogistics:tug_route"
+					type: "item"
+				}
+				{
+					id: "2A3FEAA5F2C8C339"
+					item: "littlelogistics:locomotive_route"
+					type: "item"
+				}
+			]
+			title: "На маршруте"
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Поезда можно пришвартовывать с помощью комбинации «доковых рельсов для локомотива» и «доковых рельсов для вагона». Выровняйте доковые рельсы, поместите разгрузчики под рельсами и загрузчики по обе стороны. Синий режим используется для разгрузки, а оранжевый — для загрузки. "
+				""
+				"Рельсы автоматически сообщат локомотиву, чтобы он ждал, пока есть что-то для перемещения; если на рельс локомотива подаётся редстоун сигнал, локомотив будет продолжать ждать независимо от обстоятельств."
+			]
+			id: "475807285E166E6C"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "31C342FDD6119225"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Создайте доковые рельсы для локомотива и вагона"
+			tasks: [
+				{
+					count: 3L
+					id: "3D311AFF8BCCB15D"
+					item: "littlelogistics:car_dock_rail"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "14D02FFD62494C04"
+					item: "littlelogistics:locomotive_dock_rail"
+					type: "item"
+				}
+			]
+			title: "Складская станция"
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Стандартные стрелки и Т-образные перекрёстки можно переключать с помощью редстоуна. Энергорельсы отлично подходят для создания петель."
+				""
+				"Стрелки переключаются между прямым направлением и поворотом влево/вправо при подаче редстоун сигнала!"
+			]
+			id: "685BE99BBB7EEAC8"
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:coins"
+					id: "3FC9DD64218D4F15"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					command: "/titles add {p} titles:logician"
+					console: true
+					icon: "titles:title_scroll_rare"
+					id: "6D7D4CD56B6C5CAB"
+					title: "&eОткрыть титул:&r Маленький логист"
+					type: "command"
+				}
+			]
+			subtitle: "Создайте несколько перекрёстков и стрелок"
+			tasks: [
+				{
+					count: 5L
+					id: "181EDCDF79D92FCA"
+					item: "littlelogistics:junction_rail"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4B06FEC94AE74B5A"
+					item: "littlelogistics:tee_junction_rail"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "51C0162A52A80084"
+					item: "littlelogistics:switch_rail"
+					type: "item"
+				}
+			]
+			title: "Впереди развилка!"
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Автоматические стрелки будут переключаться локомотивом с маршрутом. Каждый раз, когда локомотив приближается к автоматическому перекрёстку, он ищет ближайшую путевую точку, которую ему ещё предстоит посетить, и соответственно переключает путь. "
+				""
+				"Путевые точки можно настроить с помощью предмета «маршрут локомотива», они не упорядочены."
+			]
+			id: "7EB7F8F39EE0B0FB"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "72F79076E10DFC04"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Создайте несколько автоматических рельсов"
+			tasks: [
+				{
+					id: "143522F9214211AA"
+					item: "littlelogistics:automatic_tee_junction_rail"
+					type: "item"
+				}
+				{
+					id: "1F4F497408998991"
+					item: "littlelogistics:automatic_switch_rail"
+					type: "item"
+				}
+			]
+			title: "Автоматическое переключение"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Размещается под блоком воды, работает аналогично ванильным энергорельсам. Может использоваться для принудительного направления буксира по определённому маршруту. "
+				""
+				"Не влияет на баржи. Shift+ПКМ для поворота."
+			]
+			id: "01EEC1929B6E3379"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "4CEBAAA94C61C08B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Создайте направляющий рельс для буксира"
+			tasks: [{
+				count: 8L
+				id: "17FC2CAF40D3CB5C"
+				item: "littlelogistics:guide_rail_tug"
+				type: "item"
+			}]
+			title: "Под давлением"
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			description: [
+				"Помогает судам проходить крутые повороты, всегда следует использовать на крутых поворотах или у входов в узкие водные пути (например, для доков). Влияет как на буксиры, так и на баржи. Shift+ПКМ для изменения направления. "
+				""
+				"Не должен иметь сплошного блока прямо над собой (т.е. ни камня, ни досок и т.д. Забор, таблички и т.д. — можно)."
+			]
+			id: "07FF09DBEC359A60"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "1DBB8DB336027E89"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Создайте угловой направляющий рельс для судна"
+			tasks: [{
+				count: 3L
+				id: "227E6A952ADFEEB1"
+				item: "littlelogistics:guide_rail_corner"
+				type: "item"
+			}]
+			title: "Крутые повороты"
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"Этот блок излучает редстоун сигнал сзади, когда обнаруживает транспортное средство, при щелчке ПКМ отображает дальность действия."
+				"{image:modpack:textures/vehicle_detector.png width:197 height:100 align:center}"
+			]
+			id: "0DFF4022F753EBA6"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "0995A2A9AC959510"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Создайте детектор транспорта"
+			tasks: [{
+				count: 2L
+				id: "09FD24D593909673"
+				item: "littlelogistics:vessel_detector"
+				type: "item"
+			}]
+			title: "Я тебя вижу~"
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			description: [
+				"Существует два типа доковых блоков: для баржи и для буксира. Блок для буксира всегда должен присутствовать, чтобы доки для барж работали. Верхняя текстура дока для буксира должна быть выровнена с доками для барж, вы можете нажать Shift+ПКМ на доке для буксира, чтобы изменить направление дока. "
+				""
+				"Доки для барж должны образовывать прямую линию от дока для буксира, в линии не должно быть пробелов. Док для буксира может только вставлять в буксир (оранжевый/режим вывода), поместите воронку на док для извлечения. Доки для барж могут как вставлять (оранжевый/режим вывода), так и извлекать (синий/режим ввода) в/из барж, Shift+ПКМ для переключения режима. "
+				""
+				"Поместите воронку под блок воды рядом с доком для баржи для извлечения. Линия дока должна находиться рядом с каналом шириной в 1 блок, более широкие каналы могут помешать судам правильно пришвартоваться."
+			]
+			id: "6E87FD1E951B8F6D"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "1790C853F050A4C8"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Создайте док для буксира и баржи"
+			tasks: [
+				{
+					count: 2L
+					id: "347EF1A3D56357EF"
+					item: "littlelogistics:tug_dock"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "486B1E023173E888"
+					item: "littlelogistics:barge_dock"
+					type: "item"
+				}
+			]
+			title: "Как дела в доке?"
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"Воронка, но для жидкостей, может импортировать сверху и экспортировать по бокам. Может быть загружена щелчком ПКМ с ведром. Может использоваться для загрузки/разгрузки судов с помощью доков."
+				"{image:modpack:textures/fluid_hopper.png width:197 height:100 align:center}"
+			]
+			id: "1FC282D6D6B00767"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "40CB5DBEDA03C6EE"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Создайте жидкостную воронку"
+			tasks: [{
+				id: "00CDC87065678BD7"
+				item: "littlelogistics:fluid_hopper"
+				type: "item"
+			}]
+			title: "Модная соломинка"
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Зарядное устройство для энергетического буксира или локомотива, подключите к любому FE кабелю для подачи питания. Поместите на док или рядом с рельсами для зарядки транспорта при швартовке."
+				"{image:modpack:textures/vehicle_charger.png width:197 height:100 align:center}"
+			]
+			id: "6D38DDB6216520E2"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "7076B76E5075FE17"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Создайте зарядное устройство для транспорта"
+			tasks: [{
+				id: "1B0E64374364CDA5"
+				item: "littlelogistics:vessel_charger"
+				type: "item"
+			}]
+			title: "Подзарядка!"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"То же, что и ванильная воронка, но в 8 раз быстрее!"
+				"{image:modpack:textures/rapid_hopper.png width:197 height:100 align:center}"
+			]
+			id: "1153649061EA90BD"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "244DD320A16892F9"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Создайте быструю воронку"
+			tasks: [{
+				id: "4B8E220051DC5B4C"
+				item: "littlelogistics:rapid_hopper"
+				type: "item"
+			}]
+			title: "Быстро, быстро, быстро!"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Избежание столкновений локомотивов"
+				""
+				"Локомотивы имеют встроенное обнаружение столкновений, разработанное для перекрёстков. ИИ локомотивов автоматически принимает решение и отдаёт приоритет, чтобы избежать столкновения."
+				""
+				"Скорость локомотива"
+				""
+				"Локомотивы автоматически контролируют свою скорость на рельсах. Они движутся быстрее на длинных прямых участках, но замедляются при приближении к докам, перекрёсткам или поворотам."
+			]
+			id: "5CFD5B47B679D472"
+			subtitle: "Информация о локомотиве"
+			tasks: [{
+				id: "428D335D6E790746"
+				title: "Информация о локомотиве"
+				type: "checkmark"
+			}]
+			title: "Немного о локомотивах"
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5CFD5B47B679D472"]
+			description: ["Может перевозить жидкости, загружается или разгружается с помощью жидкостных воронок."]
+			id: "4E8FFA5B45271111"
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:coins"
+					id: "1605A57874627C22"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "24E8C27E7F347E60"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Создайте вагон-цистерну"
+			tasks: [{
+				id: "4D807B5DC4168249"
+				item: "littlelogistics:fluid_car"
+				type: "item"
+			}]
+			title: "Жидкость на ходу"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"В этом моде есть два типа судов: буксиры и баржи. Буксиры могут перемещать баржи, когда они сцеплены, а баржи могут делать всякие штуки. Буксиры также можно перемещать вручную с помощью поводков."
+				""
+				"&8Автор главы: Pixiefer"
+			]
+			id: "4A8875DB724D07B8"
+			subtitle: "Информация о буксирах и баржах"
+			tasks: [{
+				id: "2BD231BE945A2AB6"
+				title: "Буксиры и баржи"
+				type: "checkmark"
+			}]
+			title: "Маленький буксир — большое дело"
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"&6&lLittle Logistics&r — это мод, ориентированный на эффективную, доступную и дальнюю транспортировку!"
+				""
+				"Используя забавные маленькие транспортные средства, такие как поезда и лодки, вы можете улучшить свою логистику милым и эффективным способом! "
+				"{image:modpack:textures/steam_tug.png width:180 height:100 align:center}"
+				"                &8&oПаровой буксир!"
+			]
+			id: "47A4EB21B8670655"
+			rewards: [{
+				id: "7FA0A73A44230865"
+				item: "brewinandchewin:ham_and_cheese_sandwich"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.3d
+			subtitle: "Узнайте о моде!"
+			tasks: [{
+				id: "4D648807D80D7341"
+				title: "Что такое Little Logistics?"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: -2.0d
+		}
+	]
+	title: "&6Little Logisctics"
+}

@@ -1,0 +1,137 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "9help_from_barry"
+	group: "53833FE85BBBE6D0"
+	icon: {
+		Count: 1
+		id: "rats:cheese"
+		tag: { }
+	}
+	id: "63EF9023D9FBE489"
+	images: [{
+		height: 2.0d
+		image: "modpack:textures/barry.png"
+		rotation: 0.0d
+		width: 2.0d
+		x: -0.009523809523805937d
+		y: -0.8023809523809469d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Возникли трудности с поиском &6легендарных глаз&r?"
+				"Что ж, к счастью для тебя, в наших общих интересах их найти! "
+				""
+				"Я могу продать тебе &dкарту&r до каждого ока, которое находится в редких структурах."
+				"Я также предоставлю тебе удобную &eметку&r для твоей &dминикарты!"
+				"{image:modpack:textures/barry-the-rat-uwu-transparent-no-white.png width:100 height:100 align:center}"
+				""
+				"&8&oО, не обращай на меня внимания! Я просто рылся в мусорных баках в поисках сыра!"
+			]
+			icon: {
+				Count: 1
+				id: "rats:trash_can"
+				tag: { }
+			}
+			id: "192F4B3655700BD1"
+			rewards: [{
+				id: "295FC3D5394C6C37"
+				item: {
+					Count: 1
+					id: "rats:cheese"
+					tag: {
+						BrewChewPotionData: {
+							Potions: [{
+								Effects: [
+									{
+										Amplifier: 0
+										Duration: 300
+										Effect: "rats:plague"
+									}
+									{
+										Amplifier: 0
+										Duration: 300
+										Effect: "irons_spellbooks:antigravity"
+									}
+									{
+										Amplifier: 0
+										Duration: 300
+										Effect: "alexscaves:sugar_rush"
+									}
+									{
+										Amplifier: 0
+										Duration: 300
+										Effect: "minecraft:fire_resistance"
+									}
+								]
+							}]
+						}
+						display: {
+							Lore: [
+								"{\"text\":\" \"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"red\",\"text\":\"Чума\"}],\"text\":\"Эффект: \"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"text\":\"1\"}],\"text\":\"Усилитель: \"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"text\":\"0:15\"}],\"text\":\"Длительность: \"}"
+								"{\"text\":\" \"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"red\",\"text\":\"Антигравитация\"}],\"text\":\"Эффект: \"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"text\":\"1\"}],\"text\":\"Усилитель: \"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"text\":\"0:15\"}],\"text\":\"Длительность: \"}"
+								"{\"text\":\" \"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"red\",\"text\":\"Сахарная лихорадка\"}],\"text\":\"Эффект: \"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"text\":\"1\"}],\"text\":\"Усилитель: \"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"text\":\"0:15\"}],\"text\":\"Длительность: \"}"
+								"{\"text\":\" \"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"red\",\"text\":\"Огнестойкость\"}],\"text\":\"Эффект: \"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"text\":\"1\"}],\"text\":\"Усилитель: \"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"text\":\"0:15\"}],\"text\":\"Длительность: \"}"
+							]
+							Name: "{\"text\":\"Мусорный сыр\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Барри может помочь... за определённую плату!"
+			tasks: [{
+				id: "3AA86C3F1FA9FE0A"
+				title: "Информационное задание - &eнажмите, чтобы выполнить"
+				type: "checkmark"
+			}]
+			title: "&d<wave>Помощь от Барри!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{image:minecolonies:block/books/map width:150 height:100 align:center}"
+				""
+				"&6☠ Сложность: &4&lСЛОЖНАЯ"
+				""
+				"&6Совет:&r Барри также может отправить вам &dметку&r к структуре, если вы нажмёте на ссылку в чате после получения этого задания!"
+			]
+			id: "5F46FEA139983775"
+			rewards: [{
+				command: "/loot give {p} loot kubejs:quest/frostmaw"
+				console: true
+				elevate_perms: true
+				id: "0FF388EE4038AB6A"
+				type: "command"
+			}]
+			subtitle: "С гордостью от картографа-любителя Барри!"
+			tasks: [{
+				amount: 500L
+				currency: "eternalcurrencies:coins"
+				id: "7D8C5AFC4FF47C92"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "Купить карту:&r &dЛедочрев&r"
+			x: -2.0d
+			y: 2.0d
+		}
+	]
+	title: "&9Помощь от Барри!"
+}

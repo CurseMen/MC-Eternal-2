@@ -1,0 +1,2953 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6ars_nouveau"
+	group: "701563945253F512"
+	icon: "ars_nouveau:summon_focus"
+	id: "511BD5CE8926D782"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&5Ars Nouveau&r — очень полезный магический мод, который позволяет создавать собственные заклинания с помощью различных &eглифов&r, влияющих на их работу. "
+				""
+				"Существует три разных уровня &eкниг заклинаний&r, а также три уровня &eглифов&r, что позволяет делать очень многое, имея в руках всего лишь &eкнигу заклинаний&r!"
+				""
+				"&5Ars Nouveau&r предлагает множество возможностей, помимо простого колдовства!"
+				""
+				"&7Автор главы: Traylon "
+			]
+			id: "16A7C49E6CDC24DD"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "6ABF15BEC73EB2E3"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "41A775370F801D26"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:novice"
+					console: true
+					icon: "titles:title_scroll_common"
+					id: "47DEE3AFD85ACFD7"
+					title: "&eОткрыть титул:&r Новичок"
+					type: "command"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Кому вообще нужны эти палочки, правда?"
+			tasks: [{
+				id: "2EC8F31C4C5F5F1C"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			title: "Первая книга заклинаний мага"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16A7C49E6CDC24DD"]
+			description: [
+				"&eПисарский стол&r позволяет создавать &eглифы&r за счёт некоторых ресурсов и опыта. Щёлкните ПКМ по &eписарскому столу&r с &eкнигой заклинаний&r в руке, чтобы открыть интерфейс. Для создания заклинания бросьте необходимые предметы рядом с ним."
+				""
+				"&6Совет:&r &eПисарский стол&r может забирать ресурсы из ближайших сундуков, что избавляет от необходимости бросать предметы вручную."
+			]
+			id: "09E7B05E4298F3BE"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "231D9A9DAFE072C9"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Создание базовых заклинаний"
+			tasks: [{
+				id: "340CE39CD9B2E224"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			title: "Глифы для начинающих"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16A7C49E6CDC24DD"]
+			description: ["Клавиша по умолчанию для открытия &eкниги заклинаний&r — «C». Это даст вам доступ к интерфейсу &eкниги заклинаний&r для просмотра разблокированных &eглифов&r, а также для создания комбинаций заклинаний."]
+			icon: "ars_nouveau:glyph_break"
+			id: "593615007F1EE282"
+			optional: true
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "13332BAD88BB09B5"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Как пользоваться книгой заклинаний"
+			tasks: [{
+				id: "54912B6F8E91CED7"
+				type: "checkmark"
+			}]
+			title: "Основы колдовства"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["09E7B05E4298F3BE"]
+			description: [
+				"&eИсходные самоцветы&r — это основа &5Ars Nouveau&r, необходимая для создания многих предметов, таких как разнообразные &eэссенции&r."
+				""
+				"&eИсходные самоцветы&r можно создать из &eосколков аметиста&r или &eлазурита&r. При создании предметов &eкамера впитывания&r не потребляет ресурсы с ближайших &eаркановых пьедесталов&r."
+				""
+				"&6Совет:&r &eКамеры впитывания&r можно частично автоматизировать, чтобы упростить этот процесс."
+			]
+			icon: "ars_nouveau:imbuement_chamber"
+			id: "704C7C142ECED1D5"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "5BB7E41B5CDFF627"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6EF3E4630F1ABD26"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Оно пропитано магией..."
+			tasks: [
+				{
+					id: "7FA42959E1DF370F"
+					item: "ars_nouveau:imbuement_chamber"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "47C24052675D777F"
+					item: { Count: 16, id: "ars_nouveau:source_gem" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "7E623AF5CBAA4449"
+					item: { Count: 32, id: "ars_nouveau:sourcestone" }
+					type: "item"
+				}
+			]
+			title: "Магические самоцветы"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["704C7C142ECED1D5"]
+			description: [
+				"&eЧародейский аппарат&r — это другая основная часть крафта в &5Ars Nouveau&r, позволяющая создавать множество предметов, например, улучшать базовую броню до чего-то более подходящего для колдовства."
+				""
+				"Совет: Если вам не хватает чар на снаряжении, это очень простой способ получить большинство из них! "
+				"Не все чары можно создать в &eчародейском аппарате&r, например, &eпочинку&r, так что обязательно проверяйте в JEI!"
+			]
+			icon: "ars_nouveau:enchanting_apparatus"
+			id: "7461C12182F6AC36"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "43DD3D827BF45463"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7E6DB510089844FF"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Это определённо чарующе!"
+			tasks: [
+				{
+					id: "48D1A1A73292EABA"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+				{
+					id: "40734E285E933A88"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3DB5E34E9AAEB839"
+					item: { Count: 8, id: "ars_nouveau:arcane_pedestal" }
+					type: "item"
+				}
+			]
+			title: "Зачарованное создание"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7461C12182F6AC36"]
+			description: [
+				"&5Ars Nouveau&r вводит &eнити&r для вашей брони, которые отделены от уровневых улучшений. Существует множество &eнитей&r, которые полезны во многих отношениях, а некоторые даже сочетаются с ванильными чарами, такими как &eподводное дыхание&r и &eневесомость&r!"
+				""
+				"У вашей брони максимального уровня довольно много слотов, но на весь комплект брони можно наложить только по одной из каждой &eнити&r, так что выбирайте с умом!"
+			]
+			icon: "ars_nouveau:alteration_table"
+			id: "3D16E9297DD511FD"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "5A7A1EA6FDFD43E5"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "436A0B61692BE136"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Улучшения брони!"
+			tasks: [
+				{
+					id: "5132E28CCDED428F"
+					item: "ars_nouveau:alteration_table"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5E714593025BF5EF"
+					item: { Count: 4, id: "ars_nouveau:blank_thread" }
+					type: "item"
+				}
+			]
+			title: "Изменение нитей"
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7461C12182F6AC36"]
+			description: [
+				"&eКнига заклинаний подмастерья&r — это значительное улучшение &eкниги заклинаний посвящённого&r, дающее доступ к глифам 2-го уровня и лучшим комбинациям заклинаний."
+				""
+				"&6Совет:&r Открытие большего количества &eглифов&r даёт большой прирост к максимальной мане, а открытие ВСЕХ &eглифов&r вознаградит вас примерно 1500 &lдополнительной&r максимальной маны!"
+			]
+			id: "46ADECF58830F3CF"
+			rewards: [
+				{
+					id: "78BB86ED8F4E1454"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "0AE58635DFC78BE9"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					command: "/titles add {p} titles:mage"
+					console: true
+					icon: "titles:title_scroll_uncommon"
+					id: "6DD9F788CCAE3340"
+					title: "&eОткрыть титул:&r Маг"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Разве я раньше не был магом?"
+			tasks: [{
+				id: "0ACF7B0558E19C24"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			title: "Более сильная книга заклинаний"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46ADECF58830F3CF"]
+			description: [
+				"&eРитуальная жаровня&r позволяет вам манипулировать пространством вокруг, например, призывать животных, менять время суток или даже летать."
+				""
+				"Большинство ритуалов требуют постоянного притока истока для работы, в то время как некоторые вообще не требуют истока."
+			]
+			icon: "ars_nouveau:ritual_brazier"
+			id: "58594005824B1BBE"
+			rewards: [
+				{
+					id: "1BF9B00FCECFFB96"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "128E023CD73AA744"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "О-оно должно так делать?"
+			tasks: [
+				{
+					id: "41753F72864AF56E"
+					item: "ars_nouveau:ritual_brazier"
+					type: "item"
+				}
+				{
+					id: "561D16414B68CE16"
+					item: "ars_nouveau:source_jar"
+					type: "item"
+				}
+			]
+			title: "Ритуальная жаровня"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58594005824B1BBE"]
+			description: ["&eЭндер-кувшины с истоком&r очень полезны, так как они функционируют аналогично &eэндер-сундуку&r, но для истока."]
+			id: "75F23B5AFDBB0251"
+			optional: true
+			rewards: [
+				{
+					id: "74124A59E78B8F98"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "7ED6DC44B563CC26"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Беспроводной исток?"
+			tasks: [{
+				count: 2L
+				id: "0B9E3B20B302D60C"
+				item: "ars_additions:ender_source_jar"
+				type: "item"
+			}]
+			title: "Эндер-кувшины с истоком"
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["58594005824B1BBE"]
+			description: [
+				"Дикая химера — это босс мода &5Ars Nouveau&r, и он очень сложен, имея несколько фаз, имитирующих каждого из диких зверей. "
+				""
+				"&eДань уважения диким&r — ключевой аспект для улучшения &eкниги заклинаний подмастерья&r до её финального уровня, &eкниги заклинаний архимага&r."
+			]
+			id: "105A86F70B2C6B39"
+			rewards: [
+				{
+					id: "36420EC10D4E6E4D"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "111905BFF2B46150"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Большой и злой... химера?"
+			tasks: [{
+				id: "3504BC2B707E7067"
+				item: "ars_nouveau:wilden_tribute"
+				type: "item"
+			}]
+			title: "Дикая химера"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["105A86F70B2C6B39"]
+			description: ["&eКнига заклинаний архимага&r — это последний уровень книги заклинаний в &5Ars Nouveau&r, позволяющий создавать ещё более мощные комбинации заклинаний и открывающий доступ к &eглифам&r 3-го уровня."]
+			id: "5DD2BA94561922D4"
+			rewards: [
+				{
+					id: "5016684AE973ABAA"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "6C76B77E64F2C04C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					command: "/titles add {p} titles:archmage"
+					console: true
+					icon: "titles:title_scroll_rare"
+					id: "521EE2791A5EB03B"
+					title: "&eОткрыть титул:&r Архимаг"
+					type: "command"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Я кто?"
+			tasks: [{
+				id: "64808A383C864FCF"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
+			title: "Ты — архимаг!"
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7461C12182F6AC36"]
+			description: [
+				"В &5Ars Nouveau&r есть множество фамильяров, которых можно призвать с помощью &eамулетов&r для автоматизации определённых задач, таких как сбор &eисходных ягод&r, создание зелий или даже генерация предметов из врагов в виде фермы мобов."
+				""
+				"&eЖезл владычества&r позволяет связывать этих фамильяров с их рабочими станциями, а также соединять &eсочетания&r с &eреле источника&r."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "ars_nouveau:dominion_wand"
+				tag: { }
+			}
+			id: "06F0A11431B112E4"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "17A21F0CEA33E402"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Ой, они такие милые!"
+			tasks: [{
+				id: "2FD7CB58D855F04D"
+				item: {
+					Count: 1
+					id: "ars_nouveau:dominion_wand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Фамильяры"
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["06F0A11431B112E4"]
+			description: [
+				"&eТалисман книгочея&r можно получить, использовав &eкнигу с пером&r в &eритуале пробуждения&r, и его нужно связать с &eкафедрой хранения&r с помощью &eжезла владычества&r, чтобы объединить сундуки в единый блок хранения. Один книгочей может соединить до 8 сундуков."
+				""
+				"&6Совет:&r &5Ars Additions&r добавляет &eварп-индекс&r (warp index), который даёт удалённый доступ к &eкафедре хранения&r с бесконечной дальностью, пока чанки загружены, а &eстабилизированный варп-индекс&r позволяет получать доступ между измерениями."
+			]
+			icon: "ars_nouveau:bookwyrm_charm"
+			id: "5317ADE87D16A500"
+			rewards: [
+				{
+					id: "68825C251030B872"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "505FE1913AD57C65"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Он хотя бы умный?"
+			tasks: [
+				{
+					id: "052CB4902D5469C4"
+					item: { Count: 2, id: "ars_nouveau:bookwyrm_charm" }
+					type: "item"
+				}
+				{
+					id: "315E94081246EA2B"
+					item: "ars_nouveau:storage_lectern"
+					type: "item"
+				}
+			]
+			title: "Книгочей"
+			x: 11.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["06F0A11431B112E4"]
+			description: [
+				"&eТалисман дрыгма&r можно получить, дав дикому дрыгму &eрог дикаря&r. Щёлкнув ПКМ по &eзамшелому булыжнику&r с одним или несколькими талисманами дрыгма, вы заставите его генерировать предметы из мобов в ближайших &eудерживающих кувшинах&r, если рядом есть сундук, касающийся &eземлянки дрыгма&r, и постоянный приток истока."
+				""
+				"&6Совет:&r Чем больше &eудерживающих кувшинов&r с уникальными мобами находится поблизости, тем «счастливее» будут дрыгмы, и они будут генерировать предметы немного быстрее."
+			]
+			icon: "ars_nouveau:drygmy_charm"
+			id: "334E026D8E9CD094"
+			rewards: [
+				{
+					id: "1D6D44FA465354CB"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "3F99C6541143C69D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Он обожает копить вещи!"
+			tasks: [
+				{
+					id: "75A744774B9A0F47"
+					item: "ars_nouveau:drygmy_charm"
+					type: "item"
+				}
+				{
+					id: "015AB6B0E5C6004D"
+					item: "ars_nouveau:mob_jar"
+					type: "item"
+				}
+				{
+					id: "672399D14AF8B8AD"
+					item: "ars_nouveau:ritual_containment"
+					type: "item"
+				}
+			]
+			title: "Дрыгм"
+			x: 11.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["06F0A11431B112E4"]
+			description: [
+				"&eЖетон викси&r можно получить, использовав «Отпущение» на ведьме, у которой меньше половины здоровья. Щёлкнув ПКМ по &eкотлу&r, викси автоматически создаст один тип зелья из материалов в ближайшем сундуке и истока. "
+				""
+				"Щёлкнув ПКМ по &eкотлу викси&r, вы укажете ей, какое зелье приготовить. Она всегда готовит зелья на 3 порции в &eкувшине для зелий&r, а он может вместить очень много зелий!"
+				""
+				"&6Совет:&r Для полной автоматизации производства зелий потребуется несколько викси."
+			]
+			icon: "ars_nouveau:wixie_charm"
+			id: "37485C6C9D4948A3"
+			rewards: [
+				{
+					id: "6F8FAA94EB0CC66C"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75CC15886DE41F83"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "679154E1B52A3EC2"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Она же не злая ведьма, правда?"
+			tasks: [
+				{
+					id: "535EF3464C851A24"
+					item: "ars_nouveau:wixie_charm"
+					type: "item"
+				}
+				{
+					id: "04654C43079ECD4D"
+					item: "ars_nouveau:potion_jar"
+					type: "item"
+				}
+				{
+					id: "4451D6D3433D3FBC"
+					item: "minecraft:cauldron"
+					type: "item"
+				}
+			]
+			title: "Викси"
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["06F0A11431B112E4"]
+			description: [
+				"&eТалисман вертявки&r можно получить, вырастив дерево рядом с дикой вертявкой. "
+				"Щёлкнув ПКМ по цветку, вы превратите его в дом для вертявки, и она будет собирать урожай в небольшом радиусе вокруг себя, если рядом есть сундук и исток."
+				""
+				"&6Совет:&r Как и в случае с дрыгмом, чем больше уникальных культур и растений размещено, тем счастливее будет вертявка."
+			]
+			id: "76B7524192177EB0"
+			rewards: [
+				{
+					id: "1413AB944F3BEF9A"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "16C496D60F662AD5"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Любит остановиться и понюхать розы."
+			tasks: [{
+				id: "2C1DDD5294725FB9"
+				item: "ars_nouveau:whirlisprig_charm"
+				type: "item"
+			}]
+			title: "Вертявка"
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["06F0A11431B112E4"]
+			description: [
+				"&eЖетон звездоуха&r можно получить, дав дикому звездоуху &eзолотой самородок&r. Звездоух будет собирать &eисходные ягоды&r и складывать их в назначенные ему сундуки. "
+				""
+				"Звездоухи также могут перемещать предметы между сундуками, что делает их самыми милыми воронками в мире! У них также есть &eколесо&r для мода &5Create&r, которое они очень любят!"
+				""
+				"&6Совет:&r Дав им &eочки звездоуха&r (оттенки звездоуха), вы остановите сбор &eисходных ягод&r, но зато они будут выглядеть круто, правда? Вы также можете дать им &eшляпу викси&r для переноски зелий!"
+			]
+			id: "30E5BE9C7BE609E7"
+			rewards: [
+				{
+					id: "225BD248F4E15C12"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "51F6E2582E781802"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Большой любитель ягод."
+			tasks: [{
+				id: "7D9B5DBD789506DA"
+				item: {
+					Count: 1
+					id: "ars_nouveau:starbuncle_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Звездоух"
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7461C12182F6AC36"]
+			description: [
+				"&eСочетания&r необходимы для генерации истока в &5Ars Nouveau&r. Существует множество их видов, некоторые из которых в большинстве случаев лучше других..."
+				""
+				"&eРеле источника&r можно подключить к &eсочетаниям&r с помощью &eжезла владычества&r для передачи истока на различные расстояния."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "ars_nouveau:dominion_wand"
+				tag: { }
+			}
+			id: "25613F7E8248805C"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "5100B856081545A1"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Как именно это работает?"
+			tasks: [{
+				id: "4C93F5987AE2C7C1"
+				item: {
+					Count: 1
+					id: "ars_nouveau:dominion_wand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Сочетания и реле"
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["25613F7E8248805C"]
+			description: [
+				"&eАгрономическое сочетание&r генерирует исток из окружающих посевов в области 15x15."
+				""
+				"&6Совет:&r Посевы должны активно расти, чтобы генерировать исток. Полностью выросшие посевы не генерируют исток, &oно из этого правила есть исключения.&r"
+			]
+			id: "603D53BA4280A9FA"
+			rewards: [
+				{
+					id: "0069AD192FE72AF6"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "3AE63F0F20C3558B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Мы фермеры!"
+			tasks: [{
+				id: "4ACA62E8354F321B"
+				item: "ars_nouveau:agronomic_sourcelink"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["25613F7E8248805C"]
+			description: [
+				"Вулканическое сочетание — одно из самых производительных &eсочетаний&r в &eArs Nouveau&r, использующее топливные предметы, такие как &eуголь&r или даже &eвёдра с лавой&r!"
+				""
+				"Если бы только был способ получить бесконечную &eлаву&r..."
+			]
+			id: "0E765133B7D231C4"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "7B4ABE80137A10E1"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Для шахтёров!"
+			tasks: [{
+				id: "5EE7EBAE6348772B"
+				item: "ars_nouveau:volcanic_sourcelink"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["25613F7E8248805C"]
+			description: [
+				"&eАлхимическое сочетание&r генерирует исток из ближайших &eзельеварных стоек&r, а также из ближайших &eкувшинов для зелий&r. Наиболее эффективно оно при потреблении сложных зелий с несколькими этапами."
+				""
+				"&6Совет:&r С помощью викси это можно очень эффективно автоматизировать."
+			]
+			id: "378701ACE5FC66ED"
+			rewards: [
+				{
+					id: "276825DC153E2225"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "2F733B6C08C585CB"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Для зельеваров!"
+			tasks: [{
+				id: "434C11BEE855E3E4"
+				item: "ars_nouveau:alchemical_sourcelink"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["25613F7E8248805C"]
+			description: ["&eЖивучее сочетание&r генерирует исток, используя сущность убитых поблизости мобов, а также детёнышей животных по мере их роста, ускоряя этот процесс."]
+			id: "3C235B9BB4222DEB"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "4AA349D882469DC1"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Для мобов!"
+			tasks: [{
+				id: "700A355EE5AC3CBA"
+				item: "ars_nouveau:vitalic_sourcelink"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["25613F7E8248805C"]
+			description: [
+				"&eГрибное сочетание&r генерирует исток, потребляя еду. Чем больше питательности в еде, тем больше истока она генерирует."
+				""
+				"Совет: &eИсходные ягоды&r дают больше истока, чем такие продукты, как &eхлеб&r или &eпечёный картофель&r."
+			]
+			id: "5E0EF0F53BF54777"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "5531AE970F98E472"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Я так люблю еду."
+			tasks: [{
+				id: "66FEAA09F204F24F"
+				item: "ars_nouveau:mycelial_sourcelink"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["25613F7E8248805C"]
+			description: ["&eРеле источника&r — самое простое реле в &5Ars Nouveau&r, способное передавать исток от сочетания только к одному &eкувшину с истоком&r."]
+			id: "6ADAC8475A936E2E"
+			rewards: [
+				{
+					id: "1F74077625E6B9FB"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "44A3ED8E2D39D92C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Самое простое из реле."
+			tasks: [{
+				id: "3F6B405D07F57326"
+				item: "ars_nouveau:relay"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["25613F7E8248805C"]
+			description: ["&eРеле источника: сплиттер&r способно передавать исток в несколько &eкувшинов с истоком&r."]
+			id: "47346D0A4C20B77C"
+			rewards: [
+				{
+					id: "57922068C726DD3A"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "588BAF22FFE6AB39"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Многозадачность во всей красе."
+			tasks: [{
+				id: "74B5BDCE6A625DCA"
+				item: "ars_nouveau:relay_splitter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["25613F7E8248805C"]
+			description: ["&eРеле источника: вкладчик&r будет вкладывать исток в &eкувшины с истоком&r в небольшом радиусе вокруг себя."]
+			id: "786BA1B92CF31441"
+			rewards: [
+				{
+					id: "3A9F16EC4FD15B5E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "60FB3E082D1CC291"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Он может только вкладывать."
+			tasks: [{
+				id: "7B3385C12CE5F121"
+				item: "ars_nouveau:relay_deposit"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["105A86F70B2C6B39"]
+			description: [
+				"&eЗнак мастерства&r из &5Ars Elemental&r необходим для улучшения базовой брони &5Ars Nouveau&r в комплект, ориентированный на одну стихию. "
+				""
+				"&eЗнак мастерства&r также требует много истока для создания, так что убедитесь, что у вас его в достатке!"
+				""
+				"Существует четыре различных стихии для брони: вода, земля, огонь и воздух. "
+				"Каждый комплект брони имеет свои особые эффекты, которые делают их уникальными. "
+				""
+				"&6Совет:&r Ни одна из &eэссенций&r не будет израсходована при создании в &eкамере впитывания&r, только &eдань уважения диким&r."
+			]
+			id: "0680B29423DD2DD4"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "29554BA63B6972EF"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Последние шаги"
+			tasks: [{
+				id: "5DBF7CF40043162C"
+				item: { Count: 5, id: "ars_elemental:mark_of_mastery" }
+				type: "item"
+			}]
+			title: "Овладение стихиями"
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["25613F7E8248805C"]
+			description: ["&eРеле источника: сновальщик&r может переносить исток на практически бесконечные расстояния, но с потерей части истока в процессе."]
+			id: "4D148871454D861E"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "0C33D48BF1CDFCE9"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Несколько баз? Не проблема!"
+			tasks: [{
+				id: "44EFA6965759B0A4"
+				item: "ars_nouveau:relay_warp"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["25613F7E8248805C"]
+			description: ["&eРеле источника: коллектор&r будет собирать исток из &eкувшинов с истоком&r в небольшом радиусе вокруг себя."]
+			id: "5F63E805BEC232DE"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "474EA09037303D2E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Сбор — его специальность!"
+			tasks: [{
+				id: "389F82D61E5668C8"
+				item: "ars_nouveau:relay_collector"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7461C12182F6AC36"]
+			description: ["Теневой волшебник — это профессия жителя из &5Ars Nouveau&r. В основном он продаёт &eскрижали&r для &eритуальной жаровни&r и &eжетоны фамильяров&r. Его рабочий блок — &eаркановое ядро&r."]
+			icon: "artifacts:villager_hat"
+			id: "0ED06E13C4315ED4"
+			optional: true
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "4942D239F9ECA5AC"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "096280563DF32009"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Не такой уж и теневой, оказывается"
+			tasks: [{
+				id: "0BF372AB99944BBC"
+				title: "Профессия жителя"
+				type: "checkmark"
+			}]
+			title: "Теневой волшебник"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["16A7C49E6CDC24DD"]
+			description: [
+				"&5Ars Nouveau&r имеет очень обширный список возможностей и предметов, от простых до сложных. Наличие &eзасаленного блокнота&r позволит вам узнать о каждом возможном предмете из основного мода, включая дополнения, такие как &5Ars Elemental&r и &5Ars Ocultas&r, который является мостом между &5Ars Nouveau&r и &5Occultism&r!"
+				""
+				"&6Совет:&r &eЗасаленный блокнот&r также доступен в левой части интерфейса вашей &eкниги заклинаний&r."
+			]
+			icon_scale: 0.75d
+			id: "2B0658FFB8B4D18C"
+			optional: true
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "2D95D039F70E8B67"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Здесь всё только о книгах?"
+			tasks: [{
+				id: "5C1EAE2A29D3E84D"
+				item: "ars_nouveau:worn_notebook"
+				type: "item"
+			}]
+			title: "Ваш справочник волшебника"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["06F0A11431B112E4"]
+			description: [
+				"&5Ars Elemental&r добавляет сирену в семью фамильяров! Жетон сирены можно получить, дав дикой сирене морской огурец, а щёлкнув ПКМ по &eпризмарину&r с &eамулетом сирены&r, вы превратите его в &eхрам сирены&r. "
+				""
+				"Подобно дрыгму и вертявке, она может генерировать предметы, если помещена в водную среду, наполненную разнообразной растительной жизнью и животными! Ей также требуется исток и находящийся поблизости &eсундук&r. "
+			]
+			id: "7C99C8BB1A484622"
+			rewards: [
+				{
+					id: "3580172EA8D36D71"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "0BC61CD00B4A4067"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Русалочка?"
+			tasks: [{
+				id: "5AD1E1D8B973FBB7"
+				item: "ars_elemental:siren_charm"
+				type: "item"
+			}]
+			title: "Сирена"
+			x: 11.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["06F0A11431B112E4"]
+			description: [
+				"&5Ars Elemental&r представляет флереканнона в семью фамильяров! Этот фамильяр будет действовать как своего рода турель и стрелять снарядами-вспышками по ближайшим врагам. Флереканнона можно реанимировать, дав ему &eогненный порошок&r или &eсгусток магмы&r, если он будет побеждён."
+				""
+				"&6Совет:&r У него есть прозвище «Фиренандо»."
+			]
+			id: "12DD07F231404534"
+			rewards: [
+				{
+					id: "07511094C2157A29"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "73A5AED53E894173"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Горит!"
+			tasks: [{
+				id: "68D20AD00094575D"
+				item: "ars_elemental:firenando_charm"
+				type: "item"
+			}]
+			title: "Флереканнон"
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["06F0A11431B112E4"]
+			description: [
+				"Фамильяры из &5Ars Nouveau&r и &5Ars Elemental&r имеют применение и вне своих рабочих станций. Книгочей, например, будет собирать для вас предметы и сферы опыта, а викси может усиливать длительность &eзелий&r! "
+				""
+				"У каждого фамильяра своя уникальная роль, будь то бой или исследование. Используйте свой &eзасаленный блокнот&r, чтобы узнать больше о том, что они могут для вас сделать! К ним также можно получить доступ в вашей &eкниге заклинаний&r в любое время!"
+			]
+			icon: "ars_nouveau:ritual_binding"
+			id: "6246436589B4A371"
+			optional: true
+			rewards: [
+				{
+					id: "48DB36C209F11C8E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "200863EC7F642CFD"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Они такие полезные!"
+			tasks: [{
+				id: "58F24FD0F14DF599"
+				item: "ars_nouveau:ritual_binding"
+				type: "item"
+			}]
+			title: "Полезные фамильяры"
+			x: 11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["06F0A11431B112E4"]
+			description: ["&eТалисман аметистового голема&r можно получить, использовав &eритуал пробуждения&r рядом с &eцветущим аметистом&r. Он может выращивать и собирать &eаметист&r, который находится рядом с его домом."]
+			id: "10260F1595649978"
+			rewards: [
+				{
+					id: "24CBA2149ADD304B"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "6407AACD52FA5557"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Он любит аметист!"
+			tasks: [{
+				id: "3BCB967131126A45"
+				item: "ars_nouveau:amethyst_golem_charm"
+				type: "item"
+			}]
+			title: "Аметистовый голем"
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0680B29423DD2DD4"]
+			description: [
+				"&5Ars Elemental&r добавляет четыре разных комплекта брони, и они являются вершиной стихийного мастерства. "
+				""
+				"Каждая броня имеет свой особый бонус за полный комплект, соответствующий четырём стихиям: воде, земле, огню и воздуху. "
+				""
+				"Например, броня &eаэрмана&r позволяет получать меньше урона от падения, а броня &eгеоманта&r насыщает вас, когда вы находитесь под землёй. "
+			]
+			icon: {
+				Count: 1
+				id: "ars_elemental:fire_robes"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3812FAFD073C4D4D"
+			rewards: [
+				{
+					id: "6C7619A58688E6B1"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "194209231C265876"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "ТЕПЕРЬ ты настоящий маг!"
+			tasks: [
+				{
+					id: "4668462F66FFF7A6"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ars_elemental:fire_hat"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_elemental:air_hat"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_elemental:earth_hat"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_elemental:aqua_hat"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Стихийные шляпы"
+					type: "item"
+				}
+				{
+					id: "71EB3E88EDE7D20A"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ars_elemental:aqua_robes"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_elemental:earth_robes"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_elemental:fire_robes"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_elemental:air_robes"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Стихийные мантии"
+					type: "item"
+				}
+				{
+					id: "47A03AB5F46C03D7"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ars_elemental:aqua_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_elemental:earth_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_elemental:fire_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_elemental:air_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Стихийные поножи"
+					type: "item"
+				}
+				{
+					id: "0729C804EB5F4F5F"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ars_elemental:aqua_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_elemental:earth_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_elemental:fire_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_elemental:air_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Стихийные ботинки"
+					type: "item"
+				}
+			]
+			title: "Правильная броня архимага"
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7461C12182F6AC36"]
+			description: [
+				"&5Ars Nouveau&r имеет три базовых комплекта брони, которые улучшаются из ванильных: &eзолотая броня&r в броню колдуна, &eжелезная броня&r в броню арканиста и &eалмазная броня&r в броню боевого мага. "
+				""
+				"Эти комплекты брони дают вам прирост к максимальной мане и регенерации маны, а также позволяют броне самовосстанавливаться за счёт маны."
+				""
+				"&eВолокна чароцвета&r важны для этого улучшения с помощью &eчародейского аппарата&r и могут быть получены, создав &eсемя чароцвета&r и вырастив его для сбора &eчароцвета&r."
+			]
+			icon: {
+				Count: 1
+				id: "ars_nouveau:arcanist_hood"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "17C612A8124DF128"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "4E240BFEBB2F1860"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Выглядеть подобающе"
+			tasks: [
+				{
+					id: "6125BA0D08C2CF01"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ars_nouveau:sorcerer_hood"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:arcanist_hood"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:battlemage_hood"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BE76507A940984F"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ars_nouveau:sorcerer_robes"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:arcanist_robes"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:battlemage_robes"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6CCBFAB458E3558E"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ars_nouveau:sorcerer_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:arcanist_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:battlemage_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02C3D07D23ADA9F5"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ars_nouveau:sorcerer_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:arcanist_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:battlemage_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "1AE06E3FCE761CC0"
+					item: "ars_nouveau:magebloom_fiber"
+					type: "item"
+				}
+			]
+			title: "Правильная одежда мага"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5DD2BA94561922D4"]
+			description: [
+				"Поместив инструмент на &eписарский стол&r и нажав Shift+ПКМ заклинанием из вашей &eкниги заклинаний&r без глифа формы, вы нанесёте текущее заклинание на &eзачарованное оружие&r."
+				""
+				"Каждое из них поставляется с предопределённым глифом формы в зависимости от используемого инструмента. Здесь слишком много информации, чтобы всё объяснить, поэтому я рекомендую заглянуть в &eзасаленный блокнот&r, чтобы узнать больше об этих потрясающих предметах!"
+			]
+			id: "2A7A23DB0184D16F"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "15159EC741F3209D"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Лучше, чем книги заклинаний!"
+			tasks: [{
+				id: "779F9970773FB4EC"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ars_nouveau:wand"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:spell_crossbow"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:enchanters_eye"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:spell_bow"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:enchanters_mirror"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "arsdelight:enchanters_knife"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ars_elemental:spell_horn"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:enchanters_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:enchanters_shield"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Зачарованное оружие"
+				type: "item"
+			}]
+			title: "Зачарованное оружие"
+			x: 14.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["704C7C142ECED1D5"]
+			description: [
+				"&5Ars Nouveau&r добавляет несколько эссенций, а &5Ars Elemental&r вводит &eэссенцию некромантии&r. Они важны и требуют довольно много истока для эффективного создания. "
+				""
+				"Эссенции необходимы для создания большинства &eглифов&r на &eписарском столе&r, а также для создания &eзнака мастерства&r в &eкамере впитывания&r."
+			]
+			id: "094B89CE1A5DCC7E"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "66F4D2ACDD33E62A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Магические кристаллы!"
+			tasks: [{
+				id: "5AE8100C2D356BAC"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ars_elemental:anima_essence"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:abjuration_essence"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:conjuration_essence"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:air_essence"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:earth_essence"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:fire_essence"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:manipulation_essence"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:water_essence"
+							}
+						]
+					}
+				}
+				title: "Эссенции"
+				type: "item"
+			}]
+			title: "Базовые эссенции"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7461C12182F6AC36"]
+			description: [
+				"&5Ars Additions&r добавляет &eистоковый спаунер&r, который позволяет вам создать небольшую ферму мобов, если вы предоставите ему ближайший кувшин с истоком, а также &eудерживающий кувшин&r с существом внутри."
+				""
+				"Количество требуемого истока варьируется в зависимости от моба, поэтому лучше иметь в запасе довольно много истока на всякий случай. Но не волнуйтесь, на боссов это не работает!"
+			]
+			id: "137F9CA72E040B1D"
+			optional: true
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "641327C855C9F5A6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Фермы мобов?"
+			tasks: [{
+				id: "59CE2E49B966C42C"
+				item: "ars_additions:source_spawner"
+				type: "item"
+			}]
+			title: "Магические спаунеры"
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["704C7C142ECED1D5"]
+			description: [
+				"&5Ars Nouveau&r вводит &eварп-свитки&r, которые позволяют вам установить место для телепортации, нажав Shift+ПКМ. "
+				"Вы также можете разместить раму незер-портала из любых &eисходных камней&r и бросить в неё установленный &eварп-свиток&r, чтобы создать постоянный портал в это точное место, при условии, что рядом есть исток для поддержания активации портала при каждом использовании."
+				""
+				"&6Совет:&r &eСтабилизированные варп-свитки&r пропускают этап ручного размещения рамы портала."
+			]
+			id: "00307A4424B56EC2"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "7C771586E5DB8A4B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Телепортация?"
+			tasks: [{
+				id: "14CC8688648E4261"
+				item: {
+					Count: 1
+					id: "ars_nouveau:warp_scroll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Варп-свитки"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7461C12182F6AC36"]
+			description: [
+				"И &5Ars Nouveau&r, и &5Ars Elemental&r добавляют множество магического снаряжения, которое вы можете создавать и использовать. Самые базовые предметы — это &eкольцо скидки&r, &eамулет усиления маны&r и &eамулет регенерации маны&r. "
+				""
+				"Если вы обнаружите, что носите или нуждаетесь в большом количестве этих предметов, смело создавайте &eмешочек для безделушек&r для более удобного доступа с помощью клавиши «J»!"
+				""
+				"Проверьте свой &eзасаленный блокнот&r или документацию в вашей &eкниге заклинаний&r, чтобы увидеть их все!"
+			]
+			icon: "ars_elemental:curio_bag"
+			id: "2DD13087B7BD983C"
+			optional: true
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "36007E94ED86B019"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "ЕЩЁ больше снаряжения?"
+			tasks: [
+				{
+					id: "676486EC637E5E6D"
+					item: "ars_nouveau:ring_of_greater_discount"
+					type: "item"
+				}
+				{
+					id: "14C6A65035B7FF30"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ars_nouveau:amulet_of_mana_boost"
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:amulet_of_mana_regen"
+								}
+							]
+						}
+					}
+					title: "Амулет усиления маны или регенерации"
+					type: "item"
+				}
+				{
+					id: "65299A52EC571F77"
+					item: "ars_elemental:curio_bag"
+					type: "item"
+				}
+			]
+			title: "Магическое снаряжение"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["16A7C49E6CDC24DD"]
+			description: [
+				"Соединив любую &eкнигу заклинаний&r с красителем, вы можете изменить её цвет, а также цвет вашей брони, за исключением брони из &5Ars Elemental&r. Попробуйте сделать её красной для пробы, а затем найдите свой любимый цвет!"
+				""
+				"Помимо изменения цвета вашей &eкниги заклинаний&r, вы также можете изменить цвет снарядов заклинаний в левой части интерфейса вашей &eкниги заклинаний&r!"
+				""
+				"&6Совет: &rБольшинство настроек кастомизации находятся в левой части интерфейса вашей книги заклинаний, такие как звуки снарядов и призыв фамильяров. Также там есть встроенный &eзасаленный блокнот&r."
+			]
+			id: "5E0498ECFD150E14"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "3B2897AB43E6F12C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Я могу поменять цвет?"
+			tasks: [{
+				id: "24BA393589087690"
+				item: {
+					Count: 1
+					id: "ars_nouveau:novice_spell_book"
+					tag: {
+						color: 14
+					}
+				}
+				type: "item"
+			}]
+			title: "Радужная книга заклинаний"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["06F0A11431B112E4"]
+			description: [
+				"&eЖезл владычества&r позволяет вам связывать фамильяров с их соответствующими рабочими станциями или другими необходимыми блоками, а также связывать &eсочетания&r с &eреле источника&r. "
+				""
+				"Самый распространённый способ связывания — простое нажатие ПКМ, но вам может потребоваться нажать Shift+ПКМ при работе с сундуками или другими хранилищами. Ещё один Shift+ПКМ очищает связи с целевого блока."
+			]
+			icon: {
+				Count: 1
+				id: "ars_additions:advanced_dominion_wand"
+				tag: { }
+			}
+			id: "61E3C158682EB634"
+			optional: true
+			subtitle: "Основы жезла владычества"
+			tasks: [{
+				id: "30B12A62366FBD5A"
+				title: "Как это работает...?"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			description: ["&5Ars Ocultas&r устраняет разрыв между &5Occultism&r и &5Ars Nouveau&r, позволяя джиннам из &5Occultism&r в &eудерживающих кувшинах&r продолжать свою работу!"]
+			icon: "occultism:book_of_binding_djinni"
+			id: "25A5E3F55E54749E"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "4AAB85FA873E8D91"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Потусторонние ритуалы"
+			tasks: [{
+				id: "6B4CEA9CF82F9C97"
+				title: "Ars Ocultas"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			id: "1A39D87C0BC3F4AE"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "4EB6BBB537C96448"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "rsquare"
+			subtitle: "АвтоМАГИческое колдовство"
+			tasks: [{
+				id: "4D943DC323B39C03"
+				item: "ars_nouveau:basic_spell_turret"
+				type: "item"
+			}]
+			title: "Заклинательные турели!"
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1A39D87C0BC3F4AE"]
+			description: ["&eЗачарованные заклинательные турели&r используют заклинания за половину обычной стоимости истока."]
+			id: "2A9EBE3F6DE9FC1B"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "06AA70CAE11D4D96"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Более дешёвые турели"
+			tasks: [{
+				id: "56843191369E345A"
+				item: "ars_nouveau:spell_turret"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1A39D87C0BC3F4AE"]
+			description: [
+				"&eЗаклинательные турели с таймером&r применяют заклинание с коротким интервалом в секундах. Щелчок ПКМ увеличит время, а ЛКМ — уменьшит. Установка на 0 или подача сигнала редстоуна отключит таймер."
+				""
+				"Вы можете заблокировать эту турель с помощью &eжезла владычества&r, чтобы предотвратить изменение таймера!"
+				""
+				"Она также будет бесплатно применять заклинания с формами «Снаряд», «Прикосновение» и «Редстоун»!"
+			]
+			id: "3085034A220B1B37"
+			subtitle: "Турели с таймером"
+			tasks: [{
+				id: "233233A97698E1EF"
+				item: "ars_nouveau:timer_spell_turret"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1A39D87C0BC3F4AE"]
+			description: ["&eРегулируемая заклинательная турель&r — это небольшое улучшение по сравнению с &eбазовой заклинательной турелью&r. Вы можете изменить направление, в котором она смотрит, с помощью &eжезла владычества&r, щёлкнув ПКМ по нужному блоку."]
+			id: "31A433CABF46DDAA"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "1EDB390893829CB3"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Немного лучше, чем турель"
+			tasks: [{
+				id: "4CBFF12E0A4B763C"
+				item: "ars_nouveau:rotating_spell_turret"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1A39D87C0BC3F4AE"]
+			description: [
+				"Эти &eстихийно-насыщенные турели&r намного сильнее других!"
+				""
+				"Они могут применять заклинания со скидкой 65%, а также выполнять комбинации заклинаний, которые можно было бы использовать в сочетании с различными &eстихийными фокусами&r, которые предоставляет &5Ars Elemental&r для вашего собственного использования!"
+			]
+			id: "4D9B3259CB30B9F2"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "1D277CCE7B7953CA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Ещё больше улучшений для турелей?"
+			tasks: [{
+				id: "1D13DC8E5C666221"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ars_elemental:earth_turret"
+							}
+							{
+								Count: 1b
+								id: "ars_elemental:water_turret"
+							}
+							{
+								Count: 1b
+								id: "ars_elemental:fire_turret"
+							}
+							{
+								Count: 1b
+								id: "ars_elemental:air_turret"
+							}
+							{
+								Count: 1b
+								id: "ars_elemental:manipulation_turret"
+							}
+						]
+					}
+				}
+				title: "Стихийные турели"
+				type: "item"
+			}]
+			title: "Специализированные турели"
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"&5Ars Delight&r добавляет довольно много продуктов, которые помогут вам увеличить общую силу заклинаний и регенерацию маны! "
+				""
+				"Некоторые, как &eчай из мендостина&r (mendosteen tea), позволяют восстанавливать ману во время исцеления, в то время как еда, дающая эффект дикого, увеличивает вашу силу заклинаний, а также ману и её регенерацию!"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "arsdelight:enchanters_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1029FDFB1056B5CE"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "4909E5973995E5A6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Лучшая магическая еда!"
+			tasks: [{
+				id: "74925BE79DC4D0B3"
+				title: "Ars Delight!"
+				type: "checkmark"
+			}]
+			title: "Ars Delight"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5DD2BA94561922D4"]
+			description: [
+				"Чтобы создать &eкнигу заклинаний архимага&r, а также многие другие предметы за пределами &5Ars Nouveau&r, вам понадобится множество материалов из Энда, одним из которых являются &eслитки эндериума&r. "
+				""
+				""
+				"{ \"text\": \"Ритуал предсказания\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"192CD8BC280620AB\" } }"
+			]
+			id: "143F454F976B2E9E"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "0E7CD7EB4DCB3B8D"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Так... где же он?"
+			tasks: [{
+				id: "31EC4072C269724F"
+				item: "majruszsdifficulty:enderium_shard_ore"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3EC7BF21C76FF1C2"]
+			description: [
+				" &eРитуал пробуждения&r используется для нескольких вещей, таких как создание стражей для вашей базы из древних деревьев, а также создание &eталисманов книгочея&r и аметистовых големов!"
+				""
+				""
+				"{ \"text\": \"Талисман книгочея\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5317ADE87D16A500\" } }"
+				""
+				"{ \"text\": \"Аметистовый голем\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"10260F1595649978\" } }"
+			]
+			id: "5D0B7D274DD636C9"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "7F61E198BC6515AE"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Начало фамильяров"
+			tasks: [{
+				id: "4779F358E1960E97"
+				item: "ars_nouveau:ritual_awakening"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["58594005824B1BBE"]
+			description: [
+				"Ритуалы &5Ars Nouveau&r позволяют вам делать довольно много вещей, как упоминалось в предыдущем задании, но это далеко не всё.... "
+				""
+				"В следующих заданиях я объясню различные наиболее распространённые ритуалы и лучший способ их использования!"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "ars_nouveau:ritual_brazier"
+			id: "3EC7BF21C76FF1C2"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "41875D0B6C1831CB"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "rsquare"
+			subtitle: "Это что, Occultism?"
+			tasks: [{
+				id: "6391FEE6B9BEBA87"
+				title: "Базовые ритуалы"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3EC7BF21C76FF1C2"]
+			description: [
+				"&eСкрижаль удержания&r позволяет помещать существ в &eудерживающий кувшин&r. "
+				""
+				"Но будьте осторожны, потому что в &eудерживающий кувшин&r будет помещено любое существо, и я имею в виду ЛЮБОЕ, даже стрелы, выпущенные из лука, или случайные предметы на земле!"
+				""
+				"&6Совет:&r Заклинание «Прикосновение - Отпущение» удалит всё, что находится в &eудерживающем кувшине&r, так что не волнуйтесь, если поймаете не то! Только не положите туда случайно свою &eкнигу заклинаний&r....."
+			]
+			id: "3FE00B019479D14E"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "5047BD2B443C0FBA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Покемоны с лишними шагами!"
+			tasks: [{
+				id: "774BBCEB930E4B88"
+				item: "ars_nouveau:ritual_containment"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3EC7BF21C76FF1C2"]
+			description: [
+				"&eСкрижаль поиска структур&r позволяет находить некоторые ванильные структуры, такие как город Энда или бастион. "
+				""
+				"Её также можно использовать для поиска неуловимой тайной библиотеки для всех ваших нужд &5Ars Nouveau&r!"
+			]
+			id: "736892A6C5BF10B1"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "30578C83F840399A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Предсказание, но для структур!"
+			tasks: [{
+				id: "62A9FDDDCD18C749"
+				item: "ars_additions:ritual_locate_structure"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3EC7BF21C76FF1C2"]
+			description: [
+				"&eСкрижаль призыва дикого&r позволяет призвать случайное количество различных диких зверей: сталкера, стража и охотника."
+				""
+				"Нет способа повлиять на появление конкретного дикого зверя, но если вы бросите &eшип дикаря&r, &eрог дикаря&r и &eкрыло дикаря&r на ритуальную жаровню после вставки этой скрижали, вам лучше приготовиться к бою!"
+			]
+			id: "158B5CD496403019"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "4E2068D67494A01F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Дикие звери?"
+			tasks: [{
+				id: "472AA02B77854E67"
+				item: "ars_nouveau:ritual_wilden_summon"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3EC7BF21C76FF1C2"]
+			description: [
+				"&eСкрижаль полёта&r — один из самых полезных ритуалов, поскольку он позволяет постоянно летать в творческом режиме вокруг вашей базы в определённом радиусе! "
+				""
+				"Эффект длится минуту, но пока вы находитесь в радиусе примерно 3x3 чанка, он всегда будет сбрасываться! Просто убедитесь, что &eритуальная жаровня&r имеет постоянный приток истока!"
+			]
+			id: "799D1207E689F5D0"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "0105F235848A5D28"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Я могу летать!"
+			tasks: [{
+				id: "29AC407B17A38508"
+				item: "ars_nouveau:ritual_flight"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3EC7BF21C76FF1C2"]
+			description: [
+				"&eСкрижаль предсказания&r позволяет находить практически всё что угодно, но наибольшую пользу она приносит при поиске труднодоступных руд, таких как &eэндериумная руда&r из Энда или &eдревние обломки&r!"
+				""
+				"Вы ДОЛЖНЫ иметь саму руду, чтобы предсказывать её, то есть вы уже должны были использовать «Шёлковое касание» на руде, чтобы использовать её в &eритуальной жаровне&r. "
+				""
+				"Эффект длится совсем недолго, но если вы добавите &eэссенцию манипуляции&r вместе с рудой, длительность эффекта увеличится до 15 минут!"
+			]
+			id: "192CD8BC280620AB"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "286D6E2D428AB49A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Практически X-Ray!"
+			tasks: [{
+				id: "6818FBEF403F5205"
+				item: "ars_nouveau:ritual_scrying"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+	]
+	title: "{chapter.34.title}"
+}

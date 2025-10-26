@@ -1,0 +1,540 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "vampires_cookbook"
+	group: "6ACD28698B988220"
+	icon: {
+		Count: 1
+		id: "minecraft:written_book"
+		tag: {
+			AntiqueInk: 1b
+			author: "Cheferatu"
+			display: {
+				Lore: ["[\"\",{\"text\":\"Это поваренная книга!\",\"italic\":false,\"color\":\"white\"}]"]
+				Name: "[\"\",{\"text\":\"Служить человеку\",\"italic\":false,\"color\":\"red\"}]"
+			}
+			generation: 3
+			pages: [
+				"{\"font\":\"supplementaries:antiquable\",\"extra\":[{\"text\":\"\\n\\n\\n\\n\\n\"},{\"color\":\"dark_red\",\"text\":\"Для \"},{\"color\":\"dark_red\",\"insertion\":\"animandan\",\"clickEvent\":{\"action\":\"suggest_command\",\"value\":\"/tell animandan \"},\"hoverEvent\":{\"action\":\"show_entity\",\"contents\":{\"type\":\"minecraft:player\",\"id\":\"98feea67-d965-4233-b106-fd482ad87b2f\",\"name\":{\"text\":\"animandan\"}}},\"extra\":[{\"text\":\"animandan\"}],\"text\":\"\"},{\"color\":\"dark_red\",\"text\":\"\\nНадеюсь, тебе понравятся эти рецепты так же, как и мне.\\n\\nС любовью,\\nТвой двоюродный дедушка Влад\"}],\"text\":\"\"}"
+				"{\"italic\":true,\"color\":\"black\",\"font\":\"supplementaries:antiquable\",\"text\":\"(Проверьте свою книгу заданий)\"}"
+			]
+			resolved: 1b
+			title: "Служить человеку"
+		}
+	}
+	id: "63A5D10D86A18BFD"
+	images: [
+		{
+			color: 7996677
+			height: 15.0d
+			image: "minecraft:textures/gui/book.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 2.226530612244929d
+			y: 5.2755102040816055d
+		}
+		{
+			height: 10.0d
+			image: "modpack:textures/barry_no_hat_no_mouth.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			height: 1.6d
+			image: "vampirism:textures/skills/vampire_lord.png"
+			rotation: -1.0d
+			width: 1.4d
+			x: -3.2257369614512115d
+			y: 8.909863945578216d
+		}
+		{
+			height: 5.0d
+			image: "ratatouille:item/chef_hat_with_goggles"
+			rotation: 20.0d
+			width: 7.0d
+			x: -2.094784580498832d
+			y: 6.493197278911552d
+		}
+		{
+			height: 1.5d
+			image: "modpack:textures/barry_ear.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -1.2185941043083517d
+			y: 7.174149659863929d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1A2702FA5DD5FFE5"]
+			description: ["Используйте полные бутылочки с кровью, чтобы сделать кровяной сироп (глаза на бутылочке сменят цвет с красного на жёлтый), который является основой для всех этих рецептов."]
+			id: "3A4EFF59F6978215"
+			tasks: [
+				{
+					id: "5049C56C6870A6EC"
+					item: "vampiresdelight:blood_syrup"
+					type: "item"
+				}
+				{
+					id: "4BD0F54034D7C671"
+					item: "vampiresdelight:bagel_sandwich"
+					type: "item"
+				}
+				{
+					id: "06559E9B3D4AF5FA"
+					item: "vampiresdelight:cursed_cupcake"
+					type: "item"
+				}
+				{
+					id: "3C01319A669C8307"
+					item: "vampiresdelight:blood_hot_dog"
+					type: "item"
+				}
+				{
+					id: "7DC52002E9857A27"
+					item: "vampiresdelight:dark_ice_cream"
+					type: "item"
+				}
+				{
+					id: "7806E9B7C893DB8D"
+					item: {
+						Count: 1
+						id: "vampiresdelight:blood_wine_bottle"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "214DA230DB6FBC92"
+					item: "vampiresdelight:blood_wine_glass"
+					type: "item"
+				}
+				{
+					id: "299DA03E2FA9AAE3"
+					item: "vampiresdelight:blood_pie"
+					type: "item"
+				}
+				{
+					id: "0CD7FE3F6C0E3C50"
+					item: "vampiresdelight:blood_pie_slice"
+					type: "item"
+				}
+			]
+			title: "Рецепты с кровяным сиропом"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["664C513761CC4B0E"]
+			description: [
+				"Если ваш прицел превращается в вампирские клыки при наведении на существо, вы можете зажать клавишу вампиризма «&l{keys.vampirism.suck}&r» (по умолчанию V), чтобы выпить его кровь."
+				"Если ваша шкала крови полна, и у вас есть бутылочка, она начнёт наполняться."
+				"Когда глаза на ней сменят цвет с жёлтого на красный, бутылочка полна."
+				"(Если у вас несколько ванильных бутылочек, при наполнении иногда могут возникать странности,"
+				"когда несколько бутылочек наполняются понемногу вместо того, чтобы заполняться по одной."
+				"Обычно это можно исправить, взяв в руку одну из бутылочек с кровью, и они начнут наполняться"
+				"правильно. Возможно, будет наполняться не та, что вы держите, но кровь должна идти в одну из них)"
+			]
+			icon: {
+				Count: 1
+				id: "vampirism:blood_bottle"
+				tag: {
+					Damage: 9
+				}
+			}
+			id: "1A2702FA5DD5FFE5"
+			tasks: [
+				{
+					id: "77F8FB83E4CEE0AC"
+					item: "minecraft:glass_bottle"
+					type: "item"
+				}
+				{
+					id: "293554B80DC2D391"
+					item: {
+						Count: 1
+						id: "vampirism:blood_bottle"
+						tag: {
+							Damage: 9
+						}
+					}
+					match_nbt: true
+					title: "Бутылочка с кровью (полная)"
+					type: "item"
+				}
+			]
+			title: "Бутылочка с кровью"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A2702FA5DD5FFE5"]
+			description: [
+				"Создайте кровавые кирпичи из тёмного камня, а затем разместите их на земле вокруг ямы 2x2, как показано на изображении ниже. Нажмите ПКМ по порталу бутылочкой с кровью вампира (убивайте вампиров колом), чтобы активировать его."
+				""
+				""
+				"{image:modpack:textures/vampire_forest_portal.png width:100 height:100 align:center fit:true}"
+			]
+			id: "025168EE2F0E16E5"
+			tasks: [
+				{
+					count: 8L
+					id: "4165682641473750"
+					item: { Count: 8, id: "vampirism:bloody_dark_stone_bricks" }
+					type: "item"
+				}
+				{
+					id: "1488B9EBBC563A24"
+					item: "vampirism:vampire_blood_bottle"
+					type: "item"
+				}
+				{
+					dimension: "mce:the_vampire_forest"
+					id: "0B3904FC15E54D37"
+					type: "dimension"
+				}
+			]
+			title: "Измерение «Вампирский лес»"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["025168EE2F0E16E5"]
+			description: ["Не нажимайте ПКМ по орхидеям! «ПКМ для сбора» ничего не даёт. Вам нужно их сломать, чтобы подобрать."]
+			id: "20110C4554F4033E"
+			tasks: [{
+				id: "02AAF8C3E3AE28EA"
+				item: "vampirism:vampire_orchid"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["20110C4554F4033E"]
+			description: [
+				"Нарежьте орхидею на разделочной доске, чтобы получить лепестки и семена."
+				""
+				"Вскопайте проклятую землю мотыгой, чтобы посадить семена орхидеи."
+			]
+			icon: "vampiresdelight:orchid_petals"
+			id: "632C96815CFBE181"
+			tasks: [
+				{
+					id: "3EDE12AA94BA985A"
+					item: "vampiresdelight:orchid_petals"
+					type: "item"
+				}
+				{
+					id: "7ED1EFDD210ED38B"
+					item: "vampiresdelight:orchid_seeds"
+					type: "item"
+				}
+				{
+					id: "7C8A7CDBED2DD324"
+					item: "vampirism:cursed_earth"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["632C96815CFBE181"]
+			id: "26797B79D6276164"
+			tasks: [
+				{
+					id: "6FF213D3462E1293"
+					item: "vampiresdelight:orchid_tea"
+					type: "item"
+				}
+				{
+					id: "2C1213BD23455FA1"
+					item: "vampiresdelight:orchid_cookie"
+					type: "item"
+				}
+				{
+					id: "44DCB06A9061CCC3"
+					item: "vampiresdelight:orchid_eclair"
+					type: "item"
+				}
+				{
+					id: "74A0388EF9D49100"
+					item: "vampiresdelight:orchid_ice_cream"
+					type: "item"
+				}
+				{
+					id: "663D08C737A05F0C"
+					item: "vampiresdelight:orchid_cream_soup"
+					type: "item"
+				}
+				{
+					id: "3999B611546CAB43"
+					item: "vampiresdelight:orchid_curry"
+					type: "item"
+				}
+				{
+					id: "5AF911DCECE296B0"
+					item: "vampiresdelight:orchid_cake"
+					type: "item"
+				}
+				{
+					id: "3A9259D900C71FFC"
+					item: "vampiresdelight:orchid_cake_slice"
+					type: "item"
+				}
+			]
+			title: "Рецепты с орхидеей"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			description: ["Вся еда в этой главе может пополнить вашу шкалу крови."]
+			id: "664C513761CC4B0E"
+			invisible: true
+			tasks: [{
+				id: "529C96D17621CE91"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						AntiqueInk: 1b
+						author: "Cheferatu"
+						display: {
+							Lore: ["[\"\",{\"text\":\"Это поваренная книга!\",\"italic\":false,\"color\":\"white\"}]"]
+							Name: "[\"\",{\"text\":\"Служить человеку\",\"italic\":false,\"color\":\"red\"}]"
+						}
+						generation: 3
+						pages: [
+							"{\"font\":\"supplementaries:antiquable\",\"extra\":[{\"text\":\"\\n\\n\\n\\n\\n\"},{\"color\":\"dark_red\",\"text\":\"Для \"},{\"color\":\"dark_red\",\"selector\":\"@s\"},{\"color\":\"dark_red\",\"text\":\"\\nНадеюсь, тебе понравятся эти рецепты так же, как и мне.\\n\\nС любовью,\\nТвой двоюродный дедушка Влад\"}],\"text\":\"\"}"
+							"{\"italic\":true,\"color\":\"black\",\"font\":\"supplementaries:antiquable\",\"text\":\"(Проверьте свою книгу заданий)\"}"
+						]
+						title: "Служить человеку"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["664C513761CC4B0E"]
+			description: ["Вы всё ещё можете есть обычную еду, чтобы получить дополнительные сердца!"]
+			icon: "solcarrot:food_book"
+			id: "70DCF3EDC017EAE8"
+			rewards: [{
+				id: "36926AA4CE9CC44F"
+				item: "solcarrot:food_book"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C6B41EDC4E39A1B"
+				type: "checkmark"
+			}]
+			title: "Совет!"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"3A4EFF59F6978215"
+				"632C96815CFBE181"
+			]
+			description: ["Эти рецепты требуют как кровяного сиропа, так и ингредиентов из вампирского леса"]
+			id: "1679CC9A45A1C9FD"
+			tasks: [
+				{
+					id: "69176AE98EE8EE58"
+					item: "vampiresdelight:tricolor_dango"
+					type: "item"
+				}
+				{
+					id: "7A91021C3D6EE63B"
+					item: "vampiresdelight:mulled_wine_glass"
+					type: "item"
+				}
+			]
+			title: "Смешанные рецепты"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["025168EE2F0E16E5"]
+			description: ["Вы можете использовать костную муку на чёрных грибах, чтобы вырастить их гигантскую версию."]
+			id: "6810C8951945CA37"
+			tasks: [
+				{
+					id: "4142E1D6F630577D"
+					item: "vampiresdelight:black_mushroom"
+					type: "item"
+				}
+				{
+					id: "59983A757521D4E1"
+					item: "vampiresdelight:black_mushroom_soup"
+					type: "item"
+				}
+				{
+					id: "5AAB688C8B4B9DEA"
+					item: "vampiresdelight:black_mushroom_noodles"
+					type: "item"
+				}
+			]
+			title: "Рецепты с чёрными грибами"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["025168EE2F0E16E5"]
+			description: [
+				"Получайте чистую кровь, убивая баронов-вампиров в вампирском лесу."
+				""
+				"Используйте миску на размещённом странном желе, чтобы съесть его. Даёт эффект защиты от солнца!"
+			]
+			id: "52A3630923A752EA"
+			tasks: [
+				{
+					id: "76C398FAB2C2300A"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "vampirism:pure_blood"
+						}
+					}
+					title: "Любая чистая кровь"
+					type: "item"
+				}
+				{
+					id: "4720641570AC4779"
+					item: "vampiresdelight:pure_sorbet"
+					type: "item"
+				}
+				{
+					id: "682831D1E5324BBA"
+					item: "vampiresdelight:weird_jelly_block"
+					type: "item"
+				}
+				{
+					id: "35A888AFE7716281"
+					item: "vampiresdelight:weird_jelly"
+					type: "item"
+				}
+			]
+			title: "Рецепты с чистой кровью"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["664C513761CC4B0E"]
+			description: [
+				"Поместите сырое мясо (подходят многие ванильные и модовые виды мяса) или человеческие сердца в кровавый измельчитель, чтобы получить нечестивую кровь. Пропустите её через кровавый фильтр, чтобы очистить. Они могут забирать из резервуаров/инвентарей над ними, так что их можно объединить для автоматизации. Нажмите ПКМ бутылочкой, чтобы забрать кровь."
+				""
+				"{image:modpack:textures/autoblood.png width:462 height:624 align:center fit:true}"
+			]
+			icon: "vampirism:blood_grinder"
+			id: "6C2F188312C7DED0"
+			rewards: [
+				{
+					id: "07FF919C2CE79CD8"
+					item: "vampirism:blood_container"
+					type: "item"
+				}
+				{
+					id: "212D8C4B13E3568A"
+					item: "vampirism:blood_sieve"
+					type: "item"
+				}
+			]
+			subtitle: "Для миньонов-вампиров, которые не могут пить кровь."
+			tasks: [
+				{
+					id: "2B9458B71FED47B9"
+					item: "vampirism:blood_container"
+					type: "item"
+				}
+				{
+					id: "669F0D1E1C13FDB7"
+					item: "vampirism:blood_grinder"
+					type: "item"
+				}
+			]
+			title: "Кровь из мяса"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["664C513761CC4B0E"]
+			description: ["Убейте жителя или охотника ножом из Farmer's Delight, чтобы получить глаза."]
+			icon: "vampiresdelight:human_eye"
+			id: "34B1C00F9AAE2671"
+			tasks: [
+				{
+					id: "769B04E7A47D46DB"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "farmersdelight:tools/knives"
+						}
+					}
+					title: "Любой нож из Farmer's Delight"
+					type: "item"
+				}
+				{
+					id: "425F4CBC636EFDE8"
+					item: "vampiresdelight:human_eye"
+					title: "Человеческий глаз"
+					type: "item"
+				}
+				{
+					id: "7D1726975F813253"
+					item: "vampiresdelight:eyes_on_stick"
+					type: "item"
+				}
+				{
+					id: "7BC3731D40225D44"
+					item: "vampiresdelight:eye_croissant"
+					type: "item"
+				}
+			]
+			title: "Рецепты с человеческим глазом"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"34B1C00F9AAE2671"
+				"26797B79D6276164"
+				"3A4EFF59F6978215"
+				"6810C8951945CA37"
+				"52A3630923A752EA"
+				"1679CC9A45A1C9FD"
+			]
+			icon: "titles:title_scroll_uncommon"
+			id: "58977C85420776DF"
+			rewards: [{
+				command: "/titles add {p} titles:vampire_gourmand"
+				console: true
+				elevate_perms: true
+				icon: "titles:title_scroll_uncommon"
+				id: "6EC2D8D6D62DC84E"
+				title: "&eОткрыть титул:&r Вампир-гурман"
+				type: "command"
+			}]
+			tasks: [{
+				id: "7DC899986C966C04"
+				type: "checkmark"
+			}]
+			title: "Приготовлены все рецепты!"
+			x: 0.36938775510206767d
+			y: 5.018367346938753d
+		}
+	]
+	title: "&2Поваренная книга вампира"
+}

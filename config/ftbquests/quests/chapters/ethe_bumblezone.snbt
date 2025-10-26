@@ -1,0 +1,1229 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ethe_bumblezone"
+	group: "0194595A09DF4755"
+	icon: {
+		Count: 1
+		id: "the_bumblezone:honey_compass"
+		tag: { }
+	}
+	id: "00005B70A9F151E6"
+	images: [
+		{
+			height: 0.6d
+			image: "the_bumblezone:block/luminescent_wax/channel_light_red"
+			rotation: 180.0d
+			width: 2.5d
+			x: -5.75d
+			y: 6.53d
+		}
+		{
+			height: 0.6d
+			image: "the_bumblezone:block/luminescent_wax/channel_light_purple"
+			rotation: 180.0d
+			width: 2.5d
+			x: -5.75d
+			y: 7.53d
+		}
+		{
+			height: 0.6d
+			image: "the_bumblezone:block/luminescent_wax/channel_light_blue"
+			rotation: 180.0d
+			width: 2.5d
+			x: -5.75d
+			y: 8.53d
+		}
+		{
+			height: 0.6d
+			image: "the_bumblezone:block/luminescent_wax/channel_light_green"
+			rotation: 180.0d
+			width: 2.5d
+			x: -5.75d
+			y: 9.53d
+		}
+		{
+			height: 0.6d
+			image: "the_bumblezone:block/luminescent_wax/channel_light_yellow"
+			rotation: 180.0d
+			width: 2.5d
+			x: -5.75d
+			y: 10.53d
+		}
+		{
+			height: 0.6d
+			image: "the_bumblezone:block/luminescent_wax/channel_light_white"
+			rotation: 180.0d
+			width: 2.5d
+			x: -5.75d
+			y: 11.53d
+		}
+		{
+			height: 2.4d
+			image: "the_bumblezone:block/royal_jelly_fluid_flow"
+			rotation: 0.0d
+			width: 0.65d
+			x: 0.02d
+			y: 5.25d
+		}
+		{
+			height: 2.4d
+			image: "the_bumblezone:block/royal_jelly_fluid_flow"
+			rotation: -90.0d
+			width: 0.65d
+			x: 0.75d
+			y: 6.0d
+		}
+		{
+			height: 2.4d
+			image: "the_bumblezone:block/honey_fluid_flow"
+			rotation: 0.0d
+			width: 0.65d
+			x: 0.02d
+			y: 3.75d
+		}
+		{
+			height: 2.4d
+			image: "the_bumblezone:block/honey_fluid_flow"
+			rotation: 0.0d
+			width: 0.65d
+			x: 0.02d
+			y: 2.25d
+		}
+		{
+			height: 2.4d
+			image: "the_bumblezone:block/honey_fluid_flow"
+			rotation: 0.0d
+			width: 0.65d
+			x: 0.02d
+			y: 0.75d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Измерение пчёл!"
+				""
+				"Войдите в &6Жужжилище&r, бросив &eэндер-жемчуг&r в &eулей&r или &eпчелиное гнездо&r, или втолкнув себя внутрь &eпоршнем&r."
+				""
+				"&8Автор главы: rngmini773"
+			]
+			id: "7488E7B1948C809A"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "548B71F732128316"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6EDB96B54F5E5658"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6AB8D99772A07FB1"
+					item: "create:honeyed_apple"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "<wave>Войдите в Жужжилище"
+			tasks: [{
+				dimension: "the_bumblezone:the_bumblezone"
+				icon: {
+					Count: 1
+					id: "the_bumblezone:bumble_bee_chestplate_trans_1"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2FAE0305FEC45399"
+				type: "dimension"
+			}]
+			title: "&eТОЛЬКО НЕ ПЧЁЛЫ!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7488E7B1948C809A"]
+			description: ["В &6Жужжилище&r бывает довольно темно, поэтому, если возможно, вам стоит обзавестись какой-либо формой &9ночного зрения&r, если вы планируете остаться здесь надолго."]
+			hide_dependency_lines: true
+			icon: "minecraft:writable_book"
+			id: "183BF4178CCE30CB"
+			progression_mode: "flexible"
+			shape: "hexagon"
+			subtitle: "Кому вообще нужно видеть"
+			tasks: [{
+				id: "1E94000E7441E8B4"
+				type: "checkmark"
+			}]
+			title: "&eИнформация:&r Ночное зрение"
+			x: -0.5d
+			y: -1.9d
+		}
+		{
+			dependencies: ["7488E7B1948C809A"]
+			description: ["Чтобы выбраться из &6Жужжилища&r, вам нужно копать прямо вверх или вниз, пока не найдёте &eблок пчелиного воска&r, и всего через несколько блоков вы либо выпадете, либо вылезете из &6измерения&r."]
+			hide_dependency_lines: true
+			icon: "minecraft:writable_book"
+			id: "03EF408636BBC631"
+			progression_mode: "flexible"
+			shape: "hexagon"
+			subtitle: "Уходим :("
+			tasks: [{
+				id: "6F604C70D55D3BB6"
+				type: "checkmark"
+			}]
+			title: "&eИнформация:&r Побег"
+			x: 0.5d
+			y: -1.9d
+		}
+		{
+			dependencies: ["7488E7B1948C809A"]
+			description: [
+				"Первый шаг в вашем задании — создать и использовать &eмедовый компас&r, чтобы найти &eячеистый лабиринт&r."
+				""
+				"Также его можно использовать для отслеживания местоположения &eулья&r или &eпчелиного гнезда&r."
+			]
+			id: "1C26E3AFBAE74589"
+			progression_mode: "flexible"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "4E990910740BEDBC"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			subtitle: "Создайте &eмедовый компас&r"
+			tasks: [{
+				id: "1E8E95A3C7C84687"
+				item: {
+					Count: 1
+					id: "the_bumblezone:honey_compass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&eМедовый компас"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C26E3AFBAE74589"]
+			description: [
+				"В &eячеистом лабиринте&r вы, скорее всего, ищете один конкретный предмет — &eмедовый компас - королевская колонна!&r "
+				""
+				"Однако здесь вы можете найти и другие предметы из &eЖужжилища&r, такие как инструменты, оружие, броню или даже компасы к другим структурам!"
+				""
+				"Но будьте осторожны, так как вход в &eячеистый лабиринт&r без эффекта &b«Защита улья»&r наложит на вас эффект &c«Гнев улья»&r."
+			]
+			icon: "minecraft:honeycomb_block"
+			id: "73001AA56287C367"
+			progression_mode: "flexible"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "4F2CC5745E3254F1"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			subtitle: "Будьте осторожны"
+			tasks: [{
+				icon: "minecraft:honeycomb_block"
+				id: "214D331FD961D639"
+				structure: "the_bumblezone:cell_maze"
+				title: "Найдите &eячеистый лабиринт"
+				type: "structure"
+			}]
+			title: "&eЯчеистый лабиринт"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7488E7B1948C809A"]
+			description: [
+				"&b«Защита улья»&r — это эффект из &6Жужжилища&r, который делает так, что пчёлы больше на вас не злятся, что может быть очень полезно при исследовании &eячеистого лабиринта&r. Он также может один раз предотвратить наложение &c«Гнева улья»&r в обмен на снятие эффекта. Его можно с шансом получить, покормив &eпчёл&r, &eшмеллиафанов&r или &eблок бродильный сот&r медовыми продуктами."
+				""
+				"&c«Гнев улья»&r — это другой эффект из &6Жужжилища&r, который заставляет пчёл злиться на вас в любом случае. Его можно получить, атаковав &eпчёл&r или &dпчелиную королеву&r, или разрушив &eмедовые блоки&r или &eблок бродильныйх сот&r. Он не накладывается при разрушении &eсотовых&r или &eмедовых кристальных&r блоков!"
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:writable_book"
+			id: "676BFCE9AAB3521B"
+			progression_mode: "flexible"
+			shape: "hexagon"
+			subtitle: "«Почему они одновременно и проклинают, и защищают?»"
+			tasks: [{
+				id: "543019A6BADFA9C5"
+				type: "checkmark"
+			}]
+			title: "&eИнформация:&r &bЗащита&r и &cпроклятие&r улья"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["73001AA56287C367"]
+			description: ["Этот компас укажет вам направление к структуре, где обитает &dпчелиная королева&r, — &eкоролевской колонне&r!"]
+			id: "3EB456A88C1713FE"
+			progression_mode: "flexible"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "4068CBFACCE2A8D4"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			subtitle: "Отправляемся к королеве!"
+			tasks: [{
+				id: "09C0F93B2731E6D4"
+				item: {
+					Count: 1
+					id: "the_bumblezone:honey_compass"
+					tag: {
+						CompassType: "structure"
+						CustomDescription: "item.the_bumblezone.honey_compass_throne_description"
+						CustomName: "item.the_bumblezone.honey_compass_throne_structure"
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "&eМедовый компас - Королевская колонна!"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3EB456A88C1713FE"]
+			description: [
+				"Здесь обитает &dпчелиная королева&r, и здесь начинается ваше настоящее приключение."
+				""
+				"После того как вы хотя бы раз поторгуете с &dкоролевой&r (список предметов для обмена можно найти в JEI, проще всего будет использовать сотовые блоки), вы разблокируете ветку достижений &d«Королевские желания»&r."
+			]
+			icon: "the_bumblezone:royal_jelly_block"
+			id: "7DFC37D2D71A3A4B"
+			progression_mode: "flexible"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "46101D21D8945F05"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			subtitle: "Королевская особа!"
+			tasks: [{
+				icon: "the_bumblezone:royal_jelly_block"
+				id: "7FA3E966AE1685CC"
+				structure: "the_bumblezone:throne_pillar"
+				title: "Найдите &eкоролевскую колонну"
+				type: "structure"
+			}]
+			title: "&eКоролевская колонна"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7488E7B1948C809A"]
+			description: [
+				"&eЖужжащий портфель&r — незаменимая вещь для любого пчеловода. В нём можно хранить до 14 пчёл и делать такие вещи, как лечить пчёл, прикреплять им жала или выращивать детёнышей до взрослых особей."
+				""
+				"Поскольку &eшмеллиафан&r и &dпчелиная королева&r слишком велики, они не поместятся в портфель."
+			]
+			hide_dependency_lines: true
+			id: "02B5DCCC7594E308"
+			optional: true
+			progression_mode: "flexible"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "38143D0E483A5EA0"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			subtitle: "Карманные пчёлы"
+			tasks: [{
+				id: "4DD21D6F89035603"
+				item: "the_bumblezone:buzzing_briefcase"
+				match_nbt: false
+				type: "item"
+			}]
+			title: "&eЖужжащий портфель"
+			x: -0.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["7488E7B1948C809A"]
+			description: [
+				"&eШмеллиафаны&r очень полезны, позволяя вам безопасно летать по &6Жужжилищу&r за относительно небольшую плату. Чтобы их приручить, вы должны покормить их одной из нескольких видов еды. Сюда входят &dматочное молочко&r, &eпчелиный хлеб&r, &eвёдра или бутылочки с мёдом&r, и даже &eяблоки в меду&r!"
+				""
+				"После приручения над &eшмеллиафаном&r появится шкала дружбы. Она может как расти, так и падать в зависимости от ваших действий. Её можно повысить, покормив его любой из вышеупомянутых еды или летая на нём. Она будет падать, если &eшмеллиафан&r получит урон, причём каждая единица урона равна одной потерянной единице дружбы. Она будет падать в три раза быстрее, если урон нанесли вы."
+				""
+				"При максимальной дружбе он станет &eкоролевой-шмеллиафаном&r и будет передвигаться на максимальной скорости."
+			]
+			hide_dependency_lines: true
+			id: "3E9D21C015005B74"
+			optional: true
+			progression_mode: "flexible"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "05BDA0046053411A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			subtitle: "Жу-жу-жу"
+			tasks: [{
+				icon: "the_bumblezone:beehemoth_spawn_egg"
+				id: "7900CA9A027836BF"
+				observe_type: 5
+				timer: 0L
+				title: "Найдите &eшмеллиафана"
+				to_observe: "the_bumblezone:beehemoth"
+				type: "observation"
+			}]
+			title: "&eШмеллиафаны"
+			x: 0.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["7DFC37D2D71A3A4B"]
+			description: [
+				"&dБутылочки с маточным молочком&r можно получить либо за выполнение любого из 16 достижений &d«Королевские желания»&r, либо очень редко в качестве добычи в определённых структурах."
+				""
+				"Его можно обменять у &dпчелиной королевы&r на высокоуровневые предметы из других измерений."
+			]
+			id: "49FF6D72876BFF2C"
+			progression_mode: "flexible"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "765F3E08A1577E4B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			subtitle: "Добудьте бутылочку &dматочного молочка"
+			tasks: [{
+				id: "50A1D8FE17D5C24F"
+				item: "the_bumblezone:royal_jelly_bottle"
+				type: "item"
+			}]
+			title: "&dБутылочка маточного молочка"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7DFC37D2D71A3A4B"]
+			description: ["Разведите 8 пар пчёл"]
+			id: "6D5A2D8470670E43"
+			progression_mode: "flexible"
+			shape: "hexagon"
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/love_bees"
+				criterion: ""
+				id: "1A5ADE22B041CF3E"
+				title: "Люблю пчёл"
+				type: "advancement"
+			}]
+			title: "&dЛюблю пчёл"
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7DFC37D2D71A3A4B"]
+			description: ["Убейте 4 эндермитов"]
+			id: "71CD019B4C30354A"
+			progression_mode: "flexible"
+			shape: "hexagon"
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/otherworldly_mites"
+				criterion: ""
+				id: "236469B295E9ABDC"
+				title: "Потусторонние клещи"
+				type: "advancement"
+			}]
+			title: "&dПотусторонние клещи"
+			x: -0.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7DFC37D2D71A3A4B"]
+			description: ["Убейте Эндер дракона, надев полный комплект пчелиной брони"]
+			id: "12A5867C0A91118A"
+			progression_mode: "flexible"
+			shape: "hexagon"
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/the_great_dragon_slayer"
+				criterion: ""
+				id: "6A37B8EC7BE04D4B"
+				title: "Великий герой, сразитель Дракона"
+				type: "advancement"
+			}]
+			title: "&dВеликий герой, сразитель Дракона"
+			x: 0.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7DFC37D2D71A3A4B"]
+			description: ["Бросьте и попадите по 24 существам пыльцой (другие игроки тоже считаются)"]
+			id: "296DF61DBC2B3AEA"
+			progression_mode: "flexible"
+			shape: "hexagon"
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/pollen_fight"
+				criterion: ""
+				id: "3FC4DBFCD6819379"
+				title: "Пыльцовое развлечение"
+				type: "advancement"
+			}]
+			title: "&dПыльцовое развлечение"
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7DFC37D2D71A3A4B"]
+			description: ["Убейте 16 пещерных пауков"]
+			id: "6F8DFD61BD74E3D8"
+			progression_mode: "flexible"
+			shape: "hexagon"
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/terror_fangs"
+				criterion: ""
+				id: "71B1815939524970"
+				title: "Грозные клыки"
+				type: "advancement"
+			}]
+			title: "&dГрозные клыки"
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7DFC37D2D71A3A4B"]
+			description: ["Выпейте 8 бутылочек мёда"]
+			id: "2D0C935F9FF35504"
+			progression_mode: "flexible"
+			shape: "hexagon"
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/honey_drunk"
+				criterion: ""
+				id: "26E1D86F05F3B3CE"
+				title: "Опьянённый мёдом"
+				type: "advancement"
+			}]
+			title: "&dОпьянённый мёдом"
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7DFC37D2D71A3A4B"]
+			description: ["Убейте 32 паука (пещерные пауки не считаются)"]
+			id: "51991F548AF991D1"
+			progression_mode: "flexible"
+			shape: "hexagon"
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/too_many_legs"
+				criterion: ""
+				id: "7786CE41C0F0DF4A"
+				title: "Слишком много ног"
+				type: "advancement"
+			}]
+			title: "&dСлишком много ног"
+			x: -0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7DFC37D2D71A3A4B"]
+			description: ["Создайте 6 пчелиных гнёзд или ульев"]
+			id: "4B60893373ACAB3A"
+			progression_mode: "flexible"
+			shape: "hexagon"
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/flooding_the_housing_market"
+				criterion: ""
+				id: "45EE0EC644952B10"
+				title: "Решая квартирный вопрос"
+				type: "advancement"
+			}]
+			title: "&dРешая квартирный вопрос"
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7DFC37D2D71A3A4B"]
+			description: ["Убейте 8 чешуйниц"]
+			id: "1053BB7920734D60"
+			progression_mode: "flexible"
+			shape: "hexagon"
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/fighting_the_swarm"
+				criterion: ""
+				id: "743A02FCBB7CFDCA"
+				title: "Сражаясь с роем"
+				type: "advancement"
+			}]
+			title: "&dСражаясь с роем"
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7DFC37D2D71A3A4B"]
+			description: ["Выстрелите 32 пчелиными жалами из лука или арбалета"]
+			id: "2D4BF0FB32417011"
+			progression_mode: "flexible"
+			shape: "hexagon"
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/poison_warfare"
+				criterion: ""
+				id: "0D69C0B39D7B8E4E"
+				title: "Война ядом"
+				type: "advancement"
+			}]
+			title: "&dВойна ядом"
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7DFC37D2D71A3A4B"]
+			description: [
+				"Разведите 6 пар медовых слизней"
+				""
+				"&6Подсказка:&r Медовые слизни любят сахар"
+			]
+			id: "45E8819C98B09E3A"
+			progression_mode: "flexible"
+			shape: "hexagon"
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/slimy_mitosis"
+				criterion: ""
+				id: "673F3CCC1A08CF46"
+				title: "Слизневый митоз"
+				type: "advancement"
+			}]
+			title: "&dСладкий митоз"
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7DFC37D2D71A3A4B"]
+			description: [
+				"Покормите пчелу чем-нибудь медовым, например, бутылочками с мёдом или пчелиным хлебом, 24 раза"
+				""
+				"Вы можете покормить одну и ту же пчелу все 24 раза"
+			]
+			id: "2EF6375E7E10C09A"
+			progression_mode: "flexible"
+			shape: "hexagon"
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/hungry_hungry_bees"
+				criterion: ""
+				id: "4FBF49D92A475D24"
+				title: "Голодные пчёлы"
+				type: "advancement"
+			}]
+			title: "&dГолодные пчёлы"
+			x: 1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7DFC37D2D71A3A4B"]
+			description: [
+				"Спасите 12 пчёл, прикрепив им жала обратно"
+				""
+				"&6Подсказка:&r Нажмите ПКМ по пчеле без жала, держа в руке пчелиное жало"
+			]
+			id: "7F7790684D51A048"
+			progression_mode: "flexible"
+			shape: "hexagon"
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/back_in_action"
+				criterion: ""
+				id: "4DA5A5516D50D86F"
+				title: "Снова в бой"
+				type: "advancement"
+			}]
+			title: "&dСнова в бой"
+			x: -1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7DFC37D2D71A3A4B"]
+			description: [
+				"Вырастите 8 цветов, опыляя их пыльцой"
+				""
+				"&6Подсказка:&r Бросьте пыльцу в размещённые цветы"
+			]
+			id: "0F53737B5F196EEA"
+			progression_mode: "flexible"
+			shape: "hexagon"
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/the_crazy_florist"
+				criterion: ""
+				id: "3E88E8C50F7C0B09"
+				title: "Безумный цветочник"
+				type: "advancement"
+			}]
+			title: "&dБезумный цветочник"
+			x: -0.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7DFC37D2D71A3A4B"]
+			description: ["Убейте визера копьём-жалом"]
+			id: "30DB84FB278FFC59"
+			progression_mode: "flexible"
+			shape: "hexagon"
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/peak_inefficiency"
+				criterion: ""
+				id: "618D6F3A05A7A482"
+				title: "Пик эффективности"
+				type: "advancement"
+			}]
+			title: "&dПик эффективности"
+			x: 0.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7DFC37D2D71A3A4B"]
+			description: ["Поторгуйте с пчелиной королевой 128 раз"]
+			id: "71E2AF62863C2083"
+			progression_mode: "flexible"
+			shape: "hexagon"
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/crazy_trader"
+				criterion: ""
+				id: "30862CC48C969B9E"
+				title: "Важный торговец"
+				type: "advancement"
+			}]
+			title: "&dВажный торговец"
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"4B60893373ACAB3A"
+				"51991F548AF991D1"
+				"2D0C935F9FF35504"
+				"296DF61DBC2B3AEA"
+				"1053BB7920734D60"
+				"2D4BF0FB32417011"
+				"45E8819C98B09E3A"
+				"6F8DFD61BD74E3D8"
+				"7F7790684D51A048"
+				"0F53737B5F196EEA"
+				"30DB84FB278FFC59"
+				"2EF6375E7E10C09A"
+				"6D5A2D8470670E43"
+				"71CD019B4C30354A"
+				"12A5867C0A91118A"
+				"71E2AF62863C2083"
+			]
+			description: [
+				"&dЭссенция пчёл&r — это предмет &6Жужжилища&r, близкий к эндгейму, который даёт несколько эффектов при употреблении. "
+				""
+				"Самое важное для прогресса — это возможность находить &dвечные святилища&r с помощью компасов, найденных в определённых структурах, и завершать события внутри них."
+			]
+			id: "605CBA3C9DF7933A"
+			progression_mode: "flexible"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "5CCFBF83D0BBD180"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7F70C34AFBADE3CA"
+				item: "the_bumblezone:essence_of_the_bees"
+				type: "item"
+			}]
+			title: "&dЭссенция пчёл"
+			x: -3.25d
+			y: 9.0d
+		}
+		{
+			dependencies: ["605CBA3C9DF7933A"]
+			description: ["В событии &cкрасного вечного святилища&r вам предстоит сразиться с множеством различных мобов, таких как гасты, разорители, пиглины, хоглины и другие."]
+			icon: "the_bumblezone:luminescent_wax_channel_red"
+			id: "2C1B6FA7B8754A07"
+			progression_mode: "flexible"
+			shape: "hexagon"
+			tasks: [{
+				icon: "the_bumblezone:luminescent_wax_channel_red"
+				id: "53FE2920BDA73EEC"
+				structure: "the_bumblezone:sempiternal_sanctum_red"
+				title: "Найдите &cкрасное вечное святилище"
+				type: "structure"
+			}]
+			title: "&cКрасное вечное святилище"
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["605CBA3C9DF7933A"]
+			description: ["В событии &5фиолетового вечного святилища&r вам предстоит уворачиваться от шипов, вылезающих из-под земли. Сначала они маленькие и не наносят урона, но через пару секунд вырастают до полного размера, наносят приличный урон и отравляют вас."]
+			id: "5568E274CDF3994B"
+			progression_mode: "flexible"
+			shape: "hexagon"
+			tasks: [{
+				icon: "the_bumblezone:luminescent_wax_channel_purple"
+				id: "071D11E776559160"
+				structure: "the_bumblezone:sempiternal_sanctum_purple"
+				title: "Найдите &5фиолетовое вечное святилище"
+				type: "structure"
+			}]
+			title: "&5Фиолетовое вечное святилище"
+			x: -5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["605CBA3C9DF7933A"]
+			description: ["В событии &9синего вечного святилища&r вам предстоит сразиться с утопленниками, стражами и древними стражами на водной арене."]
+			id: "19846E9684C80298"
+			progression_mode: "flexible"
+			shape: "hexagon"
+			tasks: [{
+				icon: "the_bumblezone:luminescent_wax_channel_blue"
+				id: "03076AFEFCFA2FCA"
+				structure: "the_bumblezone:sempiternal_sanctum_blue"
+				title: "Найдите &9синее вечное святилище"
+				type: "structure"
+			}]
+			title: "&9Синее вечное святилище"
+			x: -5.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["605CBA3C9DF7933A"]
+			description: ["Событие &aзелёного вечного святилища&r содержит две платформы: одну пустую и одну с корневиком. Вам нужно встать на пустую платформу и отбивать атаки корневика обратно в него. Это требует хорошего тайминга. Стоит также упомянуть, что он может сбить с вас броню, но не волнуйтесь, ваша броня не исчезнет, если её собьёт корневик, но если вы не планируете сходить с платформы за бронёй, то стоит подготовиться и взять с собой хорошее исцеление."]
+			id: "159D56FE25F4E2A1"
+			progression_mode: "flexible"
+			shape: "hexagon"
+			tasks: [{
+				icon: "the_bumblezone:luminescent_wax_channel_green"
+				id: "362B03DED9755EE9"
+				structure: "the_bumblezone:sempiternal_sanctum_green"
+				title: "Найдите &2зелёное вечное святилище"
+				type: "structure"
+			}]
+			title: "&aЗелёное вечное святилище"
+			x: -5.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["605CBA3C9DF7933A"]
+			description: ["В событии &eжёлтого вечного святилища&r вам предстоит проходить через кольца вокруг арены. Новое кольцо появляется после прохождения предыдущего, и вы становитесь быстрее и прыгаете выше с каждым пройденным кольцом. Также будут появляться вредины, причём гораздо быстрее, чем вы набираете скорость и высоту прыжка."]
+			id: "5DDD6F0AA7951FDD"
+			progression_mode: "flexible"
+			shape: "hexagon"
+			tasks: [{
+				icon: "the_bumblezone:luminescent_wax_channel_yellow"
+				id: "4F637C8A35C25424"
+				structure: "the_bumblezone:sempiternal_sanctum_yellow"
+				title: "Найдите &eжёлтое вечное святилище"
+				type: "structure"
+			}]
+			title: "&eЖёлтое вечное святилище"
+			x: -5.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["605CBA3C9DF7933A"]
+			description: ["В событии &fбелого вечного святилища&r вам предстоит сразиться с 6 космическими кристаллами, у которых есть разнообразные атаки. Атаки относительно легко предсказать, а значит, и увернуться, но, вероятно, всё же стоит действовать осторожнее, а не пытаться постоянно атаковать. Я рекомендую это, потому что некоторые атаки полностью игнорируют вашу броню."]
+			id: "41091B15C79F6D9D"
+			progression_mode: "flexible"
+			shape: "hexagon"
+			tasks: [{
+				icon: "the_bumblezone:luminescent_wax_channel_white"
+				id: "671D0EF4088488B0"
+				structure: "the_bumblezone:sempiternal_sanctum_white"
+				title: "Найдите &fбелое вечное святилище"
+				type: "structure"
+			}]
+			title: "&fБелое вечное святилище"
+			x: -5.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["41091B15C79F6D9D"]
+			description: ["Если держать &fэссенцию непрерывности&r во второй руке, то при получении смертельного урона вы вместо смерти телепортируетесь к последней сохранённой точке возрождения с полным здоровьем и голодом, со снятыми нейтральными и отрицательными эффектами, сброшенным расстоянием падения и потушенным огнём, со всеми вашими предметами и опытом."]
+			icon: {
+				Count: 1
+				id: "the_bumblezone:essence_continuity"
+				tag: {
+					abilityUseRemaining: 1
+				}
+			}
+			id: "3172C67AB78B7B1E"
+			progression_mode: "flexible"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "46D92DF1C40E230F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "33483EF25FC5FC92"
+				item: {
+					Count: 1
+					id: "the_bumblezone:essence_continuity"
+					tag: {
+						abilityUseRemaining: 1
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "&fЭссенция непрерывности"
+			x: -6.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5DDD6F0AA7951FDD"]
+			description: ["Когда &eэссенция сияния&r находится во второй руке и вы находитесь под прямыми солнечными лучами (над головой нет блоков), она будет медленно чинить вашу броню и давать вам эффекты регенерации I, скорости I, насыщения I, сопротивления II и спешки II."]
+			icon: {
+				Count: 1
+				id: "the_bumblezone:essence_radiance"
+				tag: {
+					abilityUseRemaining: 4800
+				}
+			}
+			id: "6A09D8A01C7FF997"
+			progression_mode: "flexible"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "7DCBB417902B7D41"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1519363EAC6BBCDA"
+				item: {
+					Count: 1
+					id: "the_bumblezone:essence_radiance"
+					tag: {
+						abilityUseRemaining: 4800
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "&eЭссенция сияния"
+			x: -6.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["159D56FE25F4E2A1"]
+			description: ["Если держать &aэссенцию жизни&r во второй руке, она будет быстро выращивать близлежащие посевы и растения. Она также может лечить ближайших питомцев владельца и союзников, а все исцелённые также излечиваются от отравления и иссушения."]
+			icon: {
+				Count: 1
+				id: "the_bumblezone:essence_life"
+				tag: {
+					abilityUseRemaining: 1000
+				}
+			}
+			id: "0FE98C86307C5CD8"
+			progression_mode: "flexible"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "59A43EB2B49D7420"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "33C4EFFF026AA5E2"
+				item: {
+					Count: 1
+					id: "the_bumblezone:essence_life"
+					tag: {
+						abilityUseRemaining: 1000
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "&aЭссенция жизни"
+			x: -6.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["19846E9684C80298"]
+			description: ["Если держать &9эссенцию спокойствия&r во второй руке, большинство мобов перестанут злиться на владельца. Эффект теряется, если игрока атакует моб или он сам атакует моба, а сила предмета будет быстро истощаться при беге."]
+			icon: {
+				Count: 1
+				id: "the_bumblezone:essence_calming"
+				tag: {
+					abilityUseRemaining: 600
+				}
+			}
+			id: "048BA451E1FC1651"
+			progression_mode: "flexible"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "10560554325B1779"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "139C974805283071"
+				item: {
+					Count: 1
+					id: "the_bumblezone:essence_calming"
+					tag: {
+						abilityUseRemaining: 600
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "&9Эссенция спокойствия"
+			x: -6.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5568E274CDF3994B"]
+			description: ["Если держать &5эссенцию знания&r во второй руке, она подсвечивает всех ближайших живых существ, сундуки, спаунеры и подозрительные блоки."]
+			icon: {
+				Count: 1
+				id: "the_bumblezone:essence_knowing"
+				tag: {
+					abilityUseRemaining: 1200
+				}
+			}
+			id: "57BAA3345E858B59"
+			progression_mode: "flexible"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "4A55841111C7E37D"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4497C37FB925AE16"
+				item: {
+					Count: 1
+					id: "the_bumblezone:essence_knowing"
+					tag: {
+						abilityUseRemaining: 1200
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "&5Эссенция знания"
+			x: -6.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2C1B6FA7B8754A07"]
+			description: ["Если держать &cэссенцию ярости&r во второй руке, она подсвечивает ближайших мобов, и после убийства одного из них вы получаете немного силы. Чем больше подсвеченных мобов вы убьёте подряд, тем больше силы получите. Максимум достигается после 7 убийств, после чего серия сбрасывается при ударе по мобу. Серия также может сброситься, если вы будете слишком долго медлить между убийствами."]
+			icon: {
+				Count: 1
+				id: "the_bumblezone:essence_raging"
+				tag: {
+					abilityUseRemaining: 28
+				}
+			}
+			id: "0C3E7823BA26B8C4"
+			progression_mode: "flexible"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "3CE534F9A74E02AD"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6B34AF45794A0881"
+				item: {
+					Count: 1
+					id: "the_bumblezone:essence_raging"
+					tag: {
+						abilityUseRemaining: 28
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "&cЭссенция ярости"
+			x: -6.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7488E7B1948C809A"]
+			description: ["Броню &6Жужжилища&r можно найти в структурах по всему измерению, за исключением &eцветочного головного убора&r, который также можно скрафтить!"]
+			hide_dependency_lines: true
+			id: "0F6052C77A6F1588"
+			progression_mode: "flexible"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "047434DFFC52B05E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			subtitle: "Броня пчелиного воина"
+			tasks: [
+				{
+					id: "724B612CA3FA7A30"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "the_bumblezone:armors/helmets"
+						}
+					}
+					match_nbt: false
+					title: "Любой #the_bumblezone:armors/helmets"
+					type: "item"
+				}
+				{
+					id: "105F1DB2977C2C80"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "the_bumblezone:armors/chestplates"
+						}
+					}
+					match_nbt: false
+					title: "Любой #the_bumblezone:armors/chestplates"
+					type: "item"
+				}
+				{
+					id: "56D880A3DA2B73D4"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "the_bumblezone:armors/leggings"
+						}
+					}
+					match_nbt: false
+					title: "Любой #the_bumblezone:armors/leggings"
+					type: "item"
+				}
+				{
+					id: "3E9FEA4755898990"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "the_bumblezone:armors/boots"
+						}
+					}
+					match_nbt: false
+					title: "Любой #the_bumblezone:armors/boots"
+					type: "item"
+				}
+			]
+			title: "&eБроня Жужжилища"
+			x: -0.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["7488E7B1948C809A"]
+			description: [
+				"&eКопьё-жало&r имеет высокую скорость атаки, но низкий базовый урон, который можно компенсировать чарами. На него можно накладывать чары как для меча, так и для трезубца."
+				""
+				"&eПчелиная пушка&r может вмещать до 3 пчёл, и при выстреле пчёлы не злятся на вас! Вместо этого, если перед выстрелом посмотреть на не-пчелиное существо, пчёлы после выстрела атакуют его. Можно зачаровать чарами для арбалета."
+				""
+				"&eКристальная пушка&r работает аналогично &eпчелиной пушке&r, но в качестве боеприпасов использует &eосколки медового кристалла&r вместо пчёл. Можно зачаровать чарами для арбалета."
+				""
+				"Все 3 вида оружия можно либо скрафтить, либо найти в структурах по всему измерению."
+			]
+			hide_dependency_lines: true
+			id: "58A5FB3CAE5DDC9B"
+			progression_mode: "flexible"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "513FDE9345B2D29E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			subtitle: "Вооружение пчелиного воина"
+			tasks: [
+				{
+					id: "14DD065D013CD04D"
+					item: {
+						Count: 1
+						id: "the_bumblezone:stinger_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "30AD6C81FE89400C"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "the_bumblezone:tools/cannons"
+						}
+					}
+					match_nbt: false
+					title: "Любой #the_bumblezone:tools/cannons"
+					type: "item"
+				}
+			]
+			title: "&eОружие Жужжилища"
+			x: 0.75d
+			y: 3.75d
+		}
+	]
+	title: "&2Жужжилище &6☆"
+}

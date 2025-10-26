@@ -1,0 +1,2608 @@
+{
+	autofocus_id: "7F93E0A3E1788C79"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6modular_tools"
+	group: "12BCDDCCCA65FD77"
+	icon: {
+		Count: 1
+		id: "tconstruct:tinkers_anvil"
+		tag: {
+			texture: "emendatusenigmatica:steel_block"
+		}
+	}
+	id: "781E3789949DB186"
+	images: [
+		{
+			height: 1.5d
+			image: "tconstruct:textures/block/smeltery/seared/bricks.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependency: "0D88B45349B3E660"
+			height: 12.0d
+			image: "minecraft:textures/misc/scorched_letter.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			height: 5.0d
+			image: "create:entity/blueprint_medium"
+			rotation: 0.0d
+			width: 5.0d
+			x: 9.273809523809518d
+			y: 2.999999999999986d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: -1
+			rotation: 90.0d
+			width: 1.0d
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: -1
+			rotation: 90.0d
+			width: 1.0d
+			x: 4.75d
+			y: 4.023809523809533d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 90.0d
+			width: 1.0d
+			x: 3.5357142857142847d
+			y: 4.000000000000007d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 90.0d
+			width: 1.0d
+			x: 2.392857142857146d
+			y: 4.023809523809533d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 90.0d
+			width: 1.0d
+			x: 1.7261904761904745d
+			y: 4.023809523809533d
+		}
+		{
+			dependency: "35A0BA1BB8DDE343"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: -135.0d
+			width: 1.0d
+			x: 3.578571428571408d
+			y: 3.5010204081632708d
+		}
+		{
+			dependency: "5B5A340DB47B9C89"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 90.0d
+			width: 1.0d
+			x: 6.63095238095238d
+			y: 0.023809523809532607d
+		}
+		{
+			dependency: "5B5A340DB47B9C89"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 90.0d
+			width: 1.0d
+			x: 7.392857142857146d
+			y: 0.04761904761905811d
+		}
+		{
+			dependency: "5D2ED1168A45A14A"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 90.0d
+			width: 1.0d
+			x: 8.63095238095238d
+			y: 0.0238095238095255d
+		}
+		{
+			dependency: "5D2ED1168A45A14A"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 90.0d
+			width: 1.0d
+			x: 9.369047619047613d
+			y: 0.0238095238095255d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cave_vines_lit"
+			order: -1
+			rotation: 90.0d
+			width: 1.0d
+			x: 0.4571428571428555d
+			y: 4.028571428571439d
+		}
+		{
+			dependency: "35A0BA1BB8DDE343"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 3.171428571428578d
+		}
+		{
+			dependency: "35A0BA1BB8DDE343"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.972789115646258d
+			y: 2.4795918367346914d
+		}
+		{
+			dependency: "35A0BA1BB8DDE343"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.028571428571425d
+			y: 1.421428571428578d
+		}
+		{
+			dependency: "35A0BA1BB8DDE343"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.06428571428571d
+			y: 0.6714285714285708d
+		}
+		{
+			dependency: "5B5A340DB47B9C89"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.06428571428571d
+			y: -0.614285714285721d
+		}
+		{
+			dependency: "5B5A340DB47B9C89"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.06428571428571d
+			y: -1.3642857142857139d
+		}
+		{
+			dependency: "5B5A340DB47B9C89"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.028571428571425d
+			y: -2.507142857142867d
+		}
+		{
+			dependency: "5B5A340DB47B9C89"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_lit"
+			order: -1
+			rotation: 180.0d
+			width: 1.0d
+			x: 6.06428571428571d
+			y: -3.5785714285714363d
+		}
+		{
+			dependency: "35A0BA1BB8DDE343"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: -135.0d
+			width: 1.0d
+			x: 4.292857142857123d
+			y: 2.7295918367346985d
+		}
+		{
+			dependency: "5D2ED1168A45A14A"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: -90.0d
+			width: 1.0d
+			x: 10.67142857142857d
+			y: 0.028571428571424917d
+		}
+		{
+			dependency: "5B5A340DB47B9C89"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: -135.0d
+			width: 1.0d
+			x: 7.385714285714286d
+			y: -1.2928571428571445d
+		}
+		{
+			dependency: "5B5A340DB47B9C89"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: -1
+			rotation: 45.0d
+			width: 1.0d
+			x: 6.671428571428571d
+			y: -0.5428571428571445d
+		}
+		{
+			height: 1.0d
+			image: "goety:item/great_hammer"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.55952380952381d
+			y: 1.2380952380952337d
+		}
+		{
+			dependency: "0D88B45349B3E660"
+			height: 1.0d
+			image: "minecraft:item/chain"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.3333333333333286d
+			y: -5.666666666666643d
+		}
+		{
+			dependency: "0D88B45349B3E660"
+			height: 1.0d
+			image: "minecraft:item/soul_lantern"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.2857142857142776d
+			y: -4.952380952380928d
+		}
+		{
+			dependency: "253E532D09E3AA9B"
+			height: 1.0d
+			image: "tconstruct:block/geode/ender/cluster"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.095238095238095d
+			y: -9.309523809523807d
+		}
+		{
+			dependency: "253E532D09E3AA9B"
+			height: 2.0d
+			image: "tconstruct:block/geode/ender/cluster"
+			order: -1
+			rotation: 90.0d
+			width: 2.0d
+			x: 13.571428571428577d
+			y: -4.69047619047619d
+		}
+		{
+			dependency: "253E532D09E3AA9B"
+			height: 12.0d
+			image: "modpack:textures/scorched_letter1.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependency: "253E532D09E3AA9B"
+			height: 1.0d
+			image: "tconstruct:block/geode/ender/cluster"
+			order: -1
+			rotation: 45.0d
+			width: 1.0d
+			x: 13.0d
+			y: -5.404761904761898d
+		}
+		{
+			dependency: "253E532D09E3AA9B"
+			height: 1.5d
+			image: "tconstruct:block/geode/ender/cluster"
+			order: -1
+			rotation: 0.0d
+			width: 1.5d
+			x: 8.80952380952381d
+			y: -9.452380952380949d
+		}
+		{
+			dependency: "0D88B45349B3E660"
+			height: 2.0d
+			image: "tconstruct:block/geode/ichor/cluster"
+			order: -1
+			rotation: 45.0d
+			width: 2.0d
+			x: 5.190476190476183d
+			y: -6.2380952380952195d
+		}
+		{
+			dependency: "0D88B45349B3E660"
+			height: 1.5d
+			image: "tconstruct:block/geode/ichor/cluster"
+			order: -1
+			rotation: 15.0d
+			width: 1.5d
+			x: 4.523809523809518d
+			y: -6.523809523809504d
+		}
+		{
+			dependency: "0D88B45349B3E660"
+			height: 2.0d
+			image: "tconstruct:block/geode/ichor/cluster"
+			order: -1
+			rotation: -30.0d
+			width: 2.0d
+			x: -0.9047619047619122d
+			y: -6.476190476190453d
+		}
+		{
+			dependency: "0D88B45349B3E660"
+			height: 1.0d
+			image: "tconstruct:block/geode/ichor/cluster"
+			order: -1
+			rotation: -90.0d
+			width: 1.0d
+			x: -1.238095238095248d
+			y: -5.285714285714256d
+		}
+		{
+			dependency: "5B5A340DB47B9C89"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: -1
+			rotation: 45.0d
+			width: 1.0d
+			x: 8.57142857142857d
+			y: -0.5714285714285623d
+		}
+		{
+			dependency: "5B5A340DB47B9C89"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_lit"
+			order: -1
+			rotation: -135.0d
+			width: 1.0d
+			x: 9.428571428571416d
+			y: -1.2857142857142705d
+		}
+		{
+			dependency: "5D2ED1168A45A14A"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 45.0d
+			width: 1.0d
+			x: 10.61904761904762d
+			y: -0.5714285714285694d
+		}
+		{
+			dependency: "5D2ED1168A45A14A"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: -135.0d
+			width: 1.0d
+			x: 11.523809523809533d
+			y: -1.4761904761904816d
+		}
+		{
+			height: 5.4d
+			image: "chipped:block/oak_planks/ctm/crated_oak_planks_ctm/3"
+			order: -2
+			rotation: 0.0d
+			width: 5.4d
+			x: 9.321428571428548d
+			y: 2.999999999999993d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "tconstruct:block/slime/dirt/sky_grass"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.013605442176868d
+			y: 3.006802721088448d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "tconstruct:block/slime/dirt/sky"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.270748299319742d
+			y: 3.863945578231295d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "tconstruct:block/slime/dirt/sky_grass"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.870748299319743d
+			y: 3.006802721088441d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "tconstruct:block/slime/dirt/sky_grass"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.727891156462576d
+			y: 3.006802721088441d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "tconstruct:block/slime/dirt/sky_grass"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.585034013605437d
+			y: 3.006802721088441d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "tconstruct:block/slime/dirt/sky_grass"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.44217687074829d
+			y: 3.006802721088441d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "tconstruct:block/slime/dirt/sky"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.127891156462582d
+			y: 3.863945578231295d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "tconstruct:block/slime/dirt/sky"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.985034013605436d
+			y: 3.863945578231295d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "tconstruct:block/slime/dirt/sky"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.813605442176865d
+			y: 3.863945578231295d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "tconstruct:block/slime/dirt/sky"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.099319727891157d
+			y: 4.692517006802724d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "tconstruct:block/slime/dirt/sky"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.29931972789116d
+			y: 4.692517006802724d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "tconstruct:block/slime/dirt/sky"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.556462585034012d
+			y: 5.121088435374155d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.5d
+			image: "tconstruct:block/slime/sapling/sky"
+			order: -1
+			rotation: 0.0d
+			width: 1.5d
+			x: 13.77551020408162d
+			y: 2.102040816326543d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.5d
+			image: "tconstruct:block/geode/sky/cluster"
+			order: -1
+			rotation: 125.0d
+			width: 1.5d
+			x: 15.537414965986386d
+			y: 5.244897959183675d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "tconstruct:block/geode/sky/cluster"
+			order: -1
+			rotation: 180.0d
+			width: 1.0d
+			x: 14.727891156462576d
+			y: 5.721088435374149d
+		}
+		{
+			dependency: "35A0BA1BB8DDE343"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_lit"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.047619047619037d
+			y: 6.333333333333343d
+		}
+		{
+			dependency: "35A0BA1BB8DDE343"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			height: 2.0d
+			image: "modpack:textures/tc_logo.png"
+			rotation: 0.0d
+			width: 5.08d
+			x: 1.1428571428571388d
+			y: 1.9642857142857153d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "minecraft:block/target_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.035714285714278d
+			y: 1.4642857142857082d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "quark:block/stripped_bamboo_post_connect"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.035714285714278d
+			y: 2.249999999999993d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 0.8d
+			image: "minecraft:item/arrow"
+			order: -1
+			rotation: 45.0d
+			width: 0.8d
+			x: 15.321428571428577d
+			y: 1.4642857142857153d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 0.8d
+			image: "minecraft:item/arrow"
+			order: -1
+			rotation: 60.0d
+			width: 0.8d
+			x: 15.323809523809537d
+			y: 1.1751700680271995d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&e&nФормирователь частей&r используется для создания частей инструментов! Части необходимы для сборки инструментов! Используемые вами части определят прочность, скорость, долговечность и особые свойства вашего инструмента!"
+				"&e&nЛитейная станция&r используется для сборки частей в полноценные базовые инструменты!"
+				"&e&nЯщик для частей&r используется для хранения неиспользуемых частей!"
+				""
+				"&l&eСовет:&r Когда эти блоки соприкасаются, они делят инвентарь! Это упрощает перемещение предметов между ними."
+				"{image:modpack:textures/tc_1.png width:180 height:100 align:center}"
+				""
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "54246711BB8366BD"
+			rewards: [
+				{
+					id: "4C7DA29A350ED393"
+					item: "tconstruct:bacon"
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					id: "470801D793C77DD0"
+					item: "tconstruct:seared_brick"
+					random_bonus: 9
+					type: "item"
+				}
+			]
+			subtitle: "Создайте &eлитейную станцию &rи &eформирователь частей"
+			tasks: [
+				{
+					id: "5E26E19BA05262AC"
+					item: {
+						Count: 1
+						id: "tconstruct:part_builder"
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "724A7B766099AAC9"
+					item: {
+						Count: 1
+						id: "tconstruct:tinker_station"
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "614440B893714189"
+					item: "tconstruct:part_chest"
+					type: "item"
+				}
+			]
+			title: "&eИнженерное дело &r(Часть I)"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5B5A340DB47B9C89"]
+			description: [
+				"&eКузня&r, имея больше слотов, позволяет добавлять новые модификаторы к вашим инструментам! Попробуйте применить модификаторы, используя слоты &dулучшений&r вашего инструмента!"
+				""
+				"&l&6Подсказка:&r Попробуйте применить &cредстоун&r к одному из ваших инструментов. Это сделает его немного быстрее! (Но только при ломании блоков!)"
+				"{image:modpack:textures/tc_4.png width:180 height:100 align:center}"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "5D2ED1168A45A14A"
+			rewards: [
+				{
+					id: "1C0BEFFBE6C88DC1"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "7F6041B8A8FA45B2"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 2
+					id: "6D7BBF2726B34B0A"
+					item: "minecraft:redstone_block"
+					type: "item"
+				}
+			]
+			subtitle: "&eМодифицируйте&r ваш &eинструмент инженера"
+			tasks: [{
+				advancement: "tconstruct:tools/modified"
+				criterion: ""
+				id: "0941D5559A9F58C1"
+				type: "advancement"
+			}]
+			title: "&eИнженерное дело &r(Часть II)"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["033F072A5A4913D0"]
+			description: [
+				"&eПлавильня&r — это мультиблочная структура, используемая для создания высокоуровневого оружия и инструментов из металлов и сплавов."
+				""
+				"&e&lСовет:&r Руды, переплавленные в плавильне инженера, дают небольшой излишек! Рудные блоки при переплавке удваиваются! "
+				"&e&lСовет:&r Увеличение размера плавильни также увеличит расход топлива на переплавку."
+				""
+				"&6&lПодсказка:&r Добавление дополнительных слоёв &eобожжённых кирпичей&r увеличит вместимость плавильни!"
+				"{image:modpack:textures/tc_3.png width:180 height:100 align:center}"
+				"&e&lСовет:&r Попробуйте &d«Поразмыслить»&r над &eконтроллером плавильни&r!"
+			]
+			hide_until_deps_visible: true
+			id: "35A0BA1BB8DDE343"
+			rewards: [
+				{
+					count: 2
+					id: "35E7A1D5860F7668"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "7A9AC1FBC3A5EC12"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			shape: "square"
+			subtitle: "Создайте необходимые блоки и постройте &eплавильню инженера"
+			tasks: [
+				{
+					icon: "tconstruct:seared_fuel_tank"
+					id: "1F03ED9C97882BBB"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tconstruct:seared_tanks"
+						}
+					}
+					title: "Любой обожжённый резервуар/датчик"
+					type: "item"
+				}
+				{
+					count: 46L
+					id: "55C3973D89CD2CA5"
+					item: "tconstruct:seared_bricks"
+					type: "item"
+				}
+				{
+					id: "3984226396078F98"
+					item: "tconstruct:smeltery_controller"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2B9754DAB1266BF8"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+				{
+					id: "12A7D02044A4C640"
+					item: "tconstruct:seared_basin"
+					type: "item"
+				}
+				{
+					id: "6765BAD2186682B4"
+					item: "tconstruct:seared_table"
+					type: "item"
+				}
+				{
+					id: "2AD86572E49DEFBE"
+					item: "tconstruct:seared_drain"
+					type: "item"
+				}
+				{
+					advancement: "tconstruct:smeltery/structure"
+					criterion: ""
+					id: "4C12719F83E9C659"
+					type: "advancement"
+				}
+			]
+			title: "&eПлавильня"
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["54246711BB8366BD"]
+			description: [
+				"&eОбожжённая плавильная печь&r и &eобожжённый нагреватель&r могут использоваться как компактный и простой способ плавить металлы в жидкости."
+				""
+				"Плавильную печь можно заправлять печным топливом, хотя для более тугоплавких руд может потребоваться жидкая лава."
+				""
+				"&6Совет: &rЭто мультиблок! "
+				"&eПодсказка:&r Это понадобится для следующего задания!"
+				"{image:modpack:textures/tc_2.png width:180 height:100 align:center}"
+			]
+			hide_until_deps_visible: true
+			icon: "tconstruct:seared_melter"
+			id: "116CDE1481CC3846"
+			rewards: [
+				{
+					id: "245B3AD8C08D8E85"
+					item: "tconstruct:bacon"
+					random_bonus: 10
+					type: "item"
+				}
+				{
+					id: "13758162728F965F"
+					item: "tconstruct:seared_brick"
+					random_bonus: 9
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "4B5D5E7E93155CAC"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Создайте &eобожжённую плавильную печь&r и &eобожжённый жидкостный резервуар"
+			tasks: [
+				{
+					id: "5867F7FFCC51181B"
+					item: "tconstruct:seared_melter"
+					type: "item"
+				}
+				{
+					id: "1B53F1765C5668CF"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "tconstruct:seared_heater"
+								}
+								{
+									Count: 1b
+									id: "itemfilters:tag"
+									tag: {
+										value: "tconstruct:seared_tanks"
+									}
+								}
+							]
+						}
+					}
+					title: "&dОбожжённый нагреватель &eИЛИ &dЛюбой обожжённый резервуар"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3963953F6F13EBBD"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+				{
+					id: "6C551E5AD1AF2F9B"
+					item: "tconstruct:seared_basin"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["116CDE1481CC3846"]
+			description: [
+				"Используя &eобожжённую плавильную печь&r, создайте &eконтроллер плавильни&r, залив расплавленной медью &eобожжённые кирпичи"
+				""
+				"&e&lПодсказка:&r Это понадобится для следующего задания!"
+			]
+			hide_until_deps_visible: true
+			id: "033F072A5A4913D0"
+			rewards: [
+				{
+					id: "21A60B58BA86E3CE"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F8DB909D270F59A"
+					item: "tconstruct:seared_brick"
+					random_bonus: 14
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "519D7170628E44C9"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Создайте &eконтроллер плавильни&r"
+			tasks: [{
+				id: "53B009F706E3DB34"
+				item: "tconstruct:smeltery_controller"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["35A0BA1BB8DDE343"]
+			description: [
+				"Чтобы создавать части инструментов из металлов и сплавов, сначала нужно сделать &eлитейную форму&r. Они используются для ковки металлических частей инструментов!"
+				""
+				"&l&6Подсказка:&r Сначала сделайте часть инструмента из камня, затем поместите её в &eобожжённый литейный стол&r, заполните &eплавильню&r &eрасплавленным золотом&r и залейте им каменную часть! Дайте остыть, и у вас останется литейная форма! Затем вы можете заливать металлы в форму для создания металлических/сплавных частей! Их можно объединить для создания инструмента в &eкузне"
+				""
+				"&l&6Подсказка:&r Вы можете создавать формы для слитков, чтобы извлекать металлы из плавильни! Вы также можете заливать металл прямо в литейный резервуар, чтобы получить блок материала!"
+				""
+				"&l&eСовет:&r Это можно повторить для всех частей инструментов! В идеале, инструмент стоит делать из нескольких материалов, чтобы получить улучшенные характеристики и свойства! Существуют тысячи возможных комбинаций инструментов!"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "6567F9EEFDDB5CAB"
+			rewards: [
+				{
+					id: "07BF4A7412A7909F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "772138044A7A9D9C"
+					item: "tconstruct:cast_chest"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "20ED29705B6CE042"
+					item: "minecraft:gold_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "2BBC80C98E312F70"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Создайте &eзолотую литейную форму"
+			tasks: [{
+				id: "04234FD4A04EBD4A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tconstruct:casts/gold"
+					}
+				}
+				title: "Любая золотая литейная форма"
+				type: "item"
+			}]
+			title: "&eИзучаем литейные формы!"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6567F9EEFDDB5CAB"]
+			description: [
+				"&eКузня&r — это улучшенная версия &eлитейной станции&r, которая также может собирать &6широкие инструменты&r!"
+				""
+				"&6Широкие инструменты&r мощнее, например, они могут &dдобывать по области&r и наносить &dбольше урона за удар&r, но, как правило, имеют меньшую скорость."
+			]
+			id: "5B5A340DB47B9C89"
+			rewards: [
+				{
+					command: "/titles add {p} titles:blacksmith"
+					console: true
+					icon: "titles:title_scroll_common"
+					id: "53A894AE11A94547"
+					title: "&eОткрыть титул:&r Кузнец"
+					type: "command"
+				}
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "1828DB02A7F9BF49"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "458779EFA81D02DF"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§7§oНажмите ПКМ, чтобы открыть\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Создайте &eкузню&r"
+			tasks: [{
+				advancement: "tconstruct:smeltery/tinkers_anvil"
+				criterion: ""
+				id: "425488D147D8FD10"
+				type: "advancement"
+			}]
+			title: "&eЛюбовь к кузнечному делу!"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D88B45349B3E660"]
+			description: [
+				"Используя &eплавильню&r, создайте &eконтроллер литейной печи&r, залив расплавленным обсидианом &eвыжженные кирпичи"
+				""
+				"&e&lПодсказка:&r Это понадобится для следующего задания!"
+			]
+			hide_until_deps_complete: true
+			id: "44879DE485398F4D"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "096DF123B315591A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Создайте &eконтроллер литейной печи&r"
+			tasks: [
+				{
+					id: "7BBF8BC1FB3A8DE8"
+					item: "tconstruct:foundry_controller"
+					type: "item"
+				}
+				{
+					advancement: "tconstruct:foundry/structure"
+					criterion: ""
+					id: "1C28AE1E235DED5A"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0D88B45349B3E660"]
+			hide_until_deps_complete: true
+			id: "1CF88664139833C6"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "1C695C2A29C6C8A7"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "diamond"
+			subtitle: "Добудьте &eкобальтовую руду"
+			tasks: [{
+				id: "4C74EE2F8C1AFD91"
+				item: "tconstruct:cobalt_ore"
+				type: "item"
+			}]
+			title: "&eДобудьте незерские материалы"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0D88B45349B3E660"]
+			description: ["&e&lСовет:&r Ихор также можно переплавить в &6огненную кровь&r!"]
+			hide_until_deps_complete: true
+			id: "55C98175116E85CB"
+			rewards: [
+				{
+					id: "26096F38B55D0101"
+					item: "tconstruct:ichor_cake"
+					type: "item"
+				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "2550A136FF013EA6"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Добудьте &eихоровые кристаллы"
+			tasks: [{
+				id: "1ECCD166322F70EC"
+				item: "tconstruct:ichor_slime_crystal_block"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["116CDE1481CC3846"]
+			description: [
+				"&eПустые песочные формы &r— это временные, одноразовые формы, сделанные из песка или красного песка. Они быстрые и простые в изготовлении и отлично подходят для базового литья деталей."
+				""
+				"&e&lСовет:&r Нет или не хотите делать деталь для оттиска в песчаной форме? Поместите её в формирователь частей, чтобы вырезать в ней узор!"
+			]
+			id: "681F15011F347435"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "547957C4FE16B9BF"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Создайте и используйте &eпустую песчаную форму&r"
+			tasks: [
+				{
+					id: "48F520681FD9092B"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "tconstruct:blank_sand_cast"
+								}
+								{
+									Count: 1b
+									id: "tconstruct:blank_red_sand_cast"
+								}
+							]
+						}
+					}
+					title: "Любая пустая песочная форма"
+					type: "item"
+				}
+				{
+					advancement: "tconstruct:smeltery/sand_casting"
+					criterion: ""
+					id: "7634108C9D5510F5"
+					type: "advancement"
+				}
+			]
+			title: "Песочные формы"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0D88B45349B3E660"]
+			description: [
+				"Чтобы сделать более продвинутые материалы из кобальта, вам понадобится &eогненная кровь&r, которую можно получить, переплавив всполоха. Самый простой способ — заманить новоявленных всполохов в плавильню, хотя можно создать и оружие, способное извлекать &eогненную кровь&r из живых всполохов."
+				""
+				"&l&6Подсказка:&r Ещё один способ получить огненную кровь — переплавить ихор. Для начала вам понадобится немного &eогненной крови&r, но я слышал, что её можно получить, торгуясь с пиглинами."
+				""
+				"{image:modpack:textures/tc_blaze.png width:180 height:100 align:center}"
+			]
+			id: "7F42CAE7EEF5DD33"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "1C4E9E7925D58F69"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "31A4B78923E170A1"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§7§oНажмите ПКМ, чтобы открыть\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Наполните резервуар &eогненной кровью"
+			tasks: [{
+				id: "7ED52F088914A08A"
+				item: "tconstruct:blazing_blood_bucket"
+				type: "item"
+			}]
+			title: "&eКупание в крови моих всполохов"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5D2ED1168A45A14A"]
+			description: ["Увеличьте количество слотов для улучшений инструмента на 6, используя &dгармоничный&r, &dвозрождающий&r, &dперезаписываемый&r, &dобезглавленный&r и &dпозолоченный&r модификаторы!"]
+			hide_until_deps_complete: true
+			id: "734CBF5AC8627228"
+			rewards: [
+				{
+					command: "/titles add {p} titles:tinkerer"
+					icon: "titles:title_scroll_common"
+					id: "09D9D5DB679281CE"
+					title: "&eОткрыть титул:&r Инженер"
+					type: "command"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "7E76361B51F1AAF9"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 2
+					id: "17D00EDA28A43F03"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§7§oНажмите ПКМ, чтобы открыть\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "На максимум!"
+			tasks: [{
+				advancement: "tconstruct:tools/upgrade_slots"
+				criterion: ""
+				id: "4FAF7F5F6530ECBC"
+				type: "advancement"
+			}]
+			title: "&eУлучшение до предела!"
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			description: ["&oМожет, у &6Нико &r&oесть &eинструмент&r&o, который мы можем использовать?"]
+			id: "36EE964CF3FB56AC"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "5DAD993131E791DC"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6991F4EBFB58B509"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Создайте инструмент с базовым уроном 21 или больше"
+			tasks: [{
+				advancement: "tconstruct:tools/one_shot"
+				criterion: ""
+				id: "592E720FFC5A9322"
+				type: "advancement"
+			}]
+			title: "&eУ тебя лишь один шанс"
+			x: 8.273809523809518d
+			y: 3.999999999999986d
+		}
+		{
+			id: "583F265517CF4856"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "026C9B958B328411"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "191444737679F8AA"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Подберите &eсвинью &rс помощью &eсвино-рюкзака"
+			tasks: [{
+				advancement: "tconstruct:world/piggybackpack"
+				criterion: ""
+				id: "2B6128B9EC76B67B"
+				type: "advancement"
+			}]
+			title: "&eМаленький приятель!"
+			x: 10.273809523809518d
+			y: 1.9999999999999858d
+		}
+		{
+			dependencies: ["72B878D6A0C6EDFC"]
+			description: ["&l&eСовет:&r Узнайте больше о слизнечерепах и их эффектах в &6Энциклопедии инженера&r!"]
+			id: "72AF5955C9BE50B2"
+			rewards: [
+				{
+					id: "7B28A58A8212F4D5"
+					item: "tconstruct:ender_cake"
+					type: "item"
+				}
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "670BDC1477E32B76"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "782B47E172F73C96"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"§6§o§nСодержит 1 случайный амулет\"}"]
+								Name: "{\"text\":\"§eЛюбопытная коробка\"}"
+							}
+							type: "curious_box"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0AE0BB55FF23B2F5"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Создайте полный &eслизекостюм"
+			tasks: [{
+				advancement: "tconstruct:world/slimesuit"
+				criterion: ""
+				id: "6AE2CA91F989A84B"
+				type: "advancement"
+			}]
+			title: "&eВесь в слизи"
+			x: 10.0d
+			y: -5.5238095238095255d
+		}
+		{
+			id: "4D4EF0D1706F4855"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "5429464866E8D087"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4F1A538D04E75B95"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Создайте полный комплект &eснаряжения путешественника"
+			tasks: [{
+				advancement: "tconstruct:tools/travelers_gear"
+				criterion: ""
+				id: "5D7B2500C94EEBE0"
+				type: "advancement"
+			}]
+			title: "&eСборы в дорогу!"
+			x: 8.273809523809518d
+			y: 1.9999999999999858d
+		}
+		{
+			dependencies: ["5B5A340DB47B9C89"]
+			hide_until_deps_complete: true
+			id: "7F93E0A3E1788C79"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "435367A2DB0C2C81"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "square"
+			subtitle: "Создайте полный комплект &eлатных доспехов инженера"
+			tasks: [{
+				advancement: "tconstruct:foundry/plate_armor"
+				criterion: ""
+				id: "60307357290D204B"
+				type: "advancement"
+			}]
+			title: "&eОблачись в инженерию"
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7F42CAE7EEF5DD33"]
+			id: "79E769228689D3EB"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "007075A337ACF494"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "330109A623D81DFA"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Создайте &eогненный незерит"
+			tasks: [{
+				id: "13202188B3371B6A"
+				item: "tinkers_advanced:blaze_netherite"
+				type: "item"
+			}]
+			title: "&eОгненный незерит"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["44879DE485398F4D"]
+			description: [
+				"&eЛитейная печь&r — это мультиблочная структура и альтернатива плавильне. "
+				""
+				"Она не создаёт сплавы, что позволяет хранить большое количество руд, не беспокоясь о случайном смешивании. "
+				""
+				"&e&lСовет:&r Руды, переплавленные в литейной печи, будут давать побочные продукты, что делает их более ценными, чем исходная руда."
+				"&6&lПодсказка:&r В отличие от плавильни, &eлитейная печь&r требует блоки по краям и углам!"
+			]
+			id: "1188A9FDEE254A9F"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "089A5191831C2DBB"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "115E3A97C3A3388C"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§7§oНажмите ПКМ, чтобы открыть\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Создайте необходимые блоки и постройте &eлитейную печь инженера"
+			tasks: [
+				{
+					count: 40L
+					id: "764ECB4202A843C4"
+					item: "tconstruct:scorched_bricks"
+					type: "item"
+				}
+				{
+					id: "1A8346F7CA49C754"
+					item: "tconstruct:foundry_controller"
+					type: "item"
+				}
+				{
+					id: "0391AE9807F777BA"
+					item: "tconstruct:scorched_drain"
+					type: "item"
+				}
+				{
+					id: "2AB455612B6AE215"
+					item: "tconstruct:scorched_fuel_tank"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "584B883128EA5CE8"
+					item: { Count: 2, id: "tconstruct:scorched_faucet" }
+					type: "item"
+				}
+				{
+					id: "1ECF568583CDAA0D"
+					item: "tconstruct:scorched_table"
+					type: "item"
+				}
+				{
+					id: "7B1D06F57DAD185C"
+					item: "tconstruct:scorched_basin"
+					type: "item"
+				}
+			]
+			title: "&eЛитейная печь"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"7F42CAE7EEF5DD33"
+				"1CF88664139833C6"
+			]
+			description: [
+				"&eМаньюлин&r — это мощный материал, который временно увеличивает наносимый вами урон с каждым ударом, который вы наносите или получаете! (в зависимости от того, на оружии он или на броне!)"
+				""
+				"&dВы можете отлить слиток или деталь для этого задания!"
+			]
+			id: "3E1D5987122DB04B"
+			min_required_tasks: 1
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "474B9A97FE620E75"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "2F9CCCF9BE4FE5CC"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Создайте сплав и произведите &eманьюлин"
+			tasks: [
+				{
+					id: "45A78721E94EF8D6"
+					item: "tconstruct:manyullyn_ingot"
+					type: "item"
+				}
+				{
+					id: "74CC2A2F59492D0F"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								Material: "tconstruct:manyullyn"
+							}
+						}
+					}
+					title: "Любая деталь из маньюлина"
+					type: "item"
+				}
+			]
+			title: "&eМаньюлин"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			description: ["{image:modpack:textures/tc_slime.png width:180 height:100 align:center}"]
+			id: "41713364F7276A5C"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "7D34E1FDDAFE69C6"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "3B12E406CF5583D9"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Найдите &eнебесный слизневый остров"
+			tasks: [{
+				advancement: "tconstruct:world/sky_island"
+				criterion: ""
+				id: "6A9B032F89F5769A"
+				type: "advancement"
+			}]
+			title: "&eНе поскользнитесь — он живой."
+			x: 10.273809523809518d
+			y: 3.999999999999986d
+		}
+		{
+			dependencies: ["253E532D09E3AA9B"]
+			description: [
+				"&e&lСовет:&r Даёт инструментам перезаряжаемую энергию, которая может их усиливать."
+				"&6&lПодсказка:&r Потребуется некоторая настройка механизмов из Thermal Series."
+			]
+			hide_until_deps_complete: true
+			id: "5FD0C67252FEE974"
+			rewards: [
+				{
+					amount: 500L
+					currency: "eternalcurrencies:coins"
+					id: "59C31D89313E5CF6"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "445712A329F80731"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"§6§o§nСодержит 1 случайный амулет\"}"]
+								Name: "{\"text\":\"§eЛюбопытная коробка\"}"
+							}
+							type: "curious_box"
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:origin"
+					console: true
+					icon: "titles:title_scroll_common"
+					id: "44E12299780E68CE"
+					title: "&eОткрыть титул:&r Монарх стали"
+					type: "command"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Создайте сплав и произведите &eактивированную хроматическую сталь"
+			tasks: [{
+				id: "243FE163BABDD3AE"
+				item: "tinkers_advanced:activated_chromatic_steel"
+				type: "item"
+			}]
+			title: "&6Энергетический перебор"
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["253E532D09E3AA9B"]
+			description: ["&e&lСовет:&r Наносит мощный удар ценой некоторой скорости передвижения."]
+			hide_until_deps_complete: true
+			id: "00062CA0F86BFBEF"
+			rewards: [
+				{
+					amount: 500L
+					currency: "eternalcurrencies:coins"
+					id: "74852C72037AA948"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "748DEB43D3EB8485"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"§6§o§nСодержит 1 случайный амулет\"}"]
+								Name: "{\"text\":\"§eЛюбопытная коробка\"}"
+							}
+							type: "curious_box"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Создайте сплав и произведите &eденсиум"
+			tasks: [{
+				id: "7CED44918652E8A9"
+				item: "tinkers_advanced:densium_ingot"
+				type: "item"
+			}]
+			title: "&6Денсиум: пол сам к нему притягивается."
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"Tinkers’ Construct — это мод о создании инструментов и их последующей модификации для улучшения. Инструменты никогда не ломаются навсегда, что позволяет вам экспериментировать с дизайном, пока вы не будете довольны, или переделывать их в новые инструменты. После создания первых инструментов постройте плавильню, чтобы улучшить их, и исследуйте мир, чтобы открыть более мощные материалы и модификаторы."
+				""
+				"&e&lПодсказка:&r Самые полезные руководства по Tinkers' Construct можно получить, выполнив задание с чудаковатым фолиантом!"
+				""
+				"&8Автор главы: Autooooooonus "
+			]
+			icon: "tconstruct:encyclopedia"
+			id: "4C98F0A91B16481F"
+			optional: true
+			shape: "circle"
+			subtitle: "Узнайте о &eTinkers' Construct"
+			tasks: [{
+				id: "1E28479CFDCBB91A"
+				title: "Прочитал"
+				type: "checkmark"
+			}]
+			title: "&eПервые шаги"
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5B5A340DB47B9C89"]
+			description: ["&e&lСовет:&r Камни могут давать различные эффекты, почитайте о том, как они могут вам помочь!"]
+			hide_until_deps_complete: true
+			id: "29E61B735E596AF4"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "15F585AFA6C5FD80"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Создайте &eкамень мерлинит"
+			tasks: [{
+				id: "6041AADD7D050295"
+				item: "tinkersjewelry:merlinite"
+				type: "item"
+			}]
+			title: "&eБольше, чем мода &r(Часть I)"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["29E61B735E596AF4"]
+			id: "60330C7050A76B5A"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "40DD169B5EDE4CFF"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "square"
+			subtitle: "Создайте своё первое &eкольцо инженера"
+			tasks: [{
+				id: "00E3BB9245A6F07B"
+				item: {
+					Count: 1
+					id: "tinkersjewelry:ring"
+					tag: {
+						Damage: 0
+						etstlib_tool_uuid: "bb503890-647f-4465-915b-7118014ec13c"
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:copper"
+							"tconstruct:rock"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tinkersjewelry:ductile"
+							}
+							{
+								level: 1
+								name: "tinkersjewelry:armor_gem"
+							}
+						]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:durability": 143.0f
+							"tinkersjewelry:amplification": 0.963f
+						}
+					}
+				}
+				match_nbt: false
+				tags: [""]
+				title: "Любое готовое кольцо"
+				type: "item"
+			}]
+			title: "&eБольше, чем мода &r(Часть II)"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5D2ED1168A45A14A"]
+			description: ["&e&lСовет:&r Позволяет применять «Шёлковое касание» к инструментам для добычи, занимая слот способности."]
+			id: "6E9839A1F0ED450A"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "3988B7D123D54C8F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Создайте &eшёлковую ткань"
+			tasks: [{
+				count: 5L
+				id: "6134AE73FFBD7C93"
+				item: "tconstruct:silky_cloth"
+				type: "item"
+			}]
+			title: "&eШёлковое касание"
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["253E532D09E3AA9B"]
+			hide_until_deps_complete: true
+			id: "72B878D6A0C6EDFC"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "45AB582DAA416C0F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "diamond"
+			subtitle: "Добудьте &eэндер-слизневые кристаллы"
+			tasks: [{
+				id: "3E5523F6EC4D858A"
+				item: "tconstruct:ender_slime_crystal_block"
+				type: "item"
+			}]
+			title: "&eЭндер-слизневые кристаллы"
+			x: 10.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["253E532D09E3AA9B"]
+			description: ["Используется как бесслотовый апгрейд, давая вашему инструменту ещё один &dслот для способности&r."]
+			hide_until_deps_complete: true
+			id: "6DC19F61040F28BA"
+			rewards: [{
+				amount: 150L
+				currency: "eternalcurrencies:coins"
+				id: "5A1C722BFE093F9C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "diamond"
+			subtitle: "Добудьте &eголову дракона"
+			tasks: [{
+				id: "3E18218BC40AA93B"
+				item: "minecraft:dragon_head"
+				type: "item"
+			}]
+			title: "&eУлучшения и слава!"
+			x: 12.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5D2ED1168A45A14A"]
+			description: ["&e&lСовет:&r Нужно отменить модификатор или способность? Не нужно выбрасывать инструмент! Просто удалите их!"]
+			id: "44F2CF9E5AEDCCAC"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "182A0665404551FA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Создайте &eстол для модификаций"
+			tasks: [{
+				id: "43101D3F05E05215"
+				item: "tconstruct:modifier_worktable"
+				type: "item"
+			}]
+			title: "&eУпс! Где отмена?"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["253E532D09E3AA9B"]
+			description: [
+				"Попробуйте все доступные &eулучшения &rи &eспособности! &rИсследуйте всё, что может предложить каждый мод в мире &6Tinkers' Construct!"
+				""
+				"&l&eСовет:&r Гранулы антиматерии можно использовать и как материал, и как компонент для улучшения. Использование их в качестве материала для инструмента не позволит вам улучшить им этот инструмент."
+			]
+			hide_until_deps_complete: true
+			icon: "mekanism:pellet_antimatter"
+			id: "2F05F85B20E56481"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "6C0C64957713F068"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "pentagon"
+			subtitle: "Вооружитесь &eантиматерией"
+			tasks: [{
+				id: "2185EAF992D447A5"
+				title: "Углубляйте свои знания"
+				type: "checkmark"
+			}]
+			title: "&6Теория не поможет в бою..."
+			x: 12.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["253E532D09E3AA9B"]
+			description: ["Придаёт эффект «Связь с душой» любому инструменту, на который нанесён, занимая один слот улучшения."]
+			hide_until_deps_complete: true
+			id: "4D6A4AC17FA6114B"
+			rewards: [{
+				amount: 150L
+				currency: "eternalcurrencies:coins"
+				id: "0C44646435DC35AD"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "diamond"
+			subtitle: "Добудьте &eосколок эха"
+			tasks: [{
+				id: "48368A253BABAAB6"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			title: "&eПривязка души"
+			x: 8.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"1CF88664139833C6"
+				"7F42CAE7EEF5DD33"
+			]
+			description: [
+				"&eГепатизон&r — это мощный материал, который временно немного увеличивает вашу скорость добычи, чем дольше вы копаете!"
+				""
+				"&dВы можете отлить слиток или деталь для этого задания!"
+			]
+			id: "2705B4498048E843"
+			min_required_tasks: 1
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "16EDA0B35FC1F3E6"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "11E5545C0488967B"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§7§oНажмите ПКМ, чтобы открыть\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Создайте сплав и произведите &eгепатизон"
+			tasks: [
+				{
+					id: "18BA47AF8A70F225"
+					item: "tconstruct:hepatizon_ingot"
+					type: "item"
+				}
+				{
+					id: "4F8E9551A4BC0E9F"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								Material: "tconstruct:hepatizon"
+							}
+						}
+					}
+					title: "Любая деталь из гепатизона"
+					type: "item"
+				}
+			]
+			title: "&eГепатизон"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["38E247B9906A65AF"]
+			description: ["&e&lСовет:&r Слизневые материалы (такие как слизесталь!) позволяют накладывать на инструменты слизневое покрытие без каких-либо штрафов"]
+			id: "277690DF8B5C2D11"
+			rewards: [
+				{
+					id: "2314A5366CF89DC9"
+					item: "tconstruct:sky_cake"
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "56AEEB76A2B093A7"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 2
+					id: "6F44B8360FC66E6F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§7§oНажмите ПКМ, чтобы открыть\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Создайте сплав и произведите &eслизесталь"
+			tasks: [{
+				id: "53AB6947E2843FAB"
+				item: "tconstruct:slimesteel_ingot"
+				type: "item"
+			}]
+			x: 15.371768707483007d
+			y: 3.635714285714265d
+		}
+		{
+			dependencies: ["35A0BA1BB8DDE343"]
+			description: [
+				"Нужно больше слотов для модификаторов? &eРозовое золото&r — это материал, который даёт несколько дополнительных!"
+				""
+				"&eРозовое золото&r можно получить, сплавив золото и медь в плавильне"
+				""
+				"&dВы можете отлить слиток или деталь для этого задания!"
+			]
+			hide_until_deps_complete: true
+			id: "665701DB94D4E40E"
+			min_required_tasks: 1
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "10DB2103621785D4"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Создайте сплав и произведите &eрозовое золото"
+			tasks: [
+				{
+					id: "10D6A8A9D1B9DA54"
+					item: "tconstruct:rose_gold_ingot"
+					type: "item"
+				}
+				{
+					id: "204116E8A57AE4E9"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								Material: "tconstruct:rose_gold"
+							}
+						}
+					}
+					title: "Любая деталь из розового золота"
+					type: "item"
+				}
+			]
+			title: "&eСплав для улучшений!"
+			x: 6.047619047619037d
+			y: 5.6190476190476275d
+		}
+		{
+			dependencies: ["6A9B032F89F5769A"]
+			description: [
+				"Слизь позволяет накладывать на инструменты способность «Слизневое покрытие»."
+				""
+				"При наложении на инструменты покрытие расходуется вместо прочности; её можно восстановить, соединив инструмент с большим количеством слизи. "
+				""
+				"&6&lПодсказка:&r Инструменты, не сделанные из слизи, также могут получить покрытие, но с небольшим понижением характеристик!"
+				""
+				"&e&lСовет:&r Разные цвета слизи имеют разное назначение, так что постарайтесь собрать их все."
+			]
+			hide_until_deps_complete: true
+			icon: "tconstruct:sky_slime_ball"
+			id: "38E247B9906A65AF"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "4ABCC4578BAD88AC"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					command: "/titles add {p} titles:sticky"
+					console: true
+					icon: "titles:title_scroll_common"
+					id: "15358290185B1E1C"
+					title: "&eОткрыть титул:&r Липкий"
+					type: "command"
+				}
+			]
+			shape: "circle"
+			subtitle: "Добудьте &eнебесную слизь"
+			tasks: [{
+				id: "388E12E7355F5C84"
+				item: "tconstruct:sky_slime"
+				type: "item"
+			}]
+			title: "&eНебесная жижа"
+			x: 13.902380952380966d
+			y: 3.635714285714265d
+		}
+		{
+			dependencies: ["6A9B032F89F5769A"]
+			hide_until_deps_complete: true
+			id: "0291CBE3951F2B11"
+			optional: true
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "73F377749E254253"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "63CA1166C2FD276D"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§7§oНажмите ПКМ, чтобы открыть\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Создайте лук с точностью 1.0"
+			tasks: [{
+				advancement: "tconstruct:tools/perfect_aim"
+				criterion: ""
+				id: "72587954FDFD1357"
+				type: "advancement"
+			}]
+			title: "&eТочно в цель"
+			x: 17.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5D2ED1168A45A14A"]
+			description: ["Зачарованный сплав — это магический материал, который даёт инструментам &d«Жилокоп»"]
+			id: "597682BE5DC9650C"
+			optional: true
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:coins"
+					id: "472A3C8BEE5C8663"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "005C15A44010C8BD"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Создайте &eзачарованный сплав"
+			tasks: [{
+				id: "17E221E6D7C4271D"
+				item: "amethyst_tools:enchanted_alloy"
+				type: "item"
+			}]
+			title: "Зачарованный сплав"
+			x: 9.0d
+			y: 0.0d
+		}
+	]
+	title: "&6Tinkers' Construct &o(Модульные инструменты)"
+}

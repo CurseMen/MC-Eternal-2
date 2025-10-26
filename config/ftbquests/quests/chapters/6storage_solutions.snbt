@@ -1,0 +1,1005 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6storage_solutions"
+	group: "12BCDDCCCA65FD77"
+	icon: "cloudstorage:cloud_chest"
+	id: "06911768DBF8A5A5"
+	images: [
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 90.0d
+			width: 0.7d
+			x: 0.4642857142857153d
+			y: -4.017857142857142d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 90.0d
+			width: 0.7d
+			x: 1.3571428571428612d
+			y: -4.017857142857142d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 90.0d
+			width: 0.7d
+			x: 0.9285714285714235d
+			y: -3.9107142857142883d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 90.0d
+			width: 0.7d
+			x: 2.2857142857142847d
+			y: -4.017857142857142d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 90.0d
+			width: 0.7d
+			x: 1.8214285714285694d
+			y: -4.053571428571431d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 90.0d
+			width: 0.7d
+			x: 2.7142857142857153d
+			y: -3.9821428571428577d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 90.0d
+			width: 0.7d
+			x: 3.5357142857142847d
+			y: -3.9821428571428577d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 90.0d
+			width: 0.7d
+			x: 4.0d
+			y: -3.9821428571428577d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 90.0d
+			width: 0.7d
+			x: 4.857142857142861d
+			y: -3.946428571428573d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 90.0d
+			width: 0.7d
+			x: 4.428571428571438d
+			y: -4.017857142857142d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 90.0d
+			width: 0.7d
+			x: 5.285714285714285d
+			y: -4.053571428571431d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 90.0d
+			width: 0.7d
+			x: 5.678571428571431d
+			y: -3.9821428571428577d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: 0.011904761904766303d
+			y: -3.404761904761891d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: -0.01666666666666572d
+			y: -2.5761904761904653d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: 0.011904761904766303d
+			y: -3.0333333333333243d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: -0.01666666666666572d
+			y: -1.7761904761904646d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: -0.01666666666666572d
+			y: -2.1761904761904702d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: 0.011904761904773409d
+			y: -0.4333333333333158d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: 0.011904761904773409d
+			y: 0.33809523809524933d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: 0.011904761904773409d
+			y: -1.4619047619047478d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: 0.011904761904773409d
+			y: 0.6809523809523981d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: 0.06904761904763035d
+			y: -0.0047619047618923105d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: 0.011904761904773409d
+			y: 1.0523809523809646d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: -0.04523809523808353d
+			y: 1.3666666666666742d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: 0.040476190476198326d
+			y: 1.652380952380966d
+		}
+		{
+			dependency: "58042E701E7AD105"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependency: "58042E701E7AD105"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: 3.011904761904759d
+			y: -5.488095238095244d
+		}
+		{
+			dependency: "58042E701E7AD105"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: 3.011904761904759d
+			y: -4.583333333333336d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["127BD669F19CC02C"]
+			description: [
+				"Железный сундук — это пример улучшенного варианта обычного сундука! Можно создать ещё много других!"
+				""
+				"&8Примечание:&r они &nне&r работают с &dоблачным хранилищем"
+			]
+			id: "1112EF0CF9ECC76B"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "403D29D05E0048E5"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "113B04B6DB80A76E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Создайте &eжелезный сундук"
+			tasks: [{
+				id: "10E1D863C70FBBD4"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:iron_chest"
+					tag: {
+						accentColor: 16383998
+						mainColor: 16383998
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4789D17B88722641"]
+			description: [
+				"Как вы, я уверен, заметили, в MC Eternal &oочень много&r предметов!"
+				"Поэтому вам стоит узнать обо всех потрясающих способах хранения вашего хлама и сокровищ!"
+				""
+				"Самые примечательные моды, на которые стоит обратить внимание, — это &dCloud Storage&r, который позволяет отправлять ваши предметы в облако (&oбуквально!&r), и &dSophisticated Storage&r, который добавляет всевозможные улучшенные сундуки и бочки, идеально подходящие для хранения больших объёмов предметов! "
+				""
+				"Их даже можно улучшать!"
+			]
+			hide_until_deps_complete: true
+			id: "127BD669F19CC02C"
+			optional: true
+			rewards: [
+				{
+					amount: 10L
+					currency: "eternalcurrencies:coins"
+					id: "36BFB24455926443"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "082201EE0A372329"
+					item: "cloudstorage:guide_book"
+					type: "item"
+				}
+			]
+			subtitle: "Прочти меня!"
+			tasks: [{
+				id: "63B4C0E2B51D2241"
+				title: "&eИнформационное задание&r: Системы хранения!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["127BD669F19CC02C"]
+			description: [
+				"&eКусочки шарика&r выпадают из &eвоздушных шаров&r, которые появляются высоко в небе!"
+				""
+				"&6Подсказка:&r Если вам не везёт с появлением мобов, я слышал, что гоблин-торговец иногда продаёт &eкусочки шарика!"
+			]
+			id: "5142D2CE8498C688"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "53010AF36C9C5F8C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "13515AE9874AF508"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Соберите 4 кусочка шарика"
+			tasks: [{
+				count: 4L
+				id: "44833EB5E42CEBB4"
+				item: { Count: 4, id: "cloudstorage:balloon_bit" }
+				type: "item"
+			}]
+			title: "Не дайте ему лопнуть ваш шарик!"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5142D2CE8498C688"]
+			description: [
+				"&eОблачный сундук&r — самый важный блок в моде, он служит вашим центральным «хабом»."
+				"Вы будете взаимодействовать с облачным сундуком для доступа к предметам!"
+				""
+				"Облачные блоки можно найти в небе, а также они выпадают из моба &dНадувателя&r (Bloviator)!"
+				""
+				"&6Подсказка:&r Как и с &eкусочками шарика&r, если у вас проблемы с поиском моба, гоблин-торговец иногда может продавать &eоблака!"
+				""
+				"&8AWS или Azure? 🥁"
+			]
+			id: "58042E701E7AD105"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "7374AEB1C713287E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "06E932A966E37F4D"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7781E34954689A46"
+					item: "cloudstorage:balloon_arrow"
+					type: "item"
+				}
+			]
+			subtitle: "Создайте &eоблачный сундук"
+			tasks: [{
+				id: "4244ECE730F65A55"
+				item: { Count: 9, id: "cloudstorage:cloud_chest" }
+				type: "item"
+			}]
+			title: "Облако!"
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["58042E701E7AD105"]
+			description: [
+				"Чтобы отправить предметы в облако, сначала нужно поставить &eсундук&r."
+				"Затем привяжите к сундуку &dвоздушный шар&r и смотрите, как он взмывает ввысь! "
+				"Ваш облачный сундук принадлежит только вам! Так что о ворах можно не беспокоиться!"
+				""
+				"Стоит отметить, что ваш &eоблачный сундук&r привязан к цвету выбранного вами шарика."
+				"Вы можете покрасить шарик в несколько цветов, чтобы получить уникальный цвет! "
+				"Это позволит вам иметь несколько облачных сундуков!"
+				""
+				"Каждый сундук, который вы отправляете в небо, добавляет место для хранения в ваш облачный сундук&r."
+				"Просто убедитесь, что привязываете к облачному сундуку шарик того же цвета&r."
+				"&dНажмите ПКМ&r шариком, чтобы привязать его к облаку! "
+				""
+				"Предметы из каждого сундука с привязанным шариком, который благополучно долетит до неба, будут добавлены в ваш облачный сундук&r."
+				""
+				"&6Подсказка:&r Шарики могут лопнуть в воздухе! "
+				"Чтобы ваши предметы были в безопасности и не были уничтожены монстрами или другими игроками, "
+				"разумно отправлять пустые сундуки и получать доступ к вашему облачному сундуку&r напрямую для хранения предметов!"
+			]
+			id: "58A5DEFA4F4E50F1"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "14B5CC9257BB5E9A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "68A411DAEBF3E7FC"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46C9150BBAB07C62"
+					table_id: 659864593193856198L
+					type: "choice"
+				}
+			]
+			subtitle: "Создайте &eвоздушный шар"
+			tasks: [
+				{
+					id: "15B0ABD7BCA6CC03"
+					item: "cloudstorage:balloon"
+					type: "item"
+				}
+				{
+					advancement: "cloudstorage:cloudstorage/upload"
+					criterion: ""
+					id: "10C60C6A896383D8"
+					type: "advancement"
+				}
+				{
+					id: "5A4A06C9732877B3"
+					item: "minecraft:chest"
+					type: "item"
+				}
+			]
+			title: "Просто заскочил на огонёк!"
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["58042E701E7AD105"]
+			description: [
+				"Небесные храмы можно изредка найти высоко в небе! "
+				""
+				"&6Подсказка:&r Остерегайтесь злых надувателей!"
+			]
+			hide_until_deps_complete: true
+			id: "79E57A21066A296D"
+			optional: true
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "47C26D49F0FDC33B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "659DB06B01D215F0"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oСодержит случайный особый предмет!\"}"
+									"{\"text\":\"§b§7§o§bНажмите ПКМ, чтобы открыть\"}"
+									"{\"text\":\"§5§6✎ §nИстория предмета\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"Набор разнообразных предметов разной степени полезности, найденных в кладовке Мастера заданий и переупакованных в качестве вашей награды!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eТрофеи за задание\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&dНайдите небесный храм!"
+			tasks: [{
+				icon: "cloudstorage:static_cloud_chest"
+				id: "5AD5375CA360B7B5"
+				structure: "cloudstorage:sky_temple"
+				title: "&dНайдите небесный храм!"
+				type: "structure"
+			}]
+			title: "Выше только небо!"
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["127BD669F19CC02C"]
+			description: ["{mce.questing.botania.corporea_spark.desc}"]
+			id: "625F8E01CA0BBCB9"
+			rewards: [
+				{
+					count: 2
+					id: "46952A4EE8BF02CC"
+					item: "botania:corporea_spark"
+					type: "item"
+				}
+				{
+					amount: 75L
+					currency: "eternalcurrencies:coins"
+					id: "2B56BC62246C6729"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{mce.questing.botania.corporea_spark.sub}"
+			tasks: [{
+				id: "7CB71B3866F7E65A"
+				item: "botania:corporea_spark"
+				type: "item"
+			}]
+			title: "{mce.questing.botania.corporea_spark.name}"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6EA0A00013557D2A"]
+			description: ["{mce.questing.botania.corporea_master_and_index.desc}"]
+			id: "0DEAA29705F2A17A"
+			rewards: [
+				{
+					count: 3
+					id: "60D9146FB47C3F90"
+					item: "kubejs:corporea_crystal"
+					type: "item"
+				}
+				{
+					amount: 75L
+					currency: "eternalcurrencies:coins"
+					id: "66770D1194BAA06F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{mce.questing.botania.corporea_master_and_index.sub}"
+			tasks: [
+				{
+					id: "6E86A34B37D22F59"
+					item: "botania:corporea_spark_master"
+					type: "item"
+				}
+				{
+					id: "6DD5C91F62C1286D"
+					item: "botania:corporea_index"
+					type: "item"
+				}
+			]
+			title: "{mce.questing.botania.corporea_master_and_index.name}"
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["625F8E01CA0BBCB9"]
+			description: ["{mce.questing.botania.corporeality_crystal.desc}"]
+			id: "6EA0A00013557D2A"
+			rewards: [
+				{
+					count: 3
+					id: "1257004BEBE8A6AF"
+					item: "botania:corporea_spark"
+					type: "item"
+				}
+				{
+					amount: 75L
+					currency: "eternalcurrencies:coins"
+					id: "7B3F792B0814C387"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{mce.questing.botania.corporeality_crystal.sub}"
+			tasks: [{
+				id: "4B4591C85A6C901F"
+				item: "kubejs:corporea_crystal"
+				type: "item"
+			}]
+			title: "{mce.questing.botania.corporeality_crystal.name}"
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"0DEAA29705F2A17A"
+				"695FC871D1105C97"
+			]
+			description: [
+				"{mce.questing.botania.corporea_automation.desc.page1}"
+				"{@pagebreak}"
+				"{mce.questing.botania.corporea_automation.desc.page2}"
+				"{@pagebreak}"
+				"{mce.questing.botania.corporea_automation.desc.page3}"
+				"{@pagebreak}"
+				"{mce.questing.botania.corporea_automation.desc.page4}"
+			]
+			hide_until_deps_complete: true
+			id: "3940988637539E72"
+			rewards: [
+				{
+					count: 3
+					id: "6FDCEEFCA18FFCC6"
+					item: "botania:corporea_spark"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "119C92A602CD0B4F"
+					item: "botania:red_string"
+					type: "item"
+				}
+				{
+					amount: 75L
+					currency: "eternalcurrencies:coins"
+					id: "69E1145ABD817720"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{mce.questing.botania.corporea_automation.sub}"
+			tasks: [{
+				id: "403E6ADA1EFF9D79"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "mce2:botania/corporea_automation_device"
+					}
+				}
+				title: "{mce.questing.botania.task.any_corporea_automation_device}"
+				type: "item"
+			}]
+			title: "{mce.questing.botania.corporea_automation.name}"
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6EA0A00013557D2A"]
+			description: ["{mce.questing.botania.corporea_crystal_cube.desc}"]
+			id: "0BBC047D0A951D8C"
+			rewards: [
+				{
+					count: 3
+					id: "05479B8673F323B7"
+					item: "botania:corporea_crystal_cube"
+					type: "item"
+				}
+				{
+					amount: 75L
+					currency: "eternalcurrencies:coins"
+					id: "07F18AE152C6950D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{mce.questing.botania.corporea_crystal_cube.sub}"
+			tasks: [{
+				id: "455A8FBD8E5B3C51"
+				item: "botania:corporea_crystal_cube"
+				type: "item"
+			}]
+			title: "{mce.questing.botania.corporea_crystal_cube.name}"
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"1914150BEBE05F9E"
+				"26B5D1430104B5A1"
+			]
+			description: ["Чтобы получить доступ к вашей &bсети хранения&r и работать со всем, что в ней содержится, необходим &eтерминал хранилища&r."]
+			id: "1E0A920D550C7AC7"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "151D7433F08F8C1B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Мозги"
+			tasks: [{
+				id: "1DC86128ACCFF313"
+				item: "integratedterminals:part_terminal_storage"
+				type: "item"
+			}]
+			title: "Терминал хранилища"
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["127BD669F19CC02C"]
+			description: [
+				"Обеспечение и поддержание постоянного источника &7энергии&r для &bсети хранения&r может быть проблематичным, но что, если она вам и не нужна?"
+				""
+				"Представляем &dIntegrated Dynamics&r, мод, который использует &eкристаллизованные менриловые осколки&r для &eподключения&r, &eсчитывания&r и &eтранспортировки&r инвентарей."
+				""
+				"&6Совет:&r Если вы добудете &64 ед. светопыли&r до входа в &4режим «Эксперт»&r, &dIntegrated Dynamics&r — это эффективный способ их использования для &bранней сети хранения&r."
+			]
+			id: "551DB871D2CB8FEB"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "70FF12E06970BC42"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Integrated Dynamics"
+			tasks: [{
+				id: "440E6AF5E2A32353"
+				item: "integrateddynamics:crystalized_menril_chunk"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7E8025C11C76068A"]
+			description: [
+				"&eКарты переменных&r — это ваш способ &aсообщать вашим машинам&r, что вы хотите сделать и как."
+				""
+				"Но в этой главе мы пока не будем их использовать, кроме как в рецептах крафта."
+				""
+				"Хотя это не значит, что вы не можете экспериментировать и исследовать их потенциал самостоятельно."
+			]
+			id: "26B5D1430104B5A1"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "6CB7BCA1022E569E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Управление вашей сетью"
+			tasks: [{
+				id: "38869DCCA28D998B"
+				item: "integrateddynamics:variable"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E8025C11C76068A"]
+			description: [
+				"&eСушильный чан&r можно использовать не только для сушки &eменриловых блоков&r."
+				""
+				"В дальнейшем нам понадобится &eменриловое стекло&r; одного куска будет достаточно, но используйте этот момент, чтобы изучить его альтернативные применения."
+				"{@pagebreak}"
+				"&6Подсказка:&r Попробуйте положить &eстекло&r в сушильный чан &eдо&r добавления менриловой смолы."
+			]
+			id: "1914150BEBE05F9E"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "0BED262C60FE1908"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Материал для крафта или строительный блок?"
+			tasks: [{
+				id: "199593F6EF871C4A"
+				item: "integratedterminals:menril_glass"
+				type: "item"
+			}]
+			title: "Менриловое стекло"
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["551DB871D2CB8FEB"]
+			description: [
+				"Первым делом на очереди &eвыжиматель&r и &eсушильный чан&r."
+				""
+				"Выжиматель можно использовать для сжатия &eменриловых брёвен/досок&r в &eменриловую смолу&r, жидкую форму менрила."
+				""
+				"В &eсушильном чане&r менриловая смола может высохнуть, превратившись в &eблоки кристаллизованного менрила&r."
+				""
+				"&6Подсказка:&r Сушильные чаны &eвыводят&r производимые ими жидкости через &eнаправленный слив&r в основании."
+				"{@pagebreak}"
+				"&6Совет:&r У &eвыжимателя&r и &eсушильного чана&r есть много других применений; нажатие &e'U'&r на предмете в инвентаре или меню &aJEI&r покажет все его продукты."
+			]
+			id: "7E8025C11C76068A"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "6BB6733334E74044"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Больше менрила"
+			tasks: [
+				{
+					id: "527C0DE28EA32794"
+					item: "integrateddynamics:squeezer"
+					type: "item"
+				}
+				{
+					id: "0C3DA3AB55E35B28"
+					item: "integrateddynamics:drying_basin"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1E0A920D550C7AC7"]
+			description: [
+				"Последний шаг — подключение вашего &eхранилища&r и &eтерминала&r для создания &bсети хранения&r."
+				""
+				"&eЛогические кабели&r — это среда, по которой всё передаётся, а &eинтерфейсы&r — способ подключения внешних объектов к вашей &eсети&r."
+				"{@pagebreak}"
+				"Итак, мы построили нашу &bсеть хранения&r, но на этом возможности &dIntegrated Dynamics&r не заканчиваются; он специализируется на выполнении &aочень специфических задач, которые могут быть не под силу его альтернативам&r, с помощью &eкарт переменных&r и их &9обширных разрешений&r."
+				""
+				"Вы можете начать дальнейшее исследование, взаимодействуя с &eинтерфейсами импорта/экспорта&r."
+			]
+			id: "1836209E7FC7CD19"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "7AF3827AA32775EF"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Нервы"
+			tasks: [
+				{
+					id: "30A87EECC1CC7EA0"
+					item: "integrateddynamics:cable"
+					type: "item"
+				}
+				{
+					id: "1C252A9DB4E01CB4"
+					item: "integratedtunnels:part_interface_item"
+					type: "item"
+				}
+			]
+			title: "Кабели"
+			x: 9.0d
+			y: 1.0d
+		}
+	]
+	title: "&6Системы хранения!"
+}
